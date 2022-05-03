@@ -1,0 +1,91 @@
+{
+      // Custom Search
+  "flex-layout.row#custom-search": {
+    "children": [
+      "tab-layout#custom-search"
+    ],
+    "props": {
+      "blockClass": "custom-search-row"
+    }
+  },
+  "tab-layout#custom-search": {
+    "children": [
+      "tab-list#custom-search", 
+      "tab-content#custom-search"
+    ],
+    "props": {
+      "blockClass": "custom-search-tab",
+      "defaultActiveTabId": "neumaticos"
+    }
+  },
+  "tab-list#custom-search": {
+    "children": [
+      "tab-list.item#neumaticos", 
+      "tab-list.item#llantas",
+      "tab-list.item#servicios",
+      "rich-text#custom-search-input"
+    ],
+    "props": {
+      "blockClass": "tab-list-main"
+    }
+  },
+  "tab-list.item#neumaticos": {
+    "props": {
+      "tabId": "neumaticos",
+      "label": "Neumáticos",
+      "defaultActiveTab": true,
+      "blockClass": "tab-list-main--item"
+    }
+  },
+  "tab-list.item#llantas": {
+    "props": {
+      "tabId": "llantas",
+      "label": "Llantas",
+      "blockClass": "tab-list-main--item"
+    }
+  },
+  "tab-list.item#servicios": {
+    "props": {
+      "tabId": "servicios",
+      "label": "Servicios",
+      "blockClass": "tab-list-main--item"
+    }
+  },
+  "tab-content#custom-search": {
+    "children": ["tab-content.item#neumaticos", "tab-content.item#llantas"],
+    "props": {
+      "blockClass": "tab-content-main"
+    }
+  },
+  "tab-content.item#neumaticos": {
+    "children": [ "tab-layout#custom-search-neumaticos"],
+    "props": {
+      "tabId": "neumaticos",
+      "blockClass": "tab-content-main--item"
+    }
+  },
+  "tab-content.item#llantas": {
+    "children": [
+        "tab-layout#custom-search-llantas"
+    ],
+    "props": {
+      "tabId": "llantas",
+      "blockClass": "tab-content-main--item"
+    }
+  },
+  "tab-content.item#servicios": {
+    "children": [
+      "rich-text#blog-home-text-title"
+    ],
+    "props": {
+      "tabId": "servicios",
+      "blockClass": "tab-content-main--item"
+    }
+  },
+  "rich-text#custom-search-input": {
+    "props": {
+      "text": "Busca aquí tus productos",
+      "blockClass": "custom-search-input"
+    }
+  }
+}

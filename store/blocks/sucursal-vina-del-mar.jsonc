@@ -1,0 +1,275 @@
+{
+  "store.custom#sucursal-vina-del-mar": {
+    "children": [
+      "responsive-layout.desktop#sucursales-vina",
+      "responsive-layout.phone#sucursales-vina"
+    ]
+  },
+
+
+  "responsive-layout.desktop#sucursales-vina": {
+    "children": [
+      "flex-layout.row#sucursales-banner-interior-vina",
+      "flex-layout.row#sucursales-iconos-vina",
+      "flex-layout.row#sucursales-mapa-vina",
+      "flex-layout.row#sucursales-personal-vina",
+      "flex-layout.row#sucursales-galeria-vina"
+    ]
+  },
+
+  // Banner
+  "flex-layout.row#sucursales-banner-interior-vina": {
+    "children": [
+      "flex-layout.col#vina-image-banner",
+      "flex-layout.col#vina-text-banner"
+    ],
+    "props": {
+      "blockClass": "banner-interior-sucursales",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#vina-image-banner": {
+    "children": ["image#vina"],
+    "props": {
+      "blockClass": "sucursalesinterior-image-banner-col"
+    }
+  },
+  "image#vina": {
+    "props": {
+      "src": "assets/sucursales/sucursal--vina.jpg",
+      "blockClass": "sucursalesinterior-image-banner-img"
+    }
+  },
+  "flex-layout.col#vina-text-banner": {
+    "children": ["rich-text#vina-title", "rich-text#vina-subtitle"],
+    "props": {
+      "blockClass": "sucursalesinterior-text-banner-col"
+    }
+  },
+  "rich-text#vina-title": {
+    "props": {
+      "text": "Sucursal**Av. Viña del Mar**",
+      "blockClass": "sucursalesinterior-title"
+    }
+  },
+  "rich-text#vina-subtitle": {
+    "props": {
+      "text": "[+56 9 6456 4037](tel:+56964564037)",
+      "blockClass": "sucursalesinterior-subtitle"
+    }
+  }, 
+
+  // Iconos
+  "flex-layout.row#sucursales-iconos-vina": {
+    "children": [
+      "flex-layout.col#sucursales-horarios-vina",
+      "flex-layout.col#sucursales-llegar-vina",
+      "flex-layout.col#sucursales-direccion-vina"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-sucursales"
+    }
+  },
+  "flex-layout.col#sucursales-horarios-vina": {
+    "children": [
+      "rich-text#title-sucursales-horarios-vina",
+      "rich-text#sucursales-horarios-vina-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-llegar-vina": {
+    "children": [
+      "rich-text#title-sucursales-llegar-vina",
+      "rich-text#sucursales-llegar-vina-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-direccion-vina": {
+    "children": [
+      "rich-text#title-sucursales-direccion-vina",
+      "rich-text#sucursales-direccion-vina-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "rich-text#title-sucursales-horarios-vina": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Horarios de atención"
+    }
+  },
+  "rich-text#sucursales-horarios-vina-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "**Lunes a Viernes**: 9.00hrs a 18.00hrs \n **Sábado**: 9.00hrs a 14.00hrs"
+    }
+  },
+  "rich-text#title-sucursales-llegar-vina": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Cómo llegar"
+    }
+  },
+  "rich-text#sucursales-llegar-vina-content": {
+    "props": {
+      "blockClass": "sucursales-content-icons",
+      "text": "[title](https://g.page/zs-6-oriente-1280?share) [title](https://waze.com/ul/h66jhhn9h6)"
+    }
+  },
+  "rich-text#title-sucursales-direccion-vina": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Dirección"
+    }
+  },
+  "rich-text#sucursales-direccion-vina-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "6 Oriente N°1280,\nViña del Mar,\nValparaíso"
+    }
+  },
+
+  // Mapa
+  "flex-layout.row#sucursales-mapa-vina": {
+    "children": ["iframe#vina-int"],
+    "props": {
+      "blockClass": "sucursales-mapa-sucursales"
+    }
+  },
+  "iframe#vina-int": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.747738674863!2d-71.54368158385904!3d-33.01042558245181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689ddddb606a421%3A0x5c8b7cbc73b9f5ed!2sZS%20Motor%20%2F%206%20Oriente%20N%C2%B01280!5e0!3m2!1ses-419!2scl!4v1650474693960!5m2!1ses-419!2scl",
+      "blockClass": "sucursal-iframe"
+    }
+  },
+
+  // Personal
+  "flex-layout.row#sucursales-personal-vina": {
+    "children": ["slider-layout#personal-vina"],
+    "props": {
+      "blockClass": "sucursales-personal-sucursales"
+    }
+  },
+
+  "slider-layout#personal-vina": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-personal"
+    },
+    "children": [
+      "info-card#personal-vina-1",
+      "info-card#personal-vina-1",
+      "info-card#personal-vina-1",
+      "info-card#personal-vina-1"
+    ]
+  },
+  "info-card#personal-vina-1": {
+    "props": {
+      "id": "info-card-personal-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/perfil-personal.jpg",
+      "headline": "Eduardo González",
+      "subhead": "Pioneros en innovación para mantenerse siempre un paso adelante en el juego. Esta es la filosofía que ha llevado a Pirelli a la vanguardia de la industria a escala mundial.",
+      "callToActionUrl": "#",
+      "blockClass": "info-card-sucursales-item", 
+      "textAlignment": "left"
+    }
+  },
+
+  // Galería
+  "flex-layout.row#sucursales-galeria-vina": {
+    "children": [
+      "image#vina-1",
+      "image#vina-2",
+      "image#vina-3",
+      "image#vina-4",
+      "image#vina-4",
+      "image#vina-3",
+      "image#vina-2",
+      "image#vina-1"
+    ],
+    "props": {
+      "blockClass": "sucursales-galeria-sucursales"
+    }
+  },
+
+  "image#vina-1": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-1.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#vina-2": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-2.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#vina-3": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-3.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#vina-4": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-4.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+
+
+
+
+
+
+    // Mobile
+    "responsive-layout.phone#sucursales-vina": {
+      "children": [
+        "flex-layout.row#sucursales-banner-interior-vina-mobile",
+        "flex-layout.row#sucursales-iconos-vina",
+        "flex-layout.row#sucursales-mapa-vina",
+        "flex-layout.row#sucursales-personal-vina",
+        "flex-layout.row#sucursales-galeria-vina"
+      ]
+    },
+  
+    "flex-layout.row#sucursales-banner-interior-vina-mobile": {
+      "children": [
+        "flex-layout.col#sucursales-vina-image-banner-mobile",
+        "flex-layout.col#vina-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#sucursales-vina-image-banner-mobile": {
+      "children": ["image#sucursales-vina-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "image#sucursales-vina-mobile": {
+      "props": {
+        "src": "assets/sucursales/mobile-sucursal--vina.jpg",
+        "blockClass": "servicios-image-banner-img"
+      }
+    }
+
+}
+  

@@ -1,0 +1,631 @@
+{
+  "store.custom#sucursales": {
+    "children": [
+      "responsive-layout.desktop#sucursales",
+      "responsive-layout.phone#sucursales"
+    ]
+  },
+  "responsive-layout.desktop#sucursales":{
+    "children": [
+      "flex-layout.row#sucursales-banner",
+      "flex-layout.row#sucursales"
+    ]
+  },
+
+
+  "flex-layout.row#sucursales": {
+    "children": ["tab-layout#sucursales"],
+    "props": {
+      "blockClass": "row-sucursales"
+    }
+  },
+  "flex-layout.row#sucursales-banner": {
+    "children": [
+      "flex-layout.col#sucursales-image-banner",
+      "flex-layout.col#sucursales-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#sucursales-image-banner": {
+    "children": ["image#sucursales"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "image#sucursales": {
+    "props": {
+      "src": "assets/servicios/banner-servicios.jpg",
+      "blockClass": "servicios-image-banner-img"
+    }
+  },
+  "flex-layout.col#sucursales-text-banner": {
+    "children": ["rich-text#sucursales-title"],
+    "props": {
+      "blockClass": "servicios-text-banner-col"
+    }
+  },
+  "rich-text#sucursales-title": {
+    "props": {
+      "text": "Nuestras **Sucursales**",
+      "blockClass": "servicios-title"
+    }
+  },
+
+  // Sucursales Tablayout
+  "tab-layout#sucursales": {
+    "children": ["tab-list#sucursales", "tab-content#sucursales"],
+    "props": {
+      "blockClass": "tab-sucursales",
+      "defaultActiveTabId": "kennedy"
+    }
+  },
+  "tab-list#sucursales": {
+    "children": [
+      "flex-layout.col#kennedy",
+      "flex-layout.col#matta",
+      "flex-layout.col#vina",
+      "flex-layout.col#dehesa",
+      "flex-layout.col#marathon"
+    ],
+    "props": {
+      "blockClass": "tab-sucursales-list"
+    }
+  },
+
+  // Menu Kennedy
+  "flex-layout.col#kennedy": {
+    "children": ["tab-list.item#kennedy", "vtex.menu@2.x:menu#kennedy"],
+    "props": {
+      "blockClass": "tab-sucursales-col-kennedy"
+    }
+  },
+  "vtex.menu@2.x:menu#kennedy": {
+    "children": [
+      "menu-item#kennedy-telefono",
+      "menu-item#kennedy-direccion",
+      "menu-item#kennedy-horario",
+      "menu-item#kennedy-cta"
+    ],
+    "props": {
+      "blockClass": "tab-sucursales-menu"
+    }
+  },
+  "menu-item#kennedy-telefono": {
+    "props": {
+      "id": "menu-item-kennedy-telefono",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-telefono",
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+56226307720",
+        "noFollow": false,
+        "tagTitle": "kennedy-telefono",
+        "text": "+56 2 2630 7720"
+      }
+    }
+  },
+  "menu-item#kennedy-direccion": {
+    "props": {
+      "id": "menu-item-kennedy-direccion",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-direccion",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "kennedy-direccion",
+        "text": "Av. Presidente Kennedy nº6722, Vitacura"
+      }
+    }
+  },
+  "menu-item#kennedy-horario": {
+    "props": {
+      "id": "menu-item-kennedy-horario",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-horario",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "kennedy-horario",
+        "text": "Lunes a Viernes 8.30hrs a 18.00hrs, Sábado 9.00hrs a 14.00hrs"
+      }
+    }
+  },
+  "menu-item#kennedy-cta": {
+    "props": {
+      "id": "menu-item-kennedy-cta",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-cta",
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursal-av-kennedy",
+        "noFollow": false,
+        "tagTitle": "kennedy-cta",
+        "text": "Ver más"
+      }
+    }
+  },
+
+  // Menu Matta
+  "flex-layout.col#matta": {
+    "children": ["tab-list.item#matta", "vtex.menu@2.x:menu#matta"],
+    "props": {
+      "blockClass": "tab-sucursales-col-matta"
+    }
+  },
+  "vtex.menu@2.x:menu#matta": {
+    "children": [
+      "menu-item#matta-telefono",
+      "menu-item#matta-direccion",
+      "menu-item#matta-horario",
+      "menu-item#matta-cta"
+    ],
+    "props": {
+      "blockClass": "tab-sucursales-menu"
+    }
+  },
+  "menu-item#matta-telefono": {
+    "props": {
+      "id": "menu-item-matta-telefono",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-telefono",
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+56226307750",
+        "noFollow": false,
+        "tagTitle": "matta-telefono",
+        "text": "+56 2 2630 7750"
+      }
+    }
+  },
+  "menu-item#matta-direccion": {
+    "props": {
+      "id": "menu-item-matta-direccion",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-direccion",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "matta-direccion",
+        "text": "Av. Matta nº130"
+      }
+    }
+  },
+  "menu-item#matta-horario": {
+    "props": {
+      "id": "menu-item-kennedy-horario",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-horario",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "kennedy-horario",
+        "text": "Lunes a Viernes 9.00hrs a 18.00hrs, Sábado 9.00hrs a 14.00hrs"
+      }
+    }
+  },
+  "menu-item#matta-cta": {
+    "props": {
+      "id": "menu-item-matta-cta",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-cta",
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursal-av-matta",
+        "noFollow": false,
+        "tagTitle": "matta-cta",
+        "text": "Ver más"
+      }
+    }
+  },
+
+// Menu Marathon
+  "flex-layout.col#marathon": {
+    "children": ["tab-list.item#marathon", "vtex.menu@2.x:menu#marathon"],
+    "props": {
+      "blockClass": "tab-sucursales-col-marathon"
+    }
+  },
+  "vtex.menu@2.x:menu#marathon": {
+    "children": [
+      "menu-item#marathon-telefono",
+      "menu-item#marathon-direccion",
+      "menu-item#marathon-horario",
+      "menu-item#marathon-cta"
+    ],
+    "props": {
+      "blockClass": "tab-sucursales-menu"
+    }
+  },
+  "menu-item#marathon-telefono": {
+    "props": {
+      "id": "menu-item-marathon-telefono",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-telefono",
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:56985436723",
+        "noFollow": false,
+        "tagTitle": "marathon-telefono",
+        "text": "+ 569 8543 6723"
+      }
+    }
+  },
+  "menu-item#marathon-direccion": {
+    "props": {
+      "id": "menu-item-marathon-direccion",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-direccion",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "marathon-direccion",
+        "text": "Av. Marathon N°3702"
+      }
+    }
+  },
+  "menu-item#marathon-horario": {
+    "props": {
+      "id": "menu-item-marathon-horario",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-horario",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "marathon-horario",
+        "text": "Lunes a Viernes 9.00hrs a 18.00hrs, Sábado 9.00hrs a 14.00hrs"
+      }
+    }
+  },
+  "menu-item#marathon-cta": {
+    "props": {
+      "id": "menu-item-marathon-cta",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-cta",
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursal-av-marathon",
+        "noFollow": false,
+        "tagTitle": "marathon-cta",
+        "text": "Ver más"
+      }
+    }
+  },
+
+
+// Menu Viña
+  "flex-layout.col#vina": {
+    "children": ["tab-list.item#vina", "vtex.menu@2.x:menu#vina"],
+    "props": {
+      "blockClass": "tab-sucursales-col-vina"
+    }
+  },
+  "vtex.menu@2.x:menu#vina": {
+    "children": [
+      "menu-item#vina-telefono",
+      "menu-item#vina-direccion",
+      "menu-item#vina-horario",
+      "menu-item#vina-cta"
+    ],
+    "props": {
+      "blockClass": "tab-sucursales-menu"
+    }
+  },
+  "menu-item#vina-telefono": {
+    "props": {
+      "id": "menu-item-vina-telefono",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-telefono",
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+56964564037",
+        "noFollow": false,
+        "tagTitle": "vina-telefono",
+        "text": "+56 9 6456 4037"
+      }
+    }
+  },
+  "menu-item#vina-direccion": {
+    "props": {
+      "id": "menu-item-vina-direccion",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-direccion",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "vina-direccion",
+        "text": "6 Oriente N° 1280, Viña del Mar"
+      }
+    }
+  },
+  "menu-item#vina-horario": {
+    "props": {
+      "id": "menu-item-vina-horario",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-horario",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "vina-horario",
+        "text": "Lunes a Viernes 9.00hrs a 18.00hrs, Sábado 9.00hrs a 14.00hrs"
+      }
+    }
+  },
+  "menu-item#vina-cta": {
+    "props": {
+      "id": "menu-item-vina-cta",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-cta",
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursal-vina-del-mar",
+        "noFollow": false,
+        "tagTitle": "vina-cta",
+        "text": "Ver más"
+      }
+    }
+  },
+
+
+
+  // Menu Dehesa
+  "flex-layout.col#dehesa": {
+    "children": ["tab-list.item#dehesa", "vtex.menu@2.x:menu#dehesa"],
+    "props": {
+      "blockClass": "tab-sucursales-col-dehesa"
+    }
+  },
+  "vtex.menu@2.x:menu#dehesa": {
+    "children": [
+      "menu-item#dehesa-telefono",
+      "menu-item#dehesa-direccion",
+      "menu-item#dehesa-horario",
+      "menu-item#dehesa-cta"
+    ],
+    "props": {
+      "blockClass": "tab-sucursales-menu"
+    }
+  },
+  "menu-item#dehesa-telefono": {
+    "props": {
+      "id": "menu-item-dehesa-telefono",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-telefono",
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+56226307700",
+        "noFollow": false,
+        "tagTitle": "dehesa-telefono",
+        "text": "+56 2 2630 7700"
+      }
+    }
+  },
+  "menu-item#dehesa-direccion": {
+    "props": {
+      "id": "menu-item-dehesa-direccion",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-direccion",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "dehesa-direccion",
+        "text": "Av. La Dehesa N°1961"
+      }
+    }
+  },
+  "menu-item#dehesa-horario": {
+    "props": {
+      "id": "menu-item-dehesa-horario",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-horario",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "dehesa-horario",
+        "text": "Lunes a Viernes 9.00hrs a 18.00hrs, Sábado 9.00hrs a 14.00hrs"
+      }
+    }
+  },
+  "menu-item#dehesa-cta": {
+    "props": {
+      "id": "menu-item-dehesa-cta",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "tab-sucursales-menu-cta",
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursal-av-ladehesa",
+        "noFollow": false,
+        "tagTitle": "dehesa-cta",
+        "text": "Ver más"
+      }
+    }
+  },
+
+
+
+  // Tab List
+  "tab-list.item#kennedy": {
+    "props": {
+      "tabId": "kennedy",
+      "label": "Av. Kennedy",
+      "defaultActiveTab": true,
+      "blockClass": "tab-sucursales-list-item"
+    }
+  },
+  "tab-list.item#matta": {
+    "props": {
+      "tabId": "matta",
+      "label": "Av. Matta",
+      "blockClass": "tab-sucursales-list-item"
+    }
+  },
+  "tab-list.item#vina": {
+    "props": {
+      "tabId": "vina",
+      "label": "Viña del mar",
+      "blockClass": "tab-sucursales-list-item"
+    }
+  },
+  "tab-list.item#dehesa": {
+    "props": {
+      "tabId": "dehesa",
+      "label": "La Dehesa",
+      "blockClass": "tab-sucursales-list-item"
+    }
+  },
+  "tab-list.item#marathon": {
+    "props": {
+      "tabId": "marathon",
+      "label": "Av. Marathon",
+      "blockClass": "tab-sucursales-list-item"
+    }
+  },
+
+
+  // Tab Content
+  "tab-content#sucursales": {
+    "children": [
+      "tab-content.item#kennedy",
+      "tab-content.item#matta",
+      "tab-content.item#vina",
+      "tab-content.item#dehesa"
+    ],
+    "props": {
+      "blockClass": "tab-sucursales-content"
+    }
+  },
+  "tab-content.item#kennedy": {
+    "children": ["iframe#kennedy"],
+    "props": {
+      "tabId": "kennedy",
+      "blockClass": "tab-sucursales-content-item"
+    }
+  },
+  "tab-content.item#matta": {
+    "children": ["iframe#matta"],
+    "props": {
+      "tabId": "matta",
+      "blockClass": "tab-sucursales-content-item"
+    }
+  },
+  "tab-content.item#vina": {
+    "children": ["iframe#vina"],
+    "props": {
+      "tabId": "vina",
+      "blockClass": "tab-sucursales-content-item"
+    }
+  },
+  "tab-content.item#dehesa": {
+    "children": ["iframe#dehesa"],
+    "props": {
+      "tabId": "dehesa",
+      "blockClass": "tab-sucursales-content-item"
+    }
+  },
+  "tab-content.item#marathon": {
+    "children": ["iframe#marathon"],
+    "props": {
+      "tabId": "marathon",
+      "blockClass": "tab-sucursales-content-item"
+    }
+  },
+
+
+
+// Iframe Maps
+  "iframe#kennedy": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.081272936988!2d-70.56606418385171!3d-33.395043802058794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ced196b194bf%3A0x3b15ebfb9b31df44!2sZS%20Motor%20%2F%20Av.%20Presidente%20Kennedy%20N%C2%B06722!5e0!3m2!1ses-419!2scl!4v1650474335683!5m2!1ses-419!2scl",
+      "blockClass": "tab-sucursales-iframe"
+    }
+  },
+  "iframe#matta": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1664.3694145551888!2d-70.63285024163376!3d-33.456110257402905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5650bdabc8d%3A0xe50d8b9a75f91558!2sZS%20Motor%20%2F%20Av.%20Manuel%20Antonio%20Matta%20130!5e0!3m2!1ses-419!2scl!4v1650474634990!5m2!1ses-419!2scl",
+      "blockClass": "tab-sucursales-iframe"
+    }
+  },
+  "iframe#vina": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.747738674863!2d-71.54368158385904!3d-33.01042558245181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689ddddb606a421%3A0x5c8b7cbc73b9f5ed!2sZS%20Motor%20%2F%206%20Oriente%20N%C2%B01280!5e0!3m2!1ses-419!2scl!4v1650474693960!5m2!1ses-419!2scl",
+      "blockClass": "tab-sucursales-iframe"
+    }
+  },
+  "iframe#dehesa": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.6275081627778!2d-70.51973418385255!3d-33.35467999999134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cbdc877f2325%3A0x947cee09d390589c!2sAv.%20La%20Dehesa%201961%2C%20Lo%20Barnechea%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1650474741107!5m2!1ses-419!2scl",
+      "blockClass": "tab-sucursales-iframe"
+    }
+  },
+  "iframe#marathon": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26619.859889944837!2d-70.6117632!3d-33.488822!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5717e1db503%3A0x5d77237caf4b399!2sZS%20Motor%20%2F%20Av.%20Marathon%20N%C2%B03702!5e0!3m2!1ses!2scl!4v1650471499536!5m2!1ses!2scl",
+      "blockClass": "tab-sucursales-iframe"
+    }
+  },
+
+  
+  
+  
+
+
+
+  // Mobile
+  "responsive-layout.phone#sucursales": {
+    "children": [
+      "flex-layout.row#sucursales-banner-mobile",
+      "flex-layout.row#sucursales"
+    ]
+  },
+
+  "flex-layout.row#sucursales-banner-mobile": {
+    "children": [
+      "flex-layout.col#sucursales-image-banner-mobile",
+      "flex-layout.col#sucursales-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#sucursales-image-banner-mobile": {
+    "children": ["image#servicios-mobile"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  }
+}

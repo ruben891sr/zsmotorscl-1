@@ -1,0 +1,148 @@
+{
+    "store.custom#empresa": {
+        "path": "/empresa"
+    },
+    "store.custom#servicios": {
+        "path": "/servicios"
+    },
+    "store.custom#marcas": {
+        "path": "/marcas"
+    },
+    "store.custom#michelin": {
+        "path": "/michelin"
+    },
+    "store.custom#pirelli": {
+        "path": "/pirelli"
+    },
+
+    "store.custom#bf-goodrich": {
+        "path": "/bf-goodrich"
+    },
+    "store.custom#momo-tires": {
+        "path": "/momo-tires"
+    },
+    "store.custom#rydanz": {
+        "path": "/rydanz"
+    },
+    "store.custom#continental": {
+        "path": "/continental" 
+    },
+    "store.custom#kumho-tyres": {
+        "path": "/kumho-tyres"
+    },
+    "store.custom#yokohama": {
+        "path": "/yokohama"
+    },
+    "store.custom#tracmax": {
+        "path": "/tracmax"
+    },
+    "store.custom#black-rhino": {
+        "path": "/black-rhino"
+    },
+    "store.custom#fuel": {
+        "path": "/fuel"
+    },
+    "store.custom#kmc-wheels": {
+        "path": "/kmc-wheels"
+    },
+    "store.custom#mammooth-wheels": {
+        "path": "/mammooth-wheels"
+    },
+    "store.custom#ironman": {
+        "path": "/ironman"
+    },
+    "store.custom#oldman-emu": {
+        "path": "/oldman-emu"
+    },
+    "store.custom#dirty-life": {
+        "path": "/dirty-life"
+    },
+    "store.custom#fox": {
+        "path": "/fox"
+    },
+    "store.custom#icon-alloys": {
+        "path": "/icon-alloys"
+    },
+
+
+
+
+
+
+
+    "store.custom#zs-motors-sport": {
+        "path": "/zs-motors-sport"
+    },
+    "store.custom#sucursales": {
+        "path": "/sucursales"
+    },
+    "store.custom#sucursal-av-matta": {
+        "path": "/sucursal-av-matta"
+    },
+    "store.custom#sucursal-av-kennedy": {
+        "path": "/sucursal-av-kennedy"
+    },
+    "store.custom#sucursal-av-ladehesa": {
+        "path": "/sucursal-av-ladehesa"
+    },
+    "store.custom#sucursal-av-marathon": {
+        "path": "/sucursal-av-marathon"
+    },
+    "store.custom#sucursal-vina-del-mar": {
+        "path": "/sucursal-vina-del-mar"
+    },
+    "store.custom#zs-motors-sport-porsche-club-andino": {
+        "path": "/zs-motors-sport-porsche-club-andino"
+    },
+    "store.custom#zs-motors-sport-ferrari-club-chile": {
+        "path": "/zs-motors-sport-ferrari-club-chile"
+    },
+    "store.custom#zs-motors-sport-mustang-club-chile": {
+        "path": "/zs-motors-sport-mustang-club-chile"
+    },
+    "store.custom#zs-motors-sport-club-camaro": {
+        "path": "/zs-motors-sport-club-camaro"
+    },
+    "store.custom#zs-motors-sport-club-mini-chile": {
+        "path": "/zs-motors-sport-club-mini-chile"
+    },
+    "store.custom#zs-motors-sport-amigos-cuatroxcuatro-v-region": {
+        "path": "/zs-motors-sport-amigos-cuatroxcuatro-v-region"
+    },
+    "store.custom#zs-motors-sport-porsche-gt4": {
+        "path": "/zs-motors-sport-porsche-gt4"
+    },
+    "store.custom#zs-motors-sport-ruta-69": {
+        "path": "/zs-motors-sport-ruta-69"
+    },
+    "store.custom#zs-motors-sport-rad-chile": {
+        "path": "/zs-motors-sport-rad-chile"
+    },
+    "store.custom#zs-motors-sport-bmw-auto-club-chile": {
+        "path": "/zs-motors-sport-bmw-auto-club-chile"
+    },
+    "store.custom#zs-motors-sport-time-attack-chile": {
+        "path": "/zs-motors-sport-time-attack-chile"
+    },
+    "store.custom#zs-motors-sport-boutique-zs-motor-michelin": {
+        "path": "/zs-motors-sport-boutique-zs-motor-michelin"
+    },
+    "store.custom#zs-motors-sport-nico-pino": {
+        "path": "/zs-motors-sport-nico-pino"
+    },
+    "store.custom#zs-motors-sport-copec-rallymobil": {
+        "path": "/zs-motors-sport-copec-rallymobil"
+    },
+    "store.custom#centro-de-ayuda": {
+        "path": "/centro-de-ayuda"
+    },
+    "store.blog-home": {
+        "path": "/blog"
+    },
+    "store.blog-category": {
+        "path": "/blog/category/:categoryslug_id"
+    },
+    "store.blog-post": {
+        "path": "/blog/post/:slug_id"
+    }
+}

@@ -1,0 +1,15 @@
+.trigger--acordeon {
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+
+.trigger--acordeon--hidden,
+.content--acordeon--visible {
+    border-bottom: 1px solid #183152;
+    transition: 0.3s ease-in-out;
+}
+
+.trigger--acordeon--visible {
+    border-bottom: none;
+}

@@ -1,0 +1,209 @@
+{
+  "store.custom#zs-motors-sport-porsche-club-andino": {
+    "children": [
+      "flex-layout.row#zs-sport-banner",
+      "flex-layout.row#zs-motors-sport-image-text",
+      "flex-layout.row#zs-motors-sport-gallery"
+    ]
+  },
+
+  // Hero
+  "flex-layout.row#zs-sport-banner": {
+    "children": [
+      "flex-layout.col#zs-sport-image-banner",
+      "flex-layout.col#zs-sport-item-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#zs-sport-image-banner": {
+    "children": ["image#zs-motors-sport"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "flex-layout.col#zs-sport-item-text-banner": {
+    "children": ["rich-text#zs-sport-title-club-porsche"],
+    "props": {
+      "blockClass": "servicios-text-banner-col"
+    }
+  },
+  "rich-text#zs-sport-title-club-porsche": {
+    "props": {
+      "text": "Porsche **Club Andino**",
+      "blockClass": "servicios-title"
+    }
+  },
+
+  "flex-layout.row#zs-motors-sport-image-text": {
+    "children": [
+      "flex-layout.col#zs-sport-text-title",
+      "flex-layout.col#zs-sport-image"
+    ],
+    "props": {
+      "blockClass": "zs-sport-row-image-text"
+    }
+  },
+  "flex-layout.col#zs-sport-text-title": {
+    "children": [
+      "rich-text#zs-sport-title-image-text",
+      "rich-text#zs-sport-text-image-text"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#zs-sport-image": {
+    "children": ["image#zs-sport-clubporsche"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#zs-sport-title-image-text": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#zs-sport-text-image-text": {
+    "props": {
+      "text": "Nacido oficialmente en octubre de 2018, el Porsche Club Andino evolucionó a partir del Club Porsche Santiago, el cual contaba para ese momento con 5 años de sólida trayectoria. Reconocido oficialmente desde Alemania como Club Porsche, el grupo de entusiastas de la legendaria automotora de Stuttgart, presidido actualmente por el eminente Mitchell Sancy, decidió expandir su pasión para continuar reuniéndose para difundir e intercambiar conocimientos técnicos respecto a sus vehículos. \n En honor a su nombre, el club mantiene lazos con el Porsche Club Argentina y Porsche Club Perú, llevándolos a realizar grandes hazañas como La Ruta a Córdoba y la Macchu Picchu Expedition. Los más de 120 socios activos del Club integran una comunidad de apasionados por la alta tecnología y el refinamiento, que disfrutan de la amistad, inolvidables paseos, experiencias y entretención, con un fuerte carácter inclusivo y participativo y un espíritu colaborador detrás del volante de sus Boxster, Cayman, 924 o cualquiera de los otros modelos de la prestigiosa marca.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#zs-sport-clubporsche": {
+    "props": {
+      "src": "assets/zsmotor-sport/zssports-porsche-bn.jpg",
+      "blockClass": "zs-sport-clubporsche-banner-img"
+    }
+  },
+
+  "flex-layout.row#zs-motors-sport-gallery": {
+    "children": [
+      "flex-layout.col#zs-motors-sport-gallery-title",
+      "flex-layout.col#zs-motors-sport-gallery-gallery"
+    ],
+    "props": {
+      "blockClass": "zs-sport-row-gallery",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#zs-motors-sport-gallery-title": {
+    "children": ["rich-text#zs-sport-title-gallery"],
+    "props": {
+      "blockClass": "zs-motors-sport-gallery-title"
+    }
+  },
+  "flex-layout.col#zs-motors-sport-gallery-gallery": {
+    "children": [
+      "image#zs-sport-clubporsche-item-1",
+      "image#zs-sport-clubporsche-item-2",
+      "image#zs-sport-clubporsche-item-3",
+      "image#zs-sport-clubporsche-item-4",
+      "image#zs-sport-clubporsche-item-5",
+      "image#zs-sport-clubporsche-item-6",
+      "image#zs-sport-clubporsche-item-7",
+      "image#zs-sport-clubporsche-item-8",
+      "image#zs-sport-clubporsche-item-9",
+      "image#zs-sport-clubporsche-item-10",
+      "image#zs-sport-clubporsche-item-11",
+      "image#zs-sport-clubporsche-item-12",
+      "image#zs-sport-clubporsche-item-13"
+
+    ],
+    "props": {
+      "blockClass": "zs-motors-sport-gallery-gallery"
+    }
+  },
+  "rich-text#zs-sport-title-gallery": {
+    "props": {
+      "text": "Galería de \n**Imágenes**",
+      "blockClass": "shelf-title"
+    }
+  },
+
+  "image#zs-sport-clubporsche-item-1": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-01.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-2": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-02.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-3": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-03.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-4": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-04.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-5": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-05.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-6": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-06.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-7": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-07.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-8": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-08.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-9": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-09.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-10": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-10.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-11": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-11.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-12": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-12.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-clubporsche-item-13": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/club-porsche-13.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  }
+}

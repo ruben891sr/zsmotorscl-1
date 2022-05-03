@@ -1,0 +1,335 @@
+/* ZS MOTORS - Sucursales */
+
+.container--tab-sucursales {
+    display: flex;
+}
+
+.listContainer--tab-sucursales-list {
+    width: 30vw !important;
+}
+
+.contentContainer--tab-sucursales-content {
+    width: 70% !important;
+}
+
+
+/* ZS MOTORS - Centro ayuda */
+
+.listContainer--centro-ayuda-tablist {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: flex-start;
+    padding-right: 3rem;
+    height: auto !important;
+    border-left: none;
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-image: linear-gradient( to bottom, red, rgb(0 0 0)) 1 100%;
+}
+
+.contentContainer--centro-ayuda-tabcontent {
+    width: 50%;
+    padding-left: 3rem;
+}
+
+.container--centro-ayuda {
+    display: flex;
+}
+
+.contentItem--tab-content-main--item {
+    display: flex;
+}
+
+.listItem--tab-list-item-second {
+    width: max-content;
+}
+
+.container--custom-search-tab-second {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.listContainer--tab-list-second {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: auto;
+}
+
+.listItem :global(.vtex-button) {
+    border-radius: 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.listItem :global(.vtex-button__label) {
+    color: #fff;
+    font-family: "Raleway-Bold";
+    font-size: 17px;
+    text-transform: initial;
+    background-color: #484848;
+    border: 0;
+    margin: 0.3rem;
+    padding: 1rem 3rem!important;
+    display: inline-block;
+    border-radius: 3px;
+    width: 210px;
+}
+
+.listItem.listItem--tab-list-item-second :global(.vtex-button__label) {
+    background-color: #f2f2f2;
+    color: #000;
+    font-size: 15px;
+    position: relative;
+    padding-left: 4.1rem !important;
+    opacity: .5;
+}
+
+.listItem.listItem--tab-list-item-second :global(.vtex-button__label)::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #c63334;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translateY(-50%);
+}
+
+.container--custom-search-tab {
+    background-color: #484848;
+}
+
+.listItem--tab-list-main--item {
+    padding: .5rem 0 0 0 !important;
+    border-left: 1px solid #333;
+}
+
+.listItem.listItemActive :global(.vtex-button__label) {
+    color: #fff;
+    font-family: "Raleway-Bold";
+    background-color: #222222;
+}
+
+.listItem.listItemActive--tab-list-item-second :global(.vtex-button__label) {
+    color: #000;
+    font-family: "Raleway-Bold";
+    background-color: #f2f2f2;
+    position: relative;
+    padding-left: 4.1rem !important;
+    opacity: 1 !important;
+}
+
+.listItem.listItemActive--tab-list-item-second :global(.vtex-button__label)::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #c63334;
+    position: absolute;
+    top: 50%;
+    background-color: #c63334;
+    left: 22%;
+    transform: translateY(-50%);
+}
+
+.listContainer--pdp-desktop-info {
+    justify-content: center;
+    border-bottom: 0;
+}
+
+.listItem {
+    margin: 0px;
+    background: transparent;
+    padding: 0
+}
+
+.contentItem--tab-content-table {
+    font-size: 14px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-family: "Raleway";
+}
+
+.contentItem--tab-content-tecnica {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.container--sucursales {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.listContainer--tab-list-sucursales {
+    flex-direction: column;
+    width: 20%;
+    background: #f2f2f2;
+    box-shadow: inset 3px 0 0 #cacaca;
+    height: fit-content;
+    border: 1px solid #c7c7c7;
+}
+
+.listItem--tab-item-sucursales {
+    border-bottom: 1px solid #e7e7e7;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.listItem--tab-item-sucursales:hover {
+    background: #f2f2f2;
+}
+
+.listItem--tab-item-sucursales.listItemActive--tab-item-sucursales :global(.vtex-button) {
+    color: #ffffff;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    border-top: 0px;
+    background: transparent;
+}
+
+.listItem--tab-item-sucursales:last-child {
+    border-bottom: 0px;
+}
+
+.listItem--tab-item-sucursales :global(.vtex-button) {
+    color: #ffffff;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    border-top: 0px;
+    background: transparent;
+    width: 100%;
+}
+
+.listItem--tab-item-sucursales.listItemActive--tab-item-sucursales {
+    margin-bottom: 0px;
+    background: #f2f2f2;
+    margin-left: 0;
+    margin-top: 0;
+    box-shadow: inset 3px 0 0 #4ea2e2;
+}
+
+.listItem--tab-item-sucursales :global(.vtex-button__label) {
+    color: #000000;
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+    text-transform: capitalize;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.listItem--tab-item-sucursales::after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='5' height='8' viewBox='0 0 5 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L1 7' stroke='%23CACACA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    width: 5px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 1rem;
+    z-index: 10;
+}
+
+.listItem--tab-item-sucursales.listItemActive--tab-item-sucursales::after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='5' height='8' viewBox='0 0 5 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L1 7' stroke='%234EA2E2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    width: 5px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 1rem;
+    z-index: 10;
+}
+
+.listItem.listItemActive {
+    margin: 0px;
+    background: #222222;
+    padding: .5rem 0 0 0;
+}
+
+.listItem.listItem--tab-list-item-second {
+    padding: 0 !important;
+}
+
+.listItem--tab-list-item-second,
+.contentContainer--tab-content-main {
+    background-color: #222222;
+}
+
+.contentContainer--tab-content-main {
+    padding: 1.2rem 2rem;
+}
+
+.listItemActive--tab-sucursales-list-item {
+    padding: 0 !important;
+}
+
+@media screen and (max-width: 640px) {
+    .listItem,
+    .listItem :global(.vtex-button) {
+        width: 100%;
+    }
+    /* .listItem.listItemActive :global(.vtex-button) {
+        border: 0;
+        background: #f2f2f2;
+    } */
+    /* .listItem :global(.vtex-button) {
+        border: 1px solid #c63335;
+        background: #ffffff;
+    } */
+    .listContainer--pdp-desktop-info {
+        border: 0;
+    }
+    .container--sucursales {
+        display: block;
+    }
+    .listContainer--tab-list-sucursales {
+        width: 100%;
+    }
+    .listItem--tab-item-sucursales :global(.vtex-button) {
+        border: 0px;
+    }
+    .listItem--tab-item-sucursales::after,
+    .listItem--tab-item-sucursales.listItemActive--tab-item-sucursales::after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container--centro-ayuda {
+        flex-direction: column;
+    }
+    .listContainer--centro-ayuda-tablist {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 1rem;
+        border-left: 0;
+        border-right: 0;
+        border-bottom-width: 10px;
+        border-bottom-style: solid;
+        border-image: linear-gradient(to bottom, red, rgb(0 0 0)) 1 100%;
+    }
+    .contentContainer--centro-ayuda-tabcontent {
+        width: 100%;
+        padding-left: 0;
+    }
+    .container--tab-sucursales {
+        display: flex;
+        flex-direction: column;
+    }
+    .contentContainer--tab-sucursales-content,
+    .listContainer--tab-sucursales-list {
+        width: 100% !important;
+    }
+}

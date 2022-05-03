@@ -1,0 +1,374 @@
+{
+  "store.custom#marcas": {
+    "children": [
+      "responsive-layout.desktop#marcas",
+      "responsive-layout.phone#marcas"
+    ]
+  },
+
+
+  "responsive-layout.desktop#marcas": {
+    "children": [
+      "flex-layout.row#marcas-banner",
+      "flex-layout.row#marcas-cards"
+    ]
+  },
+
+  "flex-layout.row#marcas-banner": {
+    "children": [
+      "flex-layout.col#marcas-image-banner",
+      "flex-layout.col#marcas-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#marcas-image-banner": {
+    "children": [
+      "image#marcas"
+    ],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "image#marcas": {
+    "props": {
+      "src": "assets/servicios/banner-servicios.jpg",
+      "blockClass": "servicios-image-banner-img"
+    }
+  },
+
+  "flex-layout.col#marcas-text-banner": {
+    "children": [
+      "rich-text#marcas-title",
+      "rich-text#marcas-subtitle"
+    ],
+    "props": {
+      "blockClass": "servicios-text-banner-col"
+    }
+  },
+
+
+  "rich-text#marcas-title": {
+    "props": {
+      "text": "Marcas a las que **Representamos**",
+      "blockClass": "servicios-title"
+    }
+  },
+  "rich-text#marcas-subtitle": {
+    "props": {
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+      "blockClass": "servicios-subtitle"
+    }
+  },
+
+ 
+  "flex-layout.row#marcas-cards": {
+    "children": [
+      "info-card#marcas-item-1",
+      "info-card#marcas-item-2",
+      "info-card#marcas-item-3",
+      "info-card#marcas-item-4",
+      "info-card#marcas-item-5",
+      "info-card#marcas-item-6",
+      "info-card#marcas-item-7",
+      "info-card#marcas-item-8",
+      "info-card#marcas-item-9",
+      "info-card#marcas-item-10",
+      "info-card#marcas-item-11",
+      "info-card#marcas-item-12",
+      "info-card#marcas-item-13",
+      "info-card#marcas-item-14",
+      "info-card#marcas-item-15",
+      "info-card#marcas-item-16",
+      "info-card#marcas-item-17",
+      "info-card#marcas-item-18"
+    ],
+    "props": {
+      "blockClass": "servicios-cards-row"
+    }
+  }, 
+  "info-card#marcas-item-1": {
+    "props": {
+      "id": "info-card-marcas-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-pirelli.jpg",
+      "headline": "Pirelli",
+      "subhead": "Pioneros en innovación para mantenerse siempre un paso adelante en el juego. Esta es la filosofía que ha llevado a Pirelli a la vanguardia de la industria a escala mundial.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/pirelli",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-2": {
+    "props": { 
+      "id": "info-card-marcas-2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-michelin.jpg",
+      "headline": "Michelin",
+      "subhead": "Una empresa con una trayectoria desde 1889, Michelin ha estado innovando para hacer que nuestros viajes sean cada vez más seguros, agradables y responsables, dondequiera que estemos y como sea que",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/michelin",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-3": {
+    "props": { 
+      "id": "info-card-marcas-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-bf.jpg",
+      "headline": "BF Goodrich",
+      "subhead": "Los neumáticos BF Goodrich están hechos para y por entusiastas… Todo aquel que viva su vida con espíritu aventurero siente la necesidad de salir a la ruta y disfrutar cada minuto de libertad. Nuestros neumáticos están diseñados y fabricados por verdaderos entusiastas, que pasan los fines de semana batallando en caminos pedregosos (OffRoad – KO2 – Km3)  o haciendo curvas en pistas de carrera (Uhp). ",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/bf-goodrich",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-4": {
+    "props": { 
+      "id": "info-card-marcas-4",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-momo.jpg",
+      "headline": "MOMO Tires",
+      "subhead": "La historia de MOMO inició en el año 1964 gracias a la gran pasión de su fundador, Gianpiero Moretti, por el automovilismo. Desde sus orígenes, MOMO ha cosechado muchísimas victorias en las más prestigiosas pistas de carrera alrededor del mundo, las cuales han servido como un terreno de prueba excepcional para el desarrollo de la tecnología, calidad y seguridad implementadas en los productos diseñados para uso diario y de carretera. ",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/momo-tires",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-5": {
+    "props": { 
+      "id": "info-card-marcas-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-rydanz.jpg",
+      "headline": "Rydanz",
+      "subhead": "Los Neumáticos Rydanz cuenta con todos los certificados e inspecciones de calidad internacional, fabricando neumáticos con calidad mundial para sus usuarios. ",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/rydanz",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-6": {
+    "props": { 
+      "id": "info-card-marcas-6",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-conti.jpg",
+      "headline": "Continental",
+      "subhead": "Desde su fundación en 1871, Continental trabaja con un objetivo: llevar la seguridad a las calles sin comprometer la comodidad y el placer de conducción.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/continental",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-7": {
+    "props": { 
+      "id": "info-card-marcas-7",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-kumho.jpg",
+      "headline": "Kumho",
+      "subhead": "Los neumáticos Kumho, ya no solamente son unos de los mejores neumáticos del mercado por su relación calidad/precio, sino por toda la trayectoria que ha tenido como fabricante hasta ahora. ",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/kumho-tyres",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-8": {
+    "props": { 
+      "id": "info-card-marcas-8",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-yoko.jpg",
+      "headline": "Yokohama",
+      "subhead": "Los Neumáticos Yokohama, se han convertido en una de las mejores opciones del mercado a lo que se refiere a las Neumáticos de alta gama. Su gran trayectoria en las competiciones de automóviles y las buenas prestaciones que han ido ofreciendo a los conductores comunes desde su fundación, es una alternativa excelente para tu vehículo.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/yokohama",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-9": {
+    "props": { 
+      "id": "info-card-marcas-9",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-track.jpg",
+      "headline": "Tracmax",
+      "subhead": "Tracmax es fundada en 1986 , con una planta exclusiva para la producción de neumáticos de cobertura mundial.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/tracmax",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-10": {
+    "props": { 
+      "id": "info-card-marcas-10",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-rhino.jpg",
+      "headline": "Black Rhino",
+      "subhead": "Black Rhino Wheels, llamada así por una de las bestias más duras del planeta. Se centra únicamente en el diseño y la fabricación de llantas de aleación endurecidas, atractivas y de alta calidad para su 4X4 o SUV. ",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/black-rhino",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-11": {
+    "props": { 
+      "id": "info-card-marcas-11",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-fuel.jpg",
+      "headline": "Fuel Off-Road",
+      "subhead": "Con más de 25 centros de mecanizado controlados por computadora funcionando las 24 horas, tenemos el equipo, los conocimientos de ingeniería y la mano de obra para crear cualquier llanta que pueda imaginar. Desde el concepto hasta el corte, estamos orgullosos de ofrecer la más amplia variedad de estilos de forjado",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/fuel",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-12": {
+    "props": { 
+      "id": "info-card-marcas-12",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-kmc.jpg",
+      "headline": "KMC",
+      "subhead": "kmc está redefiniendo el rendimiento en el asfalto y fuera de asfalto con innovación, estilo y una búsqueda inadecuada para enfrentar la posibilidad. ",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/kmc-wheels",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-13": {
+    "props": { 
+      "id": "info-card-marcas-13",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-momm.jpg",
+      "headline": "Mammooth Wheels",
+      "subhead": "Mammooth Wheels está centrado y enfocado en el desarrollo tecnológico en la fabricación de llantas de aleación endurecidas, centrados en dar un valor de diseño a cada creación haciendo de estas un artículo funcional, preparado para soportar el trato duro del offroad y con un look increíble para las salas de exposición más exigentes. ",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/mammooth-wheels",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-14": {
+    "props": { 
+      "id": "info-card-marcas-14",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-ironman.jpg",
+      "headline": "Ironman",
+      "subhead": "Sobre el asfalto o las más exigentes caminos, las suspensiones y componentes Ironman 4x4 son la primera elección del mercado Australiano, ya sea que usted use su 4x4 como un vehículo familiar o como un vehículo de aventura y expediciones, estamos seguros que con Ironman 4x4 usted encontrará la seguridad, el confort y el desempeño que está buscando.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/ironman",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-15": {
+    "props": { 
+      "id": "info-card-marcas-15",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-oldman.jpg",
+      "headline": "Old Man Emu",
+      "subhead": "Los sistemas de suspensión son extremadamente complejos, especialmente cuando se refieren a vehículos todo terreno. Determinar una solución correcta para cada vehículo 4×4 requiere una atención dedicada a todos estos detalles.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/oldman-emu",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-16": {
+    "props": { 
+      "id": "info-card-marcas-16",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-dirty.jpg",
+      "headline": "Dirty Life",
+      "subhead": "Las llantas Dirty Life son su  mejor opción de llantas ya que están hechas con tecnologías avanzadas y materiales de alta calidad para proporcionar un rendimiento excelente. ",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/dirty-life",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-17": {
+    "props": { 
+      "id": "info-card-marcas-17",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-fox.jpg",
+      "headline": "Fox Factory",
+      "subhead": "Fox Factory, diseña, fabrica y comercializa productos y sistemas que redefinen el rendimiento en vehículos para clientes de todo el mundo.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/fox",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#marcas-item-18": {
+    "props": { 
+      "id": "info-card-marcas-18",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/marcas/zs-icon.jpg",
+      "headline": "Icon Alloys",
+      "subhead": "ICON ALLOYS se estableció con el objetivo de proporcionar al mercado todoterreno llantas de calidad fabricadas con precisión, rendimiento y resistencia para largo tiempo.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/icon-alloys",
+      "blockClass": "info-card-marcas-item",
+      "textAlignment": "left"
+    }
+  },
+
+
+
+
+    // Mobile
+    "responsive-layout.phone#marcas": {
+      "children": [
+        "flex-layout.row#marcas-banner-mobile",
+        "flex-layout.row#marcas-cards"
+      ]
+    },
+  
+    "flex-layout.row#marcas-banner-mobile": {
+      "children": [
+        "flex-layout.col#marcas-image-banner-mobile",
+        "flex-layout.col#marcas-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#marcas-image-banner-mobile": {
+      "children": ["image#servicios-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    }
+}

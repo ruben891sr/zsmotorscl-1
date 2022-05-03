@@ -1,0 +1,165 @@
+{
+  "tab-layout#custom-search-neumaticos": {
+    "children": [
+      "tab-list#custom-search-neumaticos",
+      "tab-content#custom-search-neumaticos"
+    ],
+    "props": {
+      "blockClass": "custom-search-tab-second",
+      "defaultActiveTabId": "neumaticos-medidas"
+    }
+  },
+  "tab-list#custom-search-neumaticos": {
+    "children": [
+      "tab-list.item#neumaticos-medidas",
+      "tab-list.item#neumaticos-vehiculos"
+    ],
+    "props": {
+      "blockClass": "tab-list-second"
+    }
+  },
+  "tab-list.item#neumaticos-medidas": {
+    "props": {
+      "tabId": "neumaticos-medidas",
+      "label": "Por medidas",
+      "defaultActiveTab": true,
+      "blockClass": "tab-list-item-second"
+    }
+  },
+  "tab-list.item#neumaticos-vehiculos": {
+    "props": {
+      "tabId": "neumaticos-vehiculos",
+      "label": "Por vehiculos",
+      "blockClass": "tab-list-item-second"
+    }
+  },
+  "tab-content#custom-search-neumaticos": {
+    "children": [
+      "tab-content.item#neumaticos-medidas",
+      "tab-content.item#neumaticos-vehiculos"
+    ]
+  },
+  "tab-content.item#neumaticos-medidas": {
+    "children": ["flex-layout.row#neumaticos-medidas"],
+    "props": {
+      "tabId": "neumaticos-medidas"
+    }
+  },
+  "tab-content.item#neumaticos-vehiculos": {
+    "children": ["flex-layout.row#neumaticos-vehiculos"],
+    "props": {
+      "tabId": "neumaticos-vehiculos"
+    }
+  },
+
+  // neumaticos, Por Medidas
+  "flex-layout.row#neumaticos-medidas": {
+    "children": [
+      "flex-layout.col#neumaticos-medidas-custom-search-inputs",
+      "flex-layout.col#neumaticos-medidas-custom-search-submit"
+    ],
+    "props": {
+      "blockClass": "llantas-vehiculos-row",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#neumaticos-medidas-custom-search-inputs": {
+    "children": [
+      "rich-text#llantas-medidas-ancho",
+      "rich-text#llantas-medidas-perfil",
+      "rich-text#llantas-medidas-aro"
+    ],
+    "props": {
+      "blockClass": "custom-search-inputs"
+    }
+  },
+  "flex-layout.col#neumaticos-medidas-custom-search-submit": {
+    "children": ["rich-text#llantas-medidas-submit"],
+    "props": {
+      "blockClass": "custom-search-submit"
+    }
+  },
+  "rich-text#llantas-medidas-ancho": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Ancho"
+    }
+  },
+  "rich-text#llantas-medidas-perfil": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Perfil"
+    }
+  },
+  "rich-text#llantas-medidas-aro": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Aro"
+    }
+  },
+  "rich-text#llantas-medidas-submit": {
+    "props": {
+      "blockClass": "custom-search-submit",
+      "text": "Buscar"
+    }
+  },
+
+  // neumaticos, Por Vehiculo
+  "flex-layout.row#neumaticos-vehiculos": {
+    "children": [
+      "flex-layout.col#neumaticos-vehiculos-custom-search-inputs",
+      "flex-layout.col#neumaticos-vehiculos-custom-search-submit"
+    ],
+    "props": {
+      "blockClass": "llantas-vehiculos-row",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#neumaticos-vehiculos-custom-search-inputs": {
+    "children": [
+      "rich-text#neumaticos-vehiculos-marca",
+      "rich-text#neumaticos-vehiculos-ano",
+      "rich-text#neumaticos-vehiculos-modelo",
+      "rich-text#neumaticos-vehiculos-version"
+    ],
+    "props": {
+      "blockClass": "custom-search-inputs"
+    }
+  },
+  "flex-layout.col#neumaticos-vehiculos-custom-search-submit": {
+    "children": ["rich-text#neumaticos-vehiculos-submit"],
+    "props": {
+      "blockClass": "custom-search-submit"
+    }
+  },
+  "rich-text#neumaticos-vehiculos-marca": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Marca"
+    }
+  },
+  "rich-text#neumaticos-vehiculos-ano": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Año"
+    }
+  },
+  "rich-text#neumaticos-vehiculos-modelo": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Modelo"
+    }
+  },
+  "rich-text#neumaticos-vehiculos-version": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Versión"
+    }
+  },
+  "rich-text#neumaticos-vehiculos-submit": {
+    "props": {
+      "blockClass": "custom-search-submit",
+      "text": "Buscar"
+    }
+  }
+}

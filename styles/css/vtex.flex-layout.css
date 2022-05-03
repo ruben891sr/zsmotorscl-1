@@ -1,0 +1,1074 @@
+/* ZS MOTORS STYLE */
+
+
+/* ZS MOTORS - Sucursales */
+
+.flexRow--row-sucursales {
+    background-image: url(assets/bg-texture.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -3rem;
+    margin-bottom: 4rem
+}
+
+.flexCol--tab-sucursales-col-kennedy,
+.flexCol--tab-sucursales-col-matta,
+.flexCol--tab-sucursales-col-vina,
+.flexCol--tab-sucursales-col-dehesa,
+.flexCol--tab-sucursales-col-marathon {
+    height: auto;
+}
+
+.flexCol--tab-sucursales-col-kennedy,
+.flexCol--tab-sucursales-col-matta,
+.flexCol--tab-sucursales-col-vina,
+.flexCol--tab-sucursales-col-dehesa,
+.flexCol--tab-sucursales-col-marathon {
+    position: relative;
+    height: 220px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    margin: 0.7rem;
+    border-radius: 3px;
+}
+
+.flexCol--tab-sucursales-col-kennedy :global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-kennedy):last-child,
+.flexCol--tab-sucursales-col-matta :global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-matta):last-child,
+.flexCol--tab-sucursales-col-vina :global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-vina):last-child,
+.flexCol--tab-sucursales-col-dehesa :global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-dehesa):last-child,
+.flexCol--tab-sucursales-col-marathon :global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-marathon):last-child {
+    position: absolute;
+    top: 70px;
+    height: auto !important;
+    padding-left: 2rem;
+}
+
+
+/* ZS MOTORS - Shelf */
+
+.flexRow--productos-destacados {
+    background-image: url(assets/bg-texture.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+}
+
+.flexRow--productos-destacados-dos {
+    background-color: #f7f7f7;
+    padding: 4rem 0;
+}
+
+.flexRowContent--productos-destacados,
+.flexRowContent--productos-destacados-dos {
+    flex-direction: column;
+}
+
+.flexRow--main-banner-slider {
+    padding-bottom: 0rem;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flexRow--row-banner-seo {
+    background-image: url(assets/mas-buscados.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6rem 0;
+}
+
+
+/* ZS MOTORS - Gallery */
+
+.flexRowContent--gallery-row {
+    flex-direction: column;
+    padding: 0;
+}
+
+.flexColChild--gallery-col {
+    margin: 0.4rem;
+}
+
+.flexCol--gallery-col {
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* ZS MOTORS - Summary */
+
+.flexRowContent--summary-name-container {
+    flex-direction: column;
+}
+
+
+/* ZS MOTORS - Marcas Home */
+
+.flexRow--marcas-home-row {
+    background-image: url(assets/home/marcas-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem;
+    margin-top: 6rem;
+}
+
+.flexRowContent--marcas-home-row {
+    flex-direction: column;
+    padding: 0 5rem;
+}
+
+
+/* ZS MOTORS - Blog Home */
+
+.flexRow--blog-home {
+    background-image: url(assets/bg-texture-sucursales.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexRowContent--blog-home {
+    padding: 6rem 0;
+}
+
+.flexCol--blog-home-infocards {
+    flex-direction: row;
+}
+
+.flexCol--blog-home-text {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+}
+
+.flexColChild--blog-home-text {
+    height: auto !important;
+}
+
+.flexColChild--blog-home-infocards {
+    margin: 0 0.3rem;
+}
+
+
+/* ZS MOTORS - Footer */
+
+.flexRow--footer-main {
+    background-image: url(assets/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flexRowContent--footer-main {
+    flex-direction: column;
+}
+
+.flexCol--footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.flexCol--footer-info-main {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-top: 1px solid #fff;
+}
+
+.flexCol--footer-info {
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* ZS MOTORS - Footer - Insta Feed */
+
+.flexRow--insta-feed-row {
+    background-image: url(assets/insta-feed/insta-feed-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+
+.flexRowContent--insta-feed-row {
+    flex-direction: column;
+    padding: 6rem 0;
+}
+
+.flexCol--insta-feed-images-col {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.flexColChild--insta-feed-images-col {
+    box-sizing: border-box;
+    margin: 0 0.4rem;
+    width: 100%;
+}
+
+
+/* ZS MOTORS - Custom Search */
+
+.flexRow--custom-search-row {
+    position: relative;
+}
+
+.flexRowContent--custom-search-row {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #333333;
+    padding: 0rem;
+    transform: translate(-50%, -20%);
+    width: fit-content;
+    border-radius: 3px;
+    box-shadow: 0 0 50px rgb(51 51 51 / 60%);
+}
+
+.flexCol--custom-search-inputs {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    line-height: 1;
+    margin: 0.3rem;
+    border-radius: 3px;
+    height: auto;
+}
+
+.flexColChild--custom-search-inputs {
+    width: 100%;
+    justify-content: center;
+}
+
+.flexRow--flotating-contacto {
+    position: fixed;
+    right: 1%;
+    background-color: rgb(255 255 255 / 25%);
+    border-radius: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.flexRowContent--flotating-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ZS MOTORS -  PLP */
+
+.flexRow--row-result {
+    background-image: url(assets/plp/plp-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 10rem;
+}
+
+.flexColChild--search-category {
+    max-width: 90%;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.flexRowContent--searchinfo-row {
+    flex-direction: row-reverse;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.flexRowContent--row-result {
+    flex-direction: column;
+}
+
+.flexCol--col-result-mobile {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+.flexColChild--col-result-mobile {
+    width: 50% !important;
+}
+
+
+/* ZS MOTORS -  PDP */
+
+.flexRow--productSpecification-caracteristicas {
+    padding: 0 1.5rem;
+}
+
+.flexRowContent--productSpecification-cantidad-de-venta {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 2rem;
+}
+
+
+/* .flexRowContent--row-result :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+} */
+
+.flexColChild--productCountCol {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* ZS MOTORS -  PDP */
+
+.flexRow--tab-layout {
+    background-color: rgb(247, 247, 247);
+    padding: 3rem 0 1rem 0;
+    margin-bottom: 3rem;
+}
+
+.flexRow--pdp-main-container {
+    background-image: url(assets/plp/plp-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.flexRowContent--dekstop-shelf-pdp {
+    flex-direction: column;
+}
+
+
+/* ZS MOTORS -  Servicios */
+
+.flexRowContent--banner-interior-sucursales,
+.flexRowContent--servicios-banner-row {
+    flex-direction: column;
+    position: relative;
+}
+
+.flexCol--sucursalesinterior-text-banner-col,
+.flexCol--servicios-text-banner-col {
+    position: absolute;
+    top: 0;
+    width: 90% !important;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexCol--sucursalesinterior-text-banner-col {
+    justify-content: flex-end;
+    margin-bottom: 4rem;
+    top: -80px;
+}
+
+.flexColChild--sucursalesinterior-text-banner-col,
+.flexColChild--servicios-text-banner-col {
+    height: auto !important;
+}
+
+.flexRowContent--servicios-cards-row {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexRowContent--servicios-cards-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 18.3%!important;
+    margin: 0.8rem;
+    margin-bottom: 3rem;
+}
+
+.flexRow--servicios-cards-row {
+    position: relative;
+    margin-bottom: 5rem;
+    background-image: url(assets/plp/plp-bg.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -3rem;
+}
+
+
+/* ZS MOTORS -  Motor Sport */
+
+.flexRowContent--zs-sport-row-gallery {
+    flex-direction: column;
+}
+
+.flexColChild--zs-sport-text-title {
+    height: auto !important;
+}
+
+.flexColChild--zs-sport-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexRow--brand-row-image-text-frenos {
+    margin: -3rem auto 0rem auto;
+    width: 70%;
+}
+
+.flexRow--brand-row-image-text {
+    margin: 12rem auto -6rem auto;
+    width: 70%;
+}
+
+.flexRow--zs-sport-row-image-text {
+    padding: 3rem;
+    background-image: url(assets/bg-texture.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.flexCol--zs-sport-text-title {
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.flexCol--zs-motors-sport-gallery-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto !important;
+    flex-direction: row;
+}
+
+.flexColChild--zs-motors-sport-gallery-gallery {
+    width: 300px !important;
+    height: 300px !important;
+    margin: 0.4rem;
+}
+
+.flexRow--zs-sport-row-gallery {
+    margin-bottom: 4rem;
+}
+
+.flexColChild--empresa-text-col {
+    height: auto !important;
+}
+
+
+/* ZS MOTORS -  Sucursales */
+
+.flexRow--sucursales-iconos-sucursales {
+    padding: 4rem 0;
+    background-image: url(assets/bg-texture.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexRowContent--sucursales-iconos-sucursales {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flexRow--sucursales-personal-sucursales {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+}
+
+.flexRowContent--sucursales-galeria-sucursales {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    justify-content: center;
+}
+
+.flexRowContent--sucursales-galeria-sucursales :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 23%!important;
+    margin: 0.7rem;
+}
+
+
+/* ZS MOTORS -  Empresa */
+
+.flexRow--empresa-textImage-row-1 {
+    margin-top: 4rem;
+}
+
+.flexRowContent--empresa-textImage-row-1,
+.flexRowContent--empresa-textImage-row-2 {
+    align-items: center;
+}
+
+.flexRow--empresa-textImage-row-1,
+.flexRow--empresa-textImage-row-2 {
+    padding: 0 15rem;
+    background-image: url(assets/bg-texture-sucursales.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexRow--empresa-cards-row {
+    margin: 5rem 0;
+}
+
+.flexCol--empresa-cards-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColChild--empresa-cards-col {
+    width: 25%;
+    padding: 4rem 2rem;
+    background-color: #f7f7f7;
+    margin: 0.5rem;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgb(51 51 51 / 15%);
+}
+
+
+/* ZS MOTORS -  Centro Ayuda */
+
+.flexRowContent--row-centro-ayuda {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flexRow--row-centro-ayuda {
+    padding: 5rem 0;
+    background-image: url(assets/bg-texture.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* JUNAPLAS STYLE */
+
+.flexRow--main-calugas-slider {
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto 2rem;
+}
+
+.flexRow--main-icon-slider {
+    max-width: 1170px;
+    width: 100%;
+    margin: 1rem auto 1.5rem;
+}
+
+.flexRow--row-title-carousel-mas-vendidos {
+    max-width: 1180px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flexRow--row-carousel-mas-vendidos {
+    max-width: 1380px;
+    width: 90%;
+    margin: 0 auto 2.5rem;
+}
+
+.flexRow--row-carousel-especial {
+    max-width: 1440px;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.flexRow--summary-prices-container {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 0.5rem;
+}
+
+.flexCol--col-carousel-especial .flexColChild--col-carousel-especial:first-child {
+    height: 100px !important;
+    width: 96%;
+}
+
+.flexCol--col-carousel-especial .flexColChild--col-carousel-especial:last-child {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.flexRow--summary-list-price-container {
+    margin-bottom: -2px;
+}
+
+.flexRow--summary-selling-price-container {
+    margin-bottom: 5px;
+}
+
+.flexRow--topbar {
+    background: #183152;
+    height: 33px;
+}
+
+.flexCol--col-contacto {
+    height: 33px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flexCol--col-tienda {
+    height: 33px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flexRow--menu-header,
+.flexRowContent--main-header-mobile {
+    background: #262626;
+    border-bottom: 1px solid #3d3d3d1c;
+    padding: .5rem 0;
+}
+
+.flexColChild--newsletter {
+    height: auto !important;
+}
+
+.flexColChild--newsletter:nth-child(3n) {
+    width: 80%;
+}
+
+.flexRowContent--main-header-mobile {
+    background: #262626 !important;
+    height: 50px;
+}
+
+.flexColChild--form-contacto-junaplas:nth-child(3n) {
+    max-width: 570px;
+    margin: 0 auto;
+    justify-content: center;
+    display: inline-block;
+    width: 90%;
+}
+
+.flexColChild--form-contacto-junaplas :global(.vtex-input__label),
+.flexColChild--form-contacto-junaplas :global(.vtex-textarea__label) {
+    font-size: 16px;
+    font-family: "Raleway-Bold";
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #000000;
+}
+
+.flexColChild--form-contacto-junaplas :global(.vtex-input-prefix__group) {
+    height: 30px;
+    border-radius: 0;
+    display: block;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid #c63335;
+}
+
+.flexColChild--form-contacto-junaplas :global(.vtex-textarea__input) {
+    border-radius: 0;
+    display: block;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border: 1px solid #c63335;
+    margin-bottom: 1.5rem;
+}
+
+.flexCol--pdp-add-to-cart :global(.vtex-button) {
+    border-radius: 3px;
+    background: #c63335;
+    border-color: #c63335;
+    transition: ease-in-out 400ms;
+}
+
+.flexCol--pdp-add-to-cart :global(.vtex-button):hover {
+    border-color: #9a0c0e;
+    background: #9a0c0e;
+    transition: ease-in-out 400ms;
+}
+
+.flexRowContent--pdp-calltoAction-conatiner {
+    align-items: center;
+    width: 98%;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.flexRowContent--pdp-calltoAction-buy-button {
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.flexRow--details-section {
+    width: 80%;
+}
+
+.flexRowContent--pdp-calltoAction-conatiner :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    padding-right: 0;
+}
+
+.flexColChild--orderByCol {
+    padding: 0;
+    align-items: flex-start !important;
+}
+
+.flexCol--orderByCol {
+    align-items: flex-start !important;
+}
+
+.flexColChild--productCountCol,
+.flexColChild--info-covid {
+    width: 100%;
+}
+
+.flexColChild--info-covid {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--confirmationButtons :global(.vtex-button) {
+    background: #c63335;
+    border-color: #c63335;
+    border-radius: 0;
+}
+
+.flexRowContent--confirmationButtons :global(.vtex-button__label) {
+    color: #ffffff;
+    font-family: "Raleway-Bold";
+}
+
+.flexRowContent--banner-category {
+    flex-direction: column;
+    position: relative;
+}
+
+.flexCol--search-category {
+    top: 0;
+    position: absolute;
+}
+
+.flexRowContent--junaplas-covid {
+    background: #c10505;
+}
+
+.flexCol--content-covid {
+    padding: 0 1.5rem 2rem;
+}
+
+.flexRowContent--group-section {
+    align-items: flex-end;
+}
+
+.flexRow--productSpecificationGroupName {
+    display: none;
+}
+
+.flexRow--productSpecificationGroup-cantidad-venta {
+    background: #f7f8faea;
+    width: 100%;
+    padding: .5rem 0 .5rem .5rem;
+}
+
+.flexRow--productSpecification-cantidad-de-venta {
+    padding: .1rem 0 0;
+}
+
+.flexRow--disclaimer-header {
+    background-color: #dde2f1;
+    border-bottom: 1px solid #ccc;
+}
+
+.flexRowContent--product-price {
+    margin-top: 0;
+}
+
+.flexRowContent--brand-row-image-text-frenos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    height: 50vh;
+    position: relative;
+}
+
+.flexRow--product-price {
+    margin-top: 2rem;
+}
+
+.flexRow--summary-savings-price-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* servicios */
+.flexRowContent--productSpecification-pasos {
+    flex-direction: column;
+    align-items: center;
+}
+.flexColChild--col-pasos:last-child {
+    display: flex;
+}
+@media screen and (max-width: 1024px) {
+    .flexCol--footer-info:nth-child(1n) {
+        margin-bottom: 1rem;
+    }
+    .flexRowContent--pdp-calltoAction-conatiner {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: initial;
+    }
+    .flexRowContent--pdp-calltoAction-buy-button {
+        width: 100%;
+    }
+    .flexRow--row-carousel-mas-vendidos {
+        max-width: none;
+        width: 100%;
+        margin: 0;
+    }
+    .flexCol--col-carousel-especial .flexColChild--col-carousel-especial:last-child {
+        width: 100%;
+    }
+    .flexRow--footer-menu {
+        padding: 1.5rem 0 3rem 0;
+    }
+    .flexRow--footer-info {
+        padding: 3rem 0;
+    }
+    .flexRow--main-icon-slider {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0rem auto 2.5rem auto;
+    }
+    .flexRowContent--main-breadcrumb-container .stretchChildrenWidth {
+        position: relative;
+        width: 100vw !important;
+        overflow-x: scroll;
+        height: 40px;
+    }
+    .flexRowContent--mobile-product-main {
+        padding-top: 0;
+    }
+    .flexRow--mobile-pdp-top {
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .flexRow--productSpecificationGroup-cantidad-venta {
+        background: #f7f8faea;
+        width: 100%;
+        padding: 0.5rem 0 0.5rem 0.5rem;
+    }
+    .flexRow--details-section {
+        width: 100%;
+    }
+    .flexColChild--filterMobileCol {
+        border: 1px solid #0260aa;
+        margin: 1rem 0 0.3rem 0;
+    }
+    .container--title-sucursal {
+        justify-content: center;
+    }
+    .flexCol--footer-menu {
+        flex-direction: column;
+    }
+    .flexRow--productos-destacados {
+        padding-top: 4rem;
+    }
+    .flexCol--gallery-col {
+        flex-direction: column;
+    }
+    .flexRow--marcas-home-row {
+        padding: 4rem 0rem;
+        margin-top: 3rem;
+    }
+    .flexRowContent--marcas-home-row {
+        flex-direction: column;
+        padding: 0;
+    }
+    .flexCol--footer-info-main {
+        flex-direction: column;
+    }
+    .flexRowContent--searchinfo-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+        display: none;
+    }
+    .flexCol--filterCol {
+        padding: 0;
+    }
+    .flexRow--row-result {
+        padding-top: 2rem;
+    }
+    .flexRowContent--pdp-main-container {
+        flex-direction: column;
+    }
+    .flexRowContent--pdp-main-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+        padding: 0;
+    }
+    .flexRow--dekstop-shelf-pdp {
+        margin: 3rem 0 5rem 0;
+    }
+    .flexRowContent--servicios-cards-row {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .flexRowContent--servicios-cards-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 45%!important;
+        margin: 0.3rem;
+        margin-bottom: 2rem;
+    }
+    .flexRow--zs-sport-row-image-text {
+        padding: 0;
+    }
+    .flexRowContent--zs-sport-row-image-text {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 2rem 0;
+    }
+    .flexRow--gallery-row :global(.vtex-store-components-3-x-container) {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0;
+    }
+    .flexColChild--gallery-col {
+        margin: 0.2rem 0;
+    }
+    .flexRowContent--blog-home {
+        padding: 2rem 0;
+    }
+    .flexCol--blog-home-infocards {
+        display: block;
+    }
+    .flexRow--row-centro-ayuda {
+        padding: 2rem 0;
+    }
+    .flexRowContent--row-centro-ayuda {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flexRow--servicios-cards-row {
+        margin-top: 1rem;
+    }
+    .flexColChild--zs-motors-sport-gallery-gallery {
+        width: 46%!important;
+        height: 26vh!important;
+        margin: 0.4rem;
+    }
+    .flexRow--brand-row-image-text {
+        margin: 0;
+        width: 100%;
+    }
+    .flexCol--zs-sport-image {
+        margin-top: 1rem;
+    }
+    .flexRow--empresa-textImage-row-1,
+    .flexRow--empresa-textImage-row-2 {
+        padding: 0;
+    }
+    .flexRow--empresa-textImage-row-1 {
+        margin-top: 1rem;
+    }
+    .flexRowContent--empresa-textImage-row-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 1rem;
+    }
+    .flexCol--empresa-cards-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexColChild--empresa-cards-col {
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: .5rem 0
+    }
+    .flexRow--empresa-cards-row {
+        margin: 2rem 0;
+    }
+    .flexCol--tab-sucursales-col-kennedy,
+    .flexCol--tab-sucursales-col-matta,
+    .flexCol--tab-sucursales-col-vina,
+    .flexCol--tab-sucursales-col-dehesa {
+        height: 260px;
+        margin: 0.7rem 0;
+    }
+    .flexRow--row-sucursales {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    .flexColChild--orderByCol {
+        width: 100%;
+    }
+    .flexRowContent--searchinfo-row {
+        flex-direction: row-reverse;
+        padding-left: 0;
+        width: 90%;
+        margin: 0 auto 2rem auto;
+    }
+    .flexRowContent--product-price {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flexRowContent--product-price :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+        margin: 1rem 0 0 0;
+    }
+    .vtex-flex-layout-0-x-flexRow--tab-layout {
+        margin-bottom: 0;
+    }
+    .flexCol--sucursalesinterior-text-banner-col {
+        justify-content: center;
+        margin-bottom: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .flexColChild--sucursales-iconos-col {
+        display: flex;
+        justify-content: center;
+    }
+    .flexRow--sucursales-iconos-sucursales {
+        padding: 1rem 0;
+    }
+    .flexRowContent--sucursales-iconos-sucursales {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .flexRow--sucursales-personal-sucursales {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        position: relative;
+        padding-top: 4rem
+    }
+    .flexRow--sucursales-personal-sucursales::before {
+        content: 'Los especialistas';
+        position: absolute;
+        left: 50%;
+        display: block;
+        transform: translateX(-50%);
+        top: 6%;
+        width: 100%;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .infoCardContainer--info-card-sucursales-item {
+        flex-direction: column-reverse;
+        background-color: rgb(242, 242, 242);
+        margin: 0rem;
+        padding: 1rem;
+        border-radius: 3px;
+        box-shadow: rgb(0 0 0 / 20%) 2px 2px 15px;
+    }
+    .flexRowContent--sucursales-galeria-sucursales :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 43%!important;
+        margin: 0.3rem;
+    }
+}

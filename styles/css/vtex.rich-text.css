@@ -1,0 +1,958 @@
+/* ZS MOTORS STYLE */
+
+.paragraph--shelf-title {
+    color: #c63335;
+    font-size: 2.4rem;
+    line-height: 1;
+    position: relative;
+    margin-top: 0;
+    padding-left: 4.4rem;
+    font-family: 'Raleway-Bold';
+}
+
+.paragraph--shelf-title::before {
+    content: "";
+    height: 5px;
+    width: 3rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Raleway-Bold';
+    background-color: #c63335;
+}
+
+.strong--shelf-title {
+    color: #fff;
+    font-family: 'Raleway-Bold';
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c63335;
+    text-align: center;
+}
+
+.paragraph--section-texto-seo {
+    color: #fff;
+    font-family: "Raleway-Bold";
+    font-size: 2.4rem;
+    line-height: 1;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.strong--section-texto-seo {
+    color: #fff;
+    font-size: 2.4rem;
+    line-height: 1;
+    font-family: 'Raleway-Bold';
+    position: relative;
+    margin-top: 0;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    text-align: center;
+}
+
+.wrapper--section-texto-seo {
+    margin: 1rem 0 0 0;
+}
+
+
+/* ZS MOTORS STYLE - Marcas Home */
+
+.container--marcas-home-title,
+.container--marcas-home-cta {
+    justify-content: center;
+}
+
+.paragraph--marcas-home-title {
+    color: #fff;
+    font-size: 4.4rem;
+    line-height: 1;
+    position: relative;
+    display: flex;
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway-Black";
+}
+
+.strong--marcas-home-title {
+    color: #fff;
+    font-family: "Raleway-ExtraBold";
+    font-size: 1.4rem;
+    line-height: 1;
+    position: relative;
+    margin-left: -1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.link--marcas-home-cta {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    background-color: #c63335;
+    border-radius: 3px;
+    padding: 0.9rem 2.5rem;
+    line-height: 1;
+}
+
+
+/* ZS MOTORS STYLE - Blog Home */
+
+.paragraph--blog-home-text-title {
+    color: #c63335;
+    font-size: 2.4rem;
+    line-height: 1;
+    position: relative;
+    margin: 0;
+    font-family: 'Raleway-Bold';
+}
+
+.strong--blog-home-text-title {
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c63335;
+    font-family: 'Raleway-Bold';
+    text-align: center;
+}
+
+.link--blog-home-text-cta {
+    font-size: 0.9rem;
+    color: #c63335;
+    text-decoration: none;
+    position: relative;
+}
+
+.link--blog-home-text-cta::after {
+    content: "";
+    background-image: url(assets/arrow-red.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    height: 14px;
+    position: absolute;
+    left: 109%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* ZS MOTORS STYLE - Footer - Insta Feed*/
+
+.paragraph--insta-feed-title {
+    color: #c63335;
+    font-size: 2.4rem;
+    line-height: 1;
+    position: relative;
+    margin-top: 0;
+    padding-left: 4.4rem;
+}
+
+.paragraph--insta-feed-title::before {
+    content: "";
+    height: 5px;
+    width: 3rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #c63335;
+}
+
+.strong--insta-feed-title {
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    font-family: 'Raleway-Bold';
+    -webkit-text-stroke-color: #c63335;
+    text-align: center;
+}
+
+
+/* ZS MOTORS STYLE - Custom Search*/
+
+.paragraph--custom-search-input {
+    background-color: #f2f2f2;
+    padding: 1rem 15rem 1rem 4rem;
+    border-radius: 3px;
+    line-height: 1;
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.9rem 2.3rem 0.9rem 0;
+    border: 1px solid #f2f2f2;
+    font-family: "Raleway-LightItalic";
+}
+
+.paragraph--custom-search-submit {
+    width: 160px;
+    text-align: center;
+    background-color: #c63335;
+    line-height: 1;
+    padding: 1rem;
+    border-radius: 3px;
+    color: #fff;
+    margin: 0.3rem;
+}
+
+.wrapper--custom-search-dropdown,
+.container--custom-search-dropdown {
+    width: 100%;
+}
+
+.paragraph--custom-search-dropdown {
+    margin: 0;
+    line-height: 1;
+    padding: 1rem;
+    font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+
+/* ZS MOTORS STYLE - Servicios */
+
+.paragraph--sucursalesinterior-title,
+.paragraph--servicios-title {
+    line-height: 1;
+    position: relative;
+    margin-top: 0;
+    font-family: "Raleway-ExtraBold";
+    color: #fff;
+    margin: 0;
+    font-size: 4rem;
+}
+
+.paragraph--servicios-subtitle {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 0;
+    width: 40%;
+    font-family: "Raleway-Regular";
+    font-variant-numeric: lining-nums;
+}
+
+.paragraph--servicios-subtitle .link--servicios-subtitle {
+    color: #fff;
+    text-decoration: none;
+}
+
+.strong--servicios-title {
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    font-family: 'Raleway-Bold';
+    text-align: left;
+    display: block;
+}
+
+.strong--sucursalesinterior-title {
+    display: block;
+}
+
+.link--sucursalesinterior-subtitle {
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+    display: block;
+    background-color: #da0700;
+    padding: 0.7rem 2rem;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-variant-numeric: lining-nums;
+}
+
+
+/* ZS MOTORS STYLE - Sucursales */
+
+.paragraph--sucursales-title-iconos {
+    font-size: 1.2rem;
+    font-family: 'Raleway-ExtraBold';
+}
+
+.paragraph--sucursales-content-text {
+    font-family: 'Raleway-Regular';
+}
+
+
+/* ZS MOTORS STYLE - Sports */
+
+.paragraph--zs-sport-text-image-text {
+    font-size: 0.9rem;
+    font-family: "Raleway-Regular";
+    padding-right: 2rem;
+}
+
+.paragraph--zs-sport-title-image-text {
+    font-size: 1.3rem;
+}
+
+
+/* ZS MOTORS STYLE - Centro Ayuda */
+
+.paragraph--pyd,
+.paragraph--tyc {
+    font-family: 'Raleway-Medium';
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.paragraph--pyd {
+    margin-bottom: 0;
+}
+
+.listItem--menu-faq-text,
+.listItem--pyd,
+.listItem--tyc {
+    font-family: 'Raleway-Medium';
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+.listOrdered--pyd,
+.listOrdered--tyc {
+    margin-bottom: 3rem;
+}
+
+.strong--pyd {
+    font-family: 'Raleway-ExtraBold';
+    display: block;
+    margin-top: 3rem;
+}
+
+.listItem--menu-faq-text,
+.paragraph--menu-faq-text {
+    font-family: 'Raleway-Medium';
+    font-size: .9rem;
+}
+
+.strong--menu-faq-text {
+    margin-top: 2rem;
+    display: block;
+}
+
+.headingLevel3--menu-faq-text {
+    font-size: 1.2rem;
+}
+
+
+/* JUNAPLAS STYLES */
+
+.headingLevel1--section-texto-seo {
+    color: #3d3d3d;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Raleway-Thin";
+}
+
+.headingLevel1--section-texto-seo::after {
+    content: "";
+    background: #4ea2e2;
+    font-size: 1.5rem;
+    height: 2px;
+    display: inline-block;
+    width: 30%;
+    margin: 0 0 0 2rem;
+}
+
+.headingLevel1--section-texto-seo::before {
+    content: "";
+    background: #4ea2e2;
+    font-size: 1.5rem;
+    height: 2px;
+    display: inline-block;
+    width: 30%;
+    margin: 0 2rem 0 0;
+}
+
+.headingLevel3--title-carousel-especial {
+    color: #3d3d3d;
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    margin-right: 2rem;
+    font-family: "Raleway";
+    font-weight: 500;
+}
+
+.headingLevel3--title-carousel-especial::after {
+    content: "";
+    width: 150px;
+    height: 6px;
+    background-color: #c63335;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headingLevel3--title-carousel-mas-vendidos {
+    color: #3d3d3d;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    font-family: "Raleway";
+    margin: 1rem 0 2rem;
+    justify-content: center;
+    position: relative;
+    font-weight: 500;
+}
+
+.headingLevel3--title-carousel-mas-vendidos::after {
+    content: "";
+    width: 150px;
+    height: 6px;
+    background-color: #c63335;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.strong--section-texto-seo-dpto {
+    line-height: 1.7;
+}
+
+.link--section-texto-seo-dpto,
+.link--section-texto-seo {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link--section-texto-seo-dpto {
+    margin: 0.3rem;
+    display: inline-block;
+    line-height: 1;
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.container--nosotros-text {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.paragraph--nosotros-text {
+    font-size: 16px;
+    font-family: "Raleway";
+    line-height: 2;
+}
+
+.wrapper--title-carousel-mas-vendidos,
+.wrapper--info-covid {
+    width: 100%;
+}
+
+.paragraph--contacto {
+    color: #ffffff;
+    font-family: "Raleway-Bold";
+    margin-left: 38px;
+    font-size: 12px;
+}
+
+.paragraph--telefono {
+    color: #ffffff;
+    font-family: "Raleway-Bold";
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+.paragraph--horario {
+    color: #ffffff;
+    font-family: "Raleway-Bold";
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.paragraph--tienda {
+    color: #ffffff;
+    font-family: "Raleway-Bold";
+    font-size: 12px;
+    margin-right: 38px;
+}
+
+.link--contacto,
+.link--telefono,
+.link--tienda {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.paragraph--footer-subtitle {
+    margin: 0;
+}
+
+.paragraph--footer-subtitle {
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.link--footer-subtitle {
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.paragraph--footer-title {
+    font-family: "Raleway-Bold";
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 4rem;
+}
+
+.paragraph--copyright {
+    font-family: "Raleway-Bold";
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.container--footer-subtitle {
+    justify-content: center;
+    margin: 0 2rem 0.5rem;
+}
+
+.paragraph--submenu-catalogo {
+    font-size: 12px;
+    font-family: "Raleway-Bold";
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.container--telefono-mobile,
+.container--correo-mobile {
+    background: #e7e7e7;
+}
+
+.container--telefono-mobile {
+    border-bottom: 1px solid #cacaca;
+}
+
+.paragraph--telefono-mobile,
+.paragraph--correo-mobile {
+    margin: 0.5rem 1rem;
+    position: relative;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.link--telefono-mobile,
+.link--correo-mobile {
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    margin-left: 1.2rem;
+}
+
+.paragraph--telefono-mobile::before {
+    content: "";
+    background-image: url("assets/home/phone.svg");
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+}
+
+.paragraph--correo-mobile::before {
+    content: "";
+    background-image: url("assets/home/mail.svg");
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+}
+
+.paragraph--formtitle,
+.paragraph--nosotros-title,
+.paragraph--title-sucursal {
+    color: #c63335;
+    font-family: Playfair Display;
+    font-size: 30px;
+    border-bottom: 1px solid;
+}
+
+.paragraph--title-sucursal {
+    position: relative;
+    width: fit-content;
+}
+
+.paragraph--info-covid {
+    color: #ffffff;
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+}
+
+.strong--info-covid {
+    text-decoration: underline;
+}
+
+.container--texto-modal {
+    font-family: "Raleway";
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.container--contacto-modal {
+    font-family: "Raleway";
+    margin-top: 1.5rem;
+}
+
+.paragraph--texto-modal {
+    margin-top: 0;
+}
+
+.paragraph--contacto-modal {
+    margin-top: 1rem;
+}
+
+.strong--texto-modal {
+    line-height: 3;
+}
+
+.paragraph--acordeon {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #183152;
+    margin-bottom: 0.75rem;
+    font-family: "Raleway-Bold";
+    font-size: 0.9rem;
+    position: relative;
+    display: flex;
+}
+
+
+/* .paragraph--acordeon::before {
+  content: "";
+  background-image: url("assets/document.png");
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+  margin-right: 0.2rem;
+} */
+
+.paragraph--disclaimer-header {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 14px;
+    margin-left: -13px;
+}
+
+.strong--disclaimer-header {
+    position: relative;
+    visibility: hidden;
+}
+
+.paragraph--empresa-text,
+.paragraph--empresa-text-2 {
+    font-size: .9rem;
+    font-family: 'Raleway-Medium';
+}
+
+.paragraph--empresa-text {
+    padding-right: 2rem;
+}
+
+.paragraph--empresa-text-2 {
+    text-align: right;
+    padding-left: 2rem;
+}
+
+.paragraph--empresa-subtitle {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+.paragraph--sucursales-content-icons .link--sucursales-content-icons:first-child,
+.paragraph--sucursales-content-icons .link--sucursales-content-icons:last-child {
+    position: relative;
+    visibility: hidden;
+    margin-right: 2rem;
+    transition: all .4s ease;
+}
+
+.paragraph--sucursales-content-icons .link--sucursales-content-icons:first-child:hover,
+.paragraph--sucursales-content-icons .link--sucursales-content-icons:last-child:hover {
+transform: scale(1.1);
+    transition: all .4s ease;
+} 
+
+.paragraph--sucursales-content-icons .link--sucursales-content-icons::before {
+content: '';
+visibility: visible;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+display: block;
+width: 45px;
+height: 45px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+transition: all .4s ease;
+}
+
+.paragraph--sucursales-content-icons .link--sucursales-content-icons::before:hover {
+    transform: scale(1.1);
+    transition: all .4s ease;
+}
+
+.paragraph--sucursales-content-icons .link--sucursales-content-icons:first-child::before {
+    background-image: url(assets/sucursales/maps.png);
+}
+
+.paragraph--sucursales-content-icons .link--sucursales-content-icons:last-child::before  {
+    background-image: url(assets/sucursales/waze.png);
+}
+
+
+
+/* .strong--disclaimer-header::before {
+    content: ''; 
+    background-image: url(assets/webpay-disclaimer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 22px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 5px;
+    visibility: visible;
+} */
+/* servicios*/
+.container--pasos-titulo {
+    width: 100%;
+    justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+    .paragraph--sucursales-content-icons .link--sucursales-content-icons::before {
+        width: 37px;
+        height: 37px;
+        }
+        .paragraph--sucursales-content-icons .link--sucursales-content-icons:first-child,
+.paragraph--sucursales-content-icons .link--sucursales-content-icons:last-child {
+    margin-right: .7rem;
+}
+.paragraph--sucursales-content-icons {
+    margin-top: 0.7rem;
+}
+    .headingLevel3--title-carousel-mas-vendidos {
+        font-size: 23px;
+    }
+    .headingLevel3--title-carousel-especial {
+        font-size: 23px;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .headingLevel1--section-texto-seo {
+        font-size: 15px;
+    }
+    .headingLevel1--section-texto-seo::after {
+        margin: 0 0 0 0.5rem;
+    }
+    .headingLevel1--section-texto-seo::before {
+        margin: 0 0.5rem 0 0;
+    }
+    .container--title-carousel-especial {
+        justify-content: center;
+    }
+    .headingLevel1--section-texto-seo {
+        font-size: 23px;
+        font-weight: 500;
+        font-family: "Lato";
+    }
+    .paragraph--footer-title {
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+    }
+    .paragraph--nosotros-text {
+        font-size: 14px;
+        line-height: 2;
+        text-align: center;
+    }
+    .paragraph--info-covid {
+        font-size: 11px;
+    }
+    .paragraph--formtitle,
+    .paragraph--nosotros-title,
+    .paragraph--title-sucursal {
+        font-size: 25px;
+        border-bottom: 1px solid;
+        width: 100%;
+        display: inline-block;
+        margin: 2rem auto;
+        line-height: 1.3;
+        padding-bottom: 1rem;
+    }
+    .headingLevel3--title-carousel-mas-vendidos {
+        font-size: 23px;
+    }
+    .headingLevel3--title-carousel-especial {
+        font-size: 23px;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .headingLevel1--section-texto-seo {
+        font-size: 15px;
+    }
+    .headingLevel1--section-texto-seo::after {
+        margin: 0 0 0 0.5rem;
+    }
+    .headingLevel1--section-texto-seo::before {
+        margin: 0 0.5rem 0 0;
+    }
+    .container--title-carousel-especial {
+        justify-content: center;
+    }
+    .headingLevel1--section-texto-seo {
+        font-size: 23px;
+        font-weight: 500;
+        font-family: "Raleway";
+    }
+    .paragraph--footer-title {
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+    }
+    .paragraph--marcas-home-title,
+    .strong--marcas-home-title {
+        display: block;
+    }
+    .paragraph--insta-feed-title,
+    .paragraph--blog-home-text-title,
+    .paragraph--shelf-title {
+        font-size: 1.5rem;
+        padding-left: 2.5rem;
+        margin-bottom: 1rem;
+        margin-left: 10%;
+        width: 100%;
+    }
+    .paragraph--blog-home-text-title {
+        margin-bottom: 0.5rem
+    }
+    .paragraph--insta-feed-title::before,
+    .paragraph--blog-home-text-title::before,
+    .paragraph--shelf-title::before {
+        width: 1.5rem;
+    }
+    .paragraph--blog-home-text-title::before {
+        content: "";
+        height: 5px;
+        width: 1.5rem;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: 'Raleway-Bold';
+        background-color: #c63335;
+    }
+    .paragraph--marcas-home-title {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    .strong--marcas-home-title {
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+    .paragraph--blog-home-text-cta {
+        margin-top: 0;
+        padding-left: 3.4rem;
+    }
+    .paragraph--sucursalesinterior-title,
+    .paragraph--servicios-title {
+        font-size: 2.2rem;
+    }
+    .container--servicios-subtitle {
+        display: none;
+    }
+    .paragraph--zs-sport-text-image-text {
+        font-size: 0.8rem;
+        padding-right: 0;
+    }
+    .paragraph--zs-sport-title-image-text {
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+    .paragraph--empresa-subtitle {
+        font-size: 1.1rem;
+        color: #000;
+        margin-bottom: 0;
+    }
+    .paragraph--empresa-text-2 {
+        text-align: left;
+        padding-left: 0;
+    }
+    .link--sucursalesinterior-subtitle {
+        width: 100%;
+        margin: 0;
+        margin-top: 0;
+        display: block;
+        background-color: #da0700;
+        padding: 0.5rem 1rem;
+        border-radius: 3px;
+        font-size: 12px;
+        color: #fff;
+        text-decoration: none;
+        font-variant-numeric: lining-nums;
+    }
+    .paragraph--sucursalesinterior-subtitle {
+        margin: 0.3rem 0;
+    }
+    .paragraph--sucursales-content-text {
+        font-family: 'Raleway-Regular';
+        text-align: center;
+    }
+    .paragraph--sucursales-title-iconos {
+        font-size: 1.2rem;
+        font-family: 'Raleway-ExtraBold';
+        margin-bottom: 0;
+    }
+    .paragraph--sucursales-content-text {
+        margin-top: 0.3rem;
+    }
+}

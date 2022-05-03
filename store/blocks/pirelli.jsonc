@@ -1,0 +1,108 @@
+{
+  "store.custom#pirelli": {
+    "blocks": ["search-result-layout.customQuery#pirelli"]
+  },
+  "search-result-layout.customQuery#pirelli": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "pirelli",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#pirelli",
+      "search-result-layout.mobile#pirelli",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#pirelli": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-pirelli",
+      "flex-layout.row#result-pirelli"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-pirelli": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-pirelli": {
+    "children": [
+      "flex-layout.col#brand-text-title-pirelli",
+      "flex-layout.col#brand-image-pirelli"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-pirelli": {
+    "children": [
+      "rich-text#brand-title-image-text-pirelli",
+      "rich-text#brand-text-image-text-pirelli"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-pirelli": {
+    "children": ["image#brand-pirelli"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-pirelli": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-pirelli": {
+    "props": {
+      "text": "POR QUÉ pirelli\nPioneros en innovación para mantenerse siempre un paso adelante en el juego. Esta es la filosofía que ha llevado a pirelli a la vanguardia de la industria a escala mundial.\npirelli HOY​\nConstantemente desafiamos los límites de la tecnología, el estilo y la sustentabilidad, marcando tendencias en todo el mundo\nNEUMÁTICOS MARCADOS: EL ENCAJE PERFECTO\npirelli trabaja para crear el ENCAJE PERFECTO entre el auto y el neumático en colaboración con los mejores fabricantes de automóviles.\nEsta colaboración se lleva a cabo a través tecnologías, procesos y materiales dedicados. Al mezclar estos elementos diseñados a partir de las primeras fases del proyecto, pirelli puede desarrollar neumáticos marcados hechos a medida para cualquier tipo de vehículo",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-pirelli": {
+    "props": {
+      "src": "assets/marcas/plp-pirelli.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  },
+
+
+
+    // Mobile
+    "search-result-layout.mobile#pirelli": {
+      "children": [
+        "flex-layout.row#banner-category",
+        "flex-layout.row#brand-text-image-pirelli",
+        "flex-layout.row#result-pirelli"
+      ]
+    }
+}

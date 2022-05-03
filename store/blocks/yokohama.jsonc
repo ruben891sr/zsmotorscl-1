@@ -1,0 +1,96 @@
+{
+  "store.custom#yokohama": {
+    "blocks": ["search-result-layout.customQuery#yokohama"]
+  },
+  "search-result-layout.customQuery#yokohama": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "yokohama",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#yokohama",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#yokohama": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-yokohama",
+      "flex-layout.row#result-yokohama"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-yokohama": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-yokohama": {
+    "children": [
+      "flex-layout.col#brand-text-title-yokohama",
+      "flex-layout.col#brand-image-yokohama"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-yokohama": {
+    "children": [
+      "rich-text#brand-title-image-text-yokohama",
+      "rich-text#brand-text-image-text-yokohama"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-yokohama": {
+    "children": ["image#brand-yokohama"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-yokohama": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-yokohama": {
+    "props": {
+      "text": "Los Neumáticos Yokohama, se han convertido en una de las mejores opciones del mercado a lo que se refiere a las Neumáticos de alta gama. Su gran trayectoria en las competiciones de automóviles y las buenas prestaciones que han ido ofreciendo a los conductores comunes desde su fundación, es una alternativa excelente para tu vehículo.\n\nYokohama, al igual que otros fabricantes prestigiosos, ha marcado tendencias en el mundo del motor, logrando un protagonismo en el mundo tuning.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-yokohama": {
+    "props": {
+      "src": "assets/marcas/plp-yokohama.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

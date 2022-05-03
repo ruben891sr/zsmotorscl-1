@@ -1,0 +1,186 @@
+{
+  "store.custom#zs-motors-sport-club-camaro": {
+    "children": [
+      "flex-layout.row#zs-sport-banner-club4",
+      "flex-layout.row#zs-motors-sport-image-text-club4",
+      "flex-layout.row#zs-motors-sport-gallery-club4"
+    ]
+  },
+    // Hero
+    "flex-layout.row#zs-sport-banner-club4": {
+      "children": [
+        "flex-layout.col#zs-sport-image-banner-club4",
+        "flex-layout.col#zs-sport-item-text-banner-club4"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#zs-sport-image-banner-club4": {
+      "children": ["image#zs-motors-sport"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "flex-layout.col#zs-sport-item-text-banner-club4": {
+      "children": ["rich-text#zs-sport-title-club4"],
+      "props": {
+        "blockClass": "servicios-text-banner-col"
+      }
+    },
+    "rich-text#zs-sport-title-club4": {
+      "props": {
+        "text": "Club **Camaro**",
+        "blockClass": "servicios-title"
+      }
+    },
+  
+    "flex-layout.row#zs-motors-sport-image-text-club4": {
+      "children": [
+        "flex-layout.col#zs-sport-text-title-club4",
+        "flex-layout.col#zs-sport-image-club4"
+      ],
+      "props": {
+        "blockClass": "zs-sport-row-image-text"
+      }
+    },
+    "flex-layout.col#zs-sport-text-title-club4": {
+      "children": [
+        "rich-text#zs-sport-title-image-text-club4",
+        "rich-text#zs-sport-text-image-text-club4"
+      ],
+      "props": {
+        "blockClass": "zs-sport-text-title"
+      }
+    },
+    "flex-layout.col#zs-sport-image-club4": {
+      "children": ["image#zs-sport-club4"],
+      "props": {
+        "blockClass": "zs-sport-image"
+      }
+    },
+  
+    "rich-text#zs-sport-title-image-text-club4": {
+      "props": {
+        "text": "Sobre la Marca",
+        "blockClass": "zs-sport-title-image-text"
+      }
+    },
+    "rich-text#zs-sport-text-image-text-club4": {
+      "props": {
+        "text": "En sus juntas semanales, el Club Camaro Chile se reúne en puntos urbanos y fuera de la ciudad para intercambiar experiencias, conocimientos y vivencias al volante de sus americanos, ya sean de la vieja o de la nueva escuela. El carácter único de estas poderosas máquinas, ha reunido a estos fanáticos que comparten su ímpetu en actividades regulares que les permiten disfrutar su entusiasmo en comunidad, con apego a la amistad, la solidaridad, la diversión y la creación de momentos perdurables en la memoria. \n\nEl requisito que el club exige es poseer un Chevrolet Camaro de 5ta. Generación y traer todo el entusiasmo y la energía que posee cada uno de sus miembros actuales.",
+        "blockClass": "zs-sport-text-image-text"
+      }
+    },
+  
+    "image#zs-sport-club4": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/zssports-club4-bn.jpg",
+        "blockClass": "zs-sport-club4-banner-img"
+      }
+    },
+  
+    "flex-layout.row#zs-motors-sport-gallery-club4": {
+      "children": [
+        "flex-layout.col#zs-motors-sport-gallery-title-club4",
+        "flex-layout.col#zs-motors-sport-gallery-gallery-club4"
+      ],
+      "props": {
+        "blockClass": "zs-sport-row-gallery",
+        "colSizing": "auto"
+      }
+    },
+  
+    "flex-layout.col#zs-motors-sport-gallery-title-club4": {
+      "children": ["rich-text#zs-sport-title-gallery-club4"],
+      "props": {
+        "blockClass": "zs-motors-sport-gallery-title"
+      }
+    },
+    "flex-layout.col#zs-motors-sport-gallery-gallery-club4": {
+      "children": [
+        "image#zs-sport-club4-item-01",
+        "image#zs-sport-club4-item-02",
+        "image#zs-sport-club4-item-03",
+        "image#zs-sport-club4-item-04",
+        "image#zs-sport-club4-item-05",
+        "image#zs-sport-club4-item-06",
+        "image#zs-sport-club4-item-07",
+        "image#zs-sport-club4-item-08",
+        "image#zs-sport-club4-item-09",
+        "image#zs-sport-club4-item-10"
+      ],
+      "props": {
+        "blockClass": "zs-motors-sport-gallery-gallery"
+      }
+    },
+    "rich-text#zs-sport-title-gallery-club4": {
+      "props": {
+        "text": "Galería de \n**Imágenes**",
+        "blockClass": "shelf-title"
+      }
+    },
+  
+    "image#zs-sport-club4-item-01": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-01.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    }, 
+    "image#zs-sport-club4-item-02": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-02.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club4-item-03": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-03.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club4-item-04": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-04.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club4-item-05": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-05.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club4-item-06": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-06.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club4-item-07": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-07.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club4-item-08": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-08.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club4-item-09": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-09.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club4-item-10": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club4-10.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    }
+}

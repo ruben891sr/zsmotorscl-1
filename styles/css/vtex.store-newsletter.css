@@ -1,0 +1,73 @@
+.newsletterForm--footer-form {
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    align-items: center;
+}
+
+.newsletterForm--footer-form .emailInputContainer {
+    width: 100%;
+}
+
+.newsletterForm--footer-form .formSubmitContainer {
+    margin-left: 0.5rem;
+    height: 37px;
+}
+
+.newsletterForm--footer-form :global(.vtex-button) {
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.newsletterForm--footer-form :global(.vtex-button__label) {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    height: 37px;
+    text-transform: capitalize;
+    background: transparent;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+
+.newsletterForm--footer-form :global(.vtex-input-prefix__group) {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    height: 37px;
+    background-color: #fff;
+}
+
+.newsletterForm--footer-form :global(.vtex-styleguide-9-x-input) {
+    font-size: 12px;
+    font-family: "Raleway-Bold";
+    border-radius: 3px;
+    height: 37px;
+    width: 300px;
+}
+
+.newsletterForm--footer-form :global(.vtex-input__error) {
+    font-size: 12px;
+    font-family: "Raleway-Bold";
+    position: absolute;
+    color: red;
+}
+
+.defaultSuccessMessage--footer-form {
+    font-size: 12px;
+    font-family: "Raleway-Bold";
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .newsletterForm--footer-form {
+        flex-direction: column;
+    }
+    .newsletterForm--footer-form .formSubmitContainer {
+        margin: 0.4rem 0;
+    }
+}

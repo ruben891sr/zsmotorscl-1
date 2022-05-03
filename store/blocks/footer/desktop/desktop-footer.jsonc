@@ -1,0 +1,249 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#section-texto-seo",
+      "flex-layout.row#insta-feed",
+      "flex-layout.row#footer-main"
+    ]
+  },
+  "flex-layout.row#footer-main": {
+    "children": [
+      "flex-layout.col#newsletter",
+      "flex-layout.col#footer-menu",
+      "flex-layout.col#footer-info"
+    ],
+    "props": {
+      "blockClass": "footer-main",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#footer-menu": {
+    "children": [
+      "flex-layout.col#corporativo",
+      "flex-layout.col#servicio-al-cliente",
+      "flex-layout.col#contacto"
+    ],
+    "props": {
+      "blockClass": "footer-menu"
+    }
+  },
+  "flex-layout.col#footer-info": {
+    "children": [
+      "flex-layout.col#medios-de-pago",
+      "flex-layout.col#logo-corporativo",
+      "flex-layout.col#tienda"
+    ],
+    "props": {
+      "blockClass": "footer-info-main"
+    }
+  },
+  "flex-layout.col#servicio-al-cliente": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["vtex.menu@2.x:menu#servicio-al-cliente"]
+  },
+  "flex-layout.col#corporativo": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["vtex.menu@2.x:menu#corporativo"]
+  },
+  "flex-layout.col#contacto": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["vtex.menu@2.x:menu#contacto"]
+  },
+  "flex-layout.col#medios-de-pago": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "footer-info"
+    },
+    "children": ["image#webpay", "image#tarjetas", "image#compra-segura"]
+  },
+  "image#webpay": {
+    "props": {
+      "src": "assets/webpay.svg",
+      "blockClass": "webpay",
+      "maxHeight": 20
+    }
+  },
+  "image#tarjetas": {
+    "props": {
+      "src": "assets/tarjetas-credito.svg",
+      "blockClass": "tarjetas",
+      "maxHeight": 18
+    }
+  },
+  "image#compra-segura": {
+    "props": {
+      "src": "assets/compra-segura.svg",
+      "blockClass": "compra-segura",
+      "maxHeight": 18
+    }
+  },
+  "flex-layout.col#logo-corporativo": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "footer-info"
+    },
+    "children": ["image#sr", "image#vtex"]
+  },
+  "image#vtex": {
+    "props": {
+      "src": "assets/logo-vtex-blanco.png",
+      "blockClass": "vtex",
+      "maxHeight": 18,
+      "alt": "vtex",
+      "link": {
+        "url": "https://vtex.com/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#sr": {
+    "props": {
+      "src": "assets/logo-sr-blanco.png",
+      "blockClass": "sr",
+      "maxHeight": 18,
+      "alt": "SR Consultores",
+      "link": {
+        "url": "https://sr-consultores.com/",
+        "openNewTab": true
+      }
+    }
+  },
+  "flex-layout.col#tienda": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#copyright"]
+  },
+  "rich-text#copyright": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© ZS Motors 2022 - Todos los derechos reservados",
+      "blockClass": "copyright"
+    }
+  },
+
+
+// Insta Feed
+  "flex-layout.row#insta-feed": {
+    "children": [
+      "flex-layout.col#insta-feed-title",
+      "flex-layout.col#insta-feed-images"
+    ],
+    "props": {
+      "blockClass": "insta-feed-row",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#insta-feed-title": {
+    "children": [
+      "rich-text#insta-feed-title"
+    ],
+    "props": {
+      "blockClass": "insta-feed-title-col"
+    }
+  },
+  "rich-text#insta-feed-title": {
+    "props": {
+      "text": "Síguenos en nuestras \n**Redes Sociales**",
+      "blockClass": "insta-feed-title"
+    }
+  },
+  "flex-layout.col#insta-feed-images": {
+    "children": [
+      // "sandbox.product",
+      "iframe#insta"
+      // "image#insta-feed-images-item-1",
+      // "image#insta-feed-images-item-2",
+      // "image#insta-feed-images-item-3",
+      // "image#insta-feed-images-item-4"
+    ],
+    "props": {
+      "blockClass": "insta-feed-images-col"
+    }
+  },
+  "sandbox.product": {
+    "props": {
+      "initialContent": "<script src='https://cdn.lightwidget.com/widgets/lightwidget.js'></script>",
+      "allowCookies": true,
+      "blockClass": "scriptInsta",
+      "height": "0px"
+    }
+  },
+  "iframe#insta": {
+    "props": {
+      "width": "100%",
+      "height": "490px",
+      "src": "https://cdn.lightwidget.com/widgets/6215ac296abb5d36ace9065686ae9317.html",
+      "blockClass": "iframeInsta"
+    }
+  },
+
+  "image#insta-feed-images-item-1": {
+    "props": {
+      "src": "assets/insta-feed/insta-feed-1.jpg",
+      "blockClass": "insta-feed-images-item"
+    }
+  },
+  "image#insta-feed-images-item-2": {
+    "props": {
+      "src": "assets/insta-feed/insta-feed-2.jpg",
+      "blockClass": "insta-feed-images-item"
+    }
+  },
+  "image#insta-feed-images-item-3": {
+    "props": {
+      "src": "assets/insta-feed/insta-feed-3.jpg",
+      "blockClass": "insta-feed-images-item"
+    }
+  },
+  "image#insta-feed-images-item-4": {
+    "props": {
+      "src": "assets/insta-feed/insta-feed-4.jpg",
+      "blockClass": "insta-feed-images-item"
+    }
+  },
+
+
+  
+
+  // SEO
+
+  "flex-layout.row#section-texto-seo": {
+    "children": ["flex-layout.col#section-texto-seo"],
+    "props": {
+      "blockClass": "row-banner-seo"
+    }
+  },
+  "flex-layout.col#section-texto-seo": {
+    "children": ["rich-text#texto-seo", "rich-text#texto-seo-dpto"],
+    "props": {
+      "blockClass": "col-texto-seo"
+    }
+  }, 
+  "rich-text#texto-seo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Productos más \n**Buscados**",
+      "blockClass": "section-texto-seo"
+    }
+  },
+  "rich-text#texto-seo-dpto": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Neumáticos](/Neumáticos)[Llantas](/Llantas)[Accesorios ](/Accesorios)[Inyectores](/Inyectores)[Servicios](/Servicios)[Servicio de Frenos](/Servicio)[Cambio de llantas](/Cambio)[Michellin](/Michellin)[Continental](/Continental)[MOMO Tires](/tires)[Pirelli](/Pirelli)[Rydanz](/Rydanz)[BF Godrich](/godrich)[Yokohama](/Yokohama)[Tracmax](/Tracmax)[Mammooth Wheels](/wheels)[Fox](/fox)[KMC Wheels](/wheels)[West Lake Tires](/westires)[Mobile](/Mobile)[Shell](/Shell)[Thule](/Thule)∫",
+      "blockClass": "section-texto-seo-dpto"
+    }
+  }
+}

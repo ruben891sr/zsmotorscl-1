@@ -1,0 +1,96 @@
+{
+  "store.custom#rydanz": {
+    "blocks": ["search-result-layout.customQuery#rydanz"]
+  },
+  "search-result-layout.customQuery#rydanz": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "rydanz",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#rydanz",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#rydanz": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-rydanz",
+      "flex-layout.row#result-rydanz"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-rydanz": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-rydanz": {
+    "children": [
+      "flex-layout.col#brand-text-title-rydanz",
+      "flex-layout.col#brand-image-rydanz"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-rydanz": {
+    "children": [
+      "rich-text#brand-title-image-text-rydanz",
+      "rich-text#brand-text-image-text-rydanz"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-rydanz": {
+    "children": ["image#brand-rydanz"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-rydanz": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-rydanz": {
+    "props": {
+      "text": "Los Neumáticos Rydanz cuenta con todos los certificados e inspecciones de calidad internacional, fabricando neumáticos con calidad mundial para sus usuarios. \n\nLa marca se caracteriza por llevar a cabo su propia tecnología trabajando con profesionales reconocidos, logrando distribuir sus llantas en más de 70 países, garantizando calidad, una conducción fácil y seguridad.\n\nUna relación precio calidad reconocida que lo ha llevado a posicionarse rápidamente en el mercado automotriz. ",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-rydanz": {
+    "props": {
+      "src": "assets/marcas/plp-rydanz.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

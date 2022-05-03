@@ -1,0 +1,112 @@
+{
+  "vtex.menu@2.x:menu#menu-mobile": {
+    "children": [
+      "menu-item#mobile-neumaticos",
+      "menu-item#mobile-llantas",
+      "menu-item#mobile-offroad",
+      "menu-item#mobile-servicios",
+      "menu-item#mobile-marcas",
+      "menu-item#mobile-accesorios"
+    ],
+    "props": {
+      "blockClass": "menu-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-neumaticos": {
+    "props": {
+      "id": "mobile-neumaticos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/neumaticos",
+        "noFollow": true,
+        "tagTitle": "mobile-neumaticos", 
+        "text": "Neumaticos"
+      }
+    }
+  },
+  "menu-item#mobile-llantas": {
+    "props": {
+      "id": "mobile-llantas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/llantas",
+        "noFollow": true,
+        "tagTitle": "mobile-llantas",
+        "text": "Llantas"
+      }
+    }
+  },
+  "menu-item#mobile-offroad": {
+    "props": {
+      "id": "mobile-offroad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": true,
+        "tagTitle": "mobile-offroad",
+        "text": "Off Road"
+      }
+    }
+  },
+  "menu-item#mobile-servicios": {
+    "props": {
+      "id": "mobile-servicios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicios",
+        "noFollow": true,
+        "tagTitle": "mobile-servicios",
+        "text": "Servicios"
+      }
+    }
+  },
+  "menu-item#mobile-marcas": {
+    "props": {
+      "id": "mobile-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": true,
+        "tagTitle": "mobile-marcas",
+        "text": "Marcas"
+      }
+    }
+  },
+  "menu-item#mobile-accesorios": {
+    "props": {
+      "id": "mobile-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": true,
+        "tagTitle": "mobile-accesorios",
+        "text": "Accesorios"
+      }
+    }
+  }
+}

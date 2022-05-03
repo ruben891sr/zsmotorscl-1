@@ -1,0 +1,11 @@
+.product-identifier__label,
+.product-identifier__value,
+.product-identifier__separator {
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+    color: #afafaf
+}
+
+.product-identifier__value {
+    font-variant-numeric: lining-nums;
+}

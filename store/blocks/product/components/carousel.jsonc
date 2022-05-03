@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#recently-viewed": {
+        "props": {
+            "blockClass": "carousel-container-pdp"
+        },
+        "children": [
+            "list-context.product-list#recently-viewed"
+        ]
+    },
+    "list-context.product-list#recently-viewed": {
+        "blocks": [
+            "product-summary.shelf#main"
+        ],
+        "children": [
+            "slider-layout#recently-viewed"
+        ],
+        "props": {
+            // "recommendation": "viewandBought ",
+            "category": "2",
+            "maxItems": 8
+        }
+    },
+    "slider-layout#recently-viewed": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "blockClass": "recently-viewed",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly"
+        }
+    }
+}

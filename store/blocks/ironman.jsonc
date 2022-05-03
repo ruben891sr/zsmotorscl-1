@@ -1,0 +1,96 @@
+{
+  "store.custom#ironman": {
+    "blocks": ["search-result-layout.customQuery#ironman"]
+  },
+  "search-result-layout.customQuery#ironman": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "ironman",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#ironman",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#ironman": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-ironman",
+      "flex-layout.row#result-ironman"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-ironman": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-ironman": {
+    "children": [
+      "flex-layout.col#brand-text-title-ironman",
+      "flex-layout.col#brand-image-ironman"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-ironman": {
+    "children": [
+      "rich-text#brand-title-image-text-ironman",
+      "rich-text#brand-text-image-text-ironman"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-ironman": {
+    "children": ["image#brand-ironman"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-ironman": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-ironman": {
+    "props": {
+      "text": "Sobre el asfalto o las más exigentes caminos, las suspensiones y componentes Ironman 4x4 son la primera elección del mercado Australiano, ya sea que usted use su 4x4 como un vehículo familiar o como un vehículo de aventura y expediciones, estamos seguros que con Ironman 4x4 usted encontrará la seguridad, el confort y el desempeño que está buscando.\n\nTodos los componentes Ironman 4x4 son diseñados por el mayor fabricante de suspensiones de Australia, JSW (Jacob Spring Works), que durante más de 50 años ha trabajado en el desarrollo de suspensiones para camiones, buses y vehículos 4x4.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-ironman": {
+    "props": {
+      "src": "assets/marcas/plp-ironman.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

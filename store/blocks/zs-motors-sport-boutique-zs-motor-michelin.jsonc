@@ -1,0 +1,704 @@
+{
+  "store.custom#zs-motors-sport-boutique-zs-motor-michelin": {
+    "children": [
+      "flex-layout.row#zs-sport-banner-club12",
+      "flex-layout.row#zs-motors-sport-image-text-club12",
+      "flex-layout.row#zs-motors-sport-gallery-club12"
+    ]
+  },
+    // Hero
+    "flex-layout.row#zs-sport-banner-club12": {
+      "children": [
+        "flex-layout.col#zs-sport-image-banner-club12",
+        "flex-layout.col#zs-sport-item-text-banner-club12"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#zs-sport-image-banner-club12": {
+      "children": ["image#zs-motors-sport"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "flex-layout.col#zs-sport-item-text-banner-club12": {
+      "children": ["rich-text#zs-sport-title-club12"],
+      "props": {
+        "blockClass": "servicios-text-banner-col"
+      }
+    },
+    "rich-text#zs-sport-title-club12": {
+      "props": {
+        "text": "Inauguración Boutique**ZS Motor - Michelin**",
+        "blockClass": "servicios-title"
+      }
+    },
+  
+    "flex-layout.row#zs-motors-sport-image-text-club12": {
+      "children": [
+        "flex-layout.col#zs-sport-text-title-club12",
+        "flex-layout.col#zs-sport-image-club12"
+      ],
+      "props": {
+        "blockClass": "zs-sport-row-image-text"
+      }
+    },
+    "flex-layout.col#zs-sport-text-title-club12": {
+      "children": [
+        "rich-text#zs-sport-title-image-text-club12",
+        "rich-text#zs-sport-text-image-text-club12"
+      ],
+      "props": {
+        "blockClass": "zs-sport-text-title"
+      }
+    },
+    "flex-layout.col#zs-sport-image-club12": {
+      "children": ["image#zs-sport-club12"],
+      "props": {
+        "blockClass": "zs-sport-image"
+      }
+    },
+  
+    "rich-text#zs-sport-title-image-text-club12": {
+      "props": {
+        "text": "Sobre la Marca",
+        "blockClass": "zs-sport-title-image-text"
+      }
+    },
+    "rich-text#zs-sport-text-image-text-club12": {
+      "props": {
+        "text": "La tienda ZS Motor – Michelin, es toda una celebración del automóvil, ostenta una clara determinación de ser el lugar donde los apasionados de los autos consiguen lo que necesitan y desean, pues no se trata sólo de “vender neumáticos y llantas” sino de ofrecer una experiencia única a todos sus visitantes al momento de elegir sus neumáticos de alta gama.\n\nEl característico aroma de auto nuevo impregna cada rincón del lugar, evocando una sensación de adrenalina y emociones fuertes asociadas al mundo de los motores. En la tienda encontramos la mejor asesoría técnica y comercial, para aclarar todas las dudas, inquietudes y curiosidades que puedan surgirnos.\n\nEstamos realmente orgullosos de este desarrollo y muy contentos de poder ofrecer a nuestros clientes un lugar de los más modernos del mundo, donde su diseño y funcionalidad dan fe de la herencia Michelin , pensado en satisfacer sus necesidades, entregando una gran experiencia.",
+        "blockClass": "zs-sport-text-image-text"
+      }
+    },
+  
+    "image#zs-sport-club12": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/zssports-club12-bn.jpg",
+        "blockClass": "zs-sport-club12-banner-img"
+      }
+    },
+  
+    "flex-layout.row#zs-motors-sport-gallery-club12": {
+      "children": [
+        "flex-layout.col#zs-motors-sport-gallery-title-club12",
+        "flex-layout.col#zs-motors-sport-gallery-gallery-club12"
+      ],
+      "props": {
+        "blockClass": "zs-sport-row-gallery",
+        "colSizing": "auto"
+      }
+    },
+  
+    "flex-layout.col#zs-motors-sport-gallery-title-club12": {
+      "children": ["rich-text#zs-sport-title-gallery-club12"],
+      "props": {
+        "blockClass": "zs-motors-sport-gallery-title"
+      }
+    },
+    "flex-layout.col#zs-motors-sport-gallery-gallery-club12": {
+      "children": [
+        "image#zs-sport-club12-item-01",
+        "image#zs-sport-club12-item-02",
+        "image#zs-sport-club12-item-03",
+        "image#zs-sport-club12-item-04",
+        "image#zs-sport-club12-item-05",
+        "image#zs-sport-club12-item-06",
+        "image#zs-sport-club12-item-07",
+        "image#zs-sport-club12-item-08",
+        "image#zs-sport-club12-item-09",
+        "image#zs-sport-club12-item-10",
+        "image#zs-sport-club12-item-11",
+        "image#zs-sport-club12-item-12",
+        "image#zs-sport-club12-item-13",
+        "image#zs-sport-club12-item-14",
+        "image#zs-sport-club12-item-15",
+        "image#zs-sport-club12-item-16",
+        "image#zs-sport-club12-item-17",
+        "image#zs-sport-club12-item-18",
+        "image#zs-sport-club12-item-19",
+        "image#zs-sport-club12-item-20",
+        "image#zs-sport-club12-item-21",
+        "image#zs-sport-club12-item-22",
+        "image#zs-sport-club12-item-23",
+        "image#zs-sport-club12-item-24",
+        "image#zs-sport-club12-item-25",
+        "image#zs-sport-club12-item-26",
+        "image#zs-sport-club12-item-27",
+        "image#zs-sport-club12-item-28",
+        "image#zs-sport-club12-item-29",
+        "image#zs-sport-club12-item-30",
+        "image#zs-sport-club12-item-31",
+        "image#zs-sport-club12-item-32",
+        "image#zs-sport-club12-item-33",
+        "image#zs-sport-club12-item-34",
+        "image#zs-sport-club12-item-35",
+        "image#zs-sport-club12-item-36",
+        "image#zs-sport-club12-item-37",
+        "image#zs-sport-club12-item-38",
+        "image#zs-sport-club12-item-39",
+        "image#zs-sport-club12-item-40",
+        "image#zs-sport-club12-item-41",
+        "image#zs-sport-club12-item-42",
+        "image#zs-sport-club12-item-43",
+        "image#zs-sport-club12-item-44",
+        "image#zs-sport-club12-item-45",
+        "image#zs-sport-club12-item-46",
+        "image#zs-sport-club12-item-47",
+        "image#zs-sport-club12-item-48",
+        "image#zs-sport-club12-item-49",
+        "image#zs-sport-club12-item-50",
+        "image#zs-sport-club12-item-51",
+        "image#zs-sport-club12-item-52",
+        "image#zs-sport-club12-item-53",
+        "image#zs-sport-club12-item-54",
+        "image#zs-sport-club12-item-55",
+        "image#zs-sport-club12-item-56",
+        "image#zs-sport-club12-item-57",
+        "image#zs-sport-club12-item-58",
+        "image#zs-sport-club12-item-59",
+        "image#zs-sport-club12-item-60",
+        "image#zs-sport-club12-item-61",
+        "image#zs-sport-club12-item-62",
+        "image#zs-sport-club12-item-63",
+        "image#zs-sport-club12-item-64",
+        "image#zs-sport-club12-item-65",
+        "image#zs-sport-club12-item-66",
+        "image#zs-sport-club12-item-67",
+        "image#zs-sport-club12-item-68",
+        "image#zs-sport-club12-item-69",
+        "image#zs-sport-club12-item-70",
+        "image#zs-sport-club12-item-71",
+        "image#zs-sport-club12-item-72",
+        "image#zs-sport-club12-item-73",
+        "image#zs-sport-club12-item-74",
+        "image#zs-sport-club12-item-75",
+        "image#zs-sport-club12-item-76",
+        "image#zs-sport-club12-item-77",
+        "image#zs-sport-club12-item-78",
+        "image#zs-sport-club12-item-79",
+        "image#zs-sport-club12-item-80",
+        "image#zs-sport-club12-item-81",
+        "image#zs-sport-club12-item-82",
+        "image#zs-sport-club12-item-83",
+        "image#zs-sport-club12-item-84"
+      ],
+      "props": {
+        "blockClass": "zs-motors-sport-gallery-gallery"
+      }
+    },
+    "rich-text#zs-sport-title-gallery-club12": {
+      "props": {
+        "text": "Galería de \n**Imágenes**",
+        "blockClass": "shelf-title"
+      }
+    },
+  
+    "image#zs-sport-club12-item-01": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-01.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    }, 
+    "image#zs-sport-club12-item-02": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-02.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-03": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-03.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-04": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-04.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-05": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-05.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-06": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-06.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-07": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-07.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-08": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-08.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-09": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-09.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-10": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-10.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-11": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-11.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-12": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-12.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-13": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-13.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-14": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-14.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-15": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-15.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-16": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-16.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-17": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-17.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-18": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-18.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-19": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-19.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-20": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-20.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-21": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-21.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-22": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-22.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-23": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-23.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-24": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-24.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-25": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-25.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-26": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-26.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-27": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-27.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-28": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-28.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-29": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-29.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-30": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-30.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-31": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-31.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-32": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-32.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-33": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-33.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-34": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-34.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-35": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-35.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    } , 
+    "image#zs-sport-club12-item-36": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-36.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-37": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-37.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-38": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-38.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-39": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-39.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-40": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-40.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-41": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-41.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-42": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-42.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-43": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-43.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-44": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-44.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-45": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-45.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-46": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-46.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-47": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-47.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-48": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-48.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-49": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-49.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-50": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-50.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-51": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-51.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-52": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-52.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-53": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-53.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-54": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-54.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-55": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-55.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-56": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-56.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-57": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-57.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-58": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-58.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-59": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-59.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-60": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-60.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-61": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-61.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-62": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-62.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-63": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-63.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-64": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-64.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-65": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-65.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-66": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-66.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-67": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-67.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-68": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-68.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-69": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-69.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-70": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-70.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-71": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-71.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-72": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-72.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-73": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-73.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-74": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-74.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-75": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-75.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-76": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-76.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-77": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-77.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-78": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-78.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-79": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-79.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-80": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-80.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-81": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-81.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-82": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-82.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-83": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-83.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club12-item-84": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club12-84.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    }
+}

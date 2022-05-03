@@ -1,0 +1,277 @@
+{
+  "store.custom#sucursal-av-matta": {
+    "children": [
+      "responsive-layout.desktop#sucursales-matta",
+      "responsive-layout.phone#sucursales-matta"
+    ]
+  },
+
+
+  "responsive-layout.desktop#sucursales-matta": {
+    "children": [
+      "flex-layout.row#sucursales-banner-interior-matta",
+      "flex-layout.row#sucursales-iconos-matta",
+      "flex-layout.row#sucursales-mapa-matta",
+      "flex-layout.row#sucursales-personal-matta",
+      "flex-layout.row#sucursales-galeria-matta"
+    ]
+  },
+
+  // Banner
+  "flex-layout.row#sucursales-banner-interior-matta": {
+    "children": [
+      "flex-layout.col#matta-image-banner",
+      "flex-layout.col#matta-text-banner"
+    ],
+    "props": {
+      "blockClass": "banner-interior-sucursales",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#matta-image-banner": {
+    "children": ["image#matta"],
+    "props": {
+      "blockClass": "sucursalesinterior-image-banner-col"
+    }
+  },
+  "image#matta": {
+    "props": {
+      "src": "assets/sucursales/sucursal--matta.jpg",
+      "blockClass": "sucursalesinterior-image-banner-img"
+    }
+  },
+  "flex-layout.col#matta-text-banner": {
+    "children": ["rich-text#matta-title", "rich-text#matta-subtitle"],
+    "props": {
+      "blockClass": "sucursalesinterior-text-banner-col"
+    }
+  },
+  "rich-text#matta-title": {
+    "props": {
+      "text": "Sucursal**Av. Matta**",
+      "blockClass": "sucursalesinterior-title"
+    }
+  },
+  "rich-text#matta-subtitle": {
+    "props": {
+      "text": "[+56 2 2630 7750](tel:+56226307750)",
+      "blockClass": "sucursalesinterior-subtitle"
+    }
+  },
+
+  // Iconos
+  "flex-layout.row#sucursales-iconos-matta": {
+    "children": [
+      "flex-layout.col#sucursales-horarios-matta",
+      "flex-layout.col#sucursales-llegar-matta",
+      "flex-layout.col#sucursales-direccion-matta"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-sucursales"
+    }
+  },
+  "flex-layout.col#sucursales-horarios-matta": {
+    "children": [
+      "rich-text#title-sucursales-horarios-matta",
+      "rich-text#sucursales-horarios-matta-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-llegar-matta": {
+    "children": [
+      "rich-text#title-sucursales-llegar-matta",
+      "rich-text#sucursales-llegar-matta-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-direccion-matta": {
+    "children": [
+      "rich-text#title-sucursales-direccion-matta",
+      "rich-text#sucursales-direccion-matta-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "rich-text#title-sucursales-horarios-matta": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Horarios de atención"
+    }
+  },
+  "rich-text#sucursales-horarios-matta-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "**Lunes a Viernes**: 9.00hrs a 18.00hrs \n **Sábado**: 9.00hrs a 14.00hrs"
+    }
+  },
+  "rich-text#title-sucursales-llegar-matta": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Cómo llegar"
+    }
+  },
+  "rich-text#sucursales-llegar-matta-content": {
+    "props": {
+      "blockClass": "sucursales-content-icons",
+      "text": "[title](https://goo.gl/maps/1VgWKGzFxRA7cFhF6) [title](https://waze.com/ul/h66jc8tx80)"
+    }
+  },
+  "rich-text#title-sucursales-direccion-matta": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Dirección"
+    }
+  },
+  "rich-text#sucursales-direccion-matta-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "Av. Manuel Antonio Matta 13"
+    }
+  },
+
+  // Mapa
+  "flex-layout.row#sucursales-mapa-matta": {
+    "children": ["iframe#matta-int"],
+    "props": {
+      "blockClass": "sucursales-mapa-sucursales"
+    }
+  },
+  "iframe#matta-int": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1664.3694145551888!2d-70.63285024163376!3d-33.456110257402905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5650bdabc8d%3A0xe50d8b9a75f91558!2sZS%20Motor%20%2F%20Av.%20Manuel%20Antonio%20Matta%20130!5e0!3m2!1ses-419!2scl!4v1650474634990!5m2!1ses-419!2scl",
+      "blockClass": "sucursal-iframe"
+    }
+  },
+
+  // Personal
+  "flex-layout.row#sucursales-personal-matta": {
+    "children": ["slider-layout#personal-matta"],
+    "props": {
+      "blockClass": "sucursales-personal-sucursales"
+    }
+  },
+
+  "slider-layout#personal-matta": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-personal"
+    },
+    "children": [
+      "info-card#personal-matta-1",
+      "info-card#personal-matta-1",
+      "info-card#personal-matta-1",
+      "info-card#personal-matta-1"
+    ]
+  },
+  "info-card#personal-matta-1": {
+    "props": {
+      "id": "info-card-personal-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/perfil-personal.jpg",
+      "headline": "Eduardo González",
+      "subhead": "Pioneros en innovación para mantenerse siempre un paso adelante en el juego. Esta es la filosofía que ha llevado a Pirelli a la vanguardia de la industria a escala mundial.",
+      "callToActionUrl": "#",
+      "blockClass": "info-card-sucursales-item", 
+      "textAlignment": "left"
+    }
+  },
+
+  // Galería
+  "flex-layout.row#sucursales-galeria-matta": {
+    "children": [
+      "image#matta-1",
+      "image#matta-2",
+      "image#matta-3",
+      "image#matta-4",
+      "image#matta-4",
+      "image#matta-3",
+      "image#matta-2",
+      "image#matta-1"
+    ],
+    "props": {
+      "blockClass": "sucursales-galeria-sucursales"
+    }
+  },
+
+  "image#matta-1": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-1.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#matta-2": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-2.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#matta-3": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-3.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#matta-4": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-4.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+
+
+
+
+
+    // Mobile
+    "responsive-layout.phone#sucursales-matta": {
+      "children": [
+        "flex-layout.row#sucursales-banner-interior-matta-mobile",
+        "flex-layout.row#sucursales-iconos-matta",
+        "flex-layout.row#sucursales-mapa-matta",
+        "flex-layout.row#sucursales-personal-matta",
+        "flex-layout.row#sucursales-galeria-matta"
+      ]
+    },
+  
+    "flex-layout.row#sucursales-banner-interior-matta-mobile": {
+      "children": [
+        "flex-layout.col#sucursales-matta-image-banner-mobile",
+        "flex-layout.col#matta-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#sucursales-matta-image-banner-mobile": {
+      "children": ["image#sucursales-matta-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "image#sucursales-matta-mobile": {
+      "props": {
+        "src": "assets/sucursales/mobile-sucursal--matta.jpg",
+        "blockClass": "servicios-image-banner-img"
+      }
+    }
+
+
+
+
+  
+}

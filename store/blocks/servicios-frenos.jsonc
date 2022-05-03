@@ -1,0 +1,154 @@
+{
+  "store.custom#servicios-frenos": {
+    "blocks": ["search-result-layout.customQuery#servicios-frenos"]
+  },
+  "search-result-layout.customQuery#servicios-frenos": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "servicios-frenos",
+        "mapField": "category",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#servicios-frenos",
+      "search-result-layout.mobile#servicios-frenos",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#servicios-frenos": {
+    "children": [
+      "flex-layout.row#servicios-frenos-banner",
+      // "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-servicios-frenos",
+      "flex-layout.row#result-servicios-frenos"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+
+/**/
+"flex-layout.row#servicios-frenos-banner": {
+  "children": [
+    "flex-layout.col#servicios-frenos-image-banner",
+    "flex-layout.col#servicios-frenos-text-banner"
+  ],
+  "props": {
+    "blockClass": "servicios-banner-row",
+    "colSizing": "auto",
+    "fullWidth": true
+  }
+},
+"flex-layout.col#servicios-frenos-image-banner": {
+  "children": ["image#servicios-frenos"],
+  "props": {
+    "blockClass": "servicios-image-banner-col"
+  }
+},
+"image#servicios-frenos": {
+  "props": {
+    "src": "assets/servicios/banner-servicios.jpg",
+    "blockClass": "servicios-image-banner-img"
+  }
+},
+"flex-layout.col#servicios-frenos-text-banner": {
+  "children": ["rich-text#servicios-frenos-title", "rich-text#servicios-frenos-subtitle"],
+  "props": {
+    "blockClass": "servicios-text-banner-col"
+  }
+},
+
+"rich-text#servicios-frenos-title": {
+  "props": {
+    "text": "Servicio de frenos",
+    "blockClass": "servicios-title"
+  }
+},
+"rich-text#servicios-frenos-subtitle": {
+  "props": {
+    "text": "**Contáctanos:**\n+56258345249 \n+56984343242 \ncontacto@zsmotor.com",
+    "blockClass": "servicios-subtitle"
+  }
+}, 
+/**/
+
+
+
+
+
+  "flex-layout.row#result-servicios-frenos": {
+    "children": ["flex-layout.col#filter-content"],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-servicios-frenos": {
+    "children": [
+      "flex-layout.col#brand-text-title-servicios-frenos",
+      "flex-layout.col#brand-image-servicios-frenos"
+    ],
+    "props": {
+      "blockClass": "brand-row-image-text-frenos"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-servicios-frenos": {
+    "children": [
+      "rich-text#brand-title-image-text-servicios-frenos",
+      "rich-text#brand-text-image-text-servicios-frenos"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-servicios-frenos": {
+    "children": ["image#brand-servicios-frenos"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-servicios-frenos": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-servicios-frenos": {
+    "props": {
+      "text": "Los neumáticos BF Goodrich están hechos para y por entusiastas… Todo aquel que viva su vida con espíritu aventurero siente la necesidad de salir a la ruta y disfrutar cada minuto de libertad. Nuestros neumáticos están diseñados y fabricados por verdaderos entusiastas, que pasan los fines de semana batallando en caminos pedregosos (OffRoad – KO2 – Km3)  o haciendo curvas en pistas de carrera (Uhp). \n\nNos esforzamos por mejorar continuamente el rendimiento porque queremos lo mismo que usted: más control, más potencia y más disfrute al volante.\n\nEl amor por conducir ha sido, desde hace mucho tiempo, una fuente de inspiración para BF Goodrich, y en ZS Motor estamos siempre están disponibles para ofrecerle asesoramiento y servicio especializado.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-servicios-frenos": {
+    "props": { 
+      "src": "assets/servicios/plp-servicios-frenos.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  },
+
+  // Mobile
+  "search-result-layout.mobile#servicios-frenos": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#brand-text-image-servicios-frenos",
+      "flex-layout.row#result-servicios-frenos"
+    ]
+  }
+}

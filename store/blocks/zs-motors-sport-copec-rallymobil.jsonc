@@ -1,0 +1,307 @@
+{
+  "store.custom#zs-motors-sport-copec-rallymobil": {
+    "children": [
+      "flex-layout.row#zs-sport-banner-club14",
+      "flex-layout.row#zs-motors-sport-image-text-club14",
+      "flex-layout.row#zs-motors-sport-gallery-club14"
+    ]
+  },
+
+
+  // Hero
+  "flex-layout.row#zs-sport-banner-club14": {
+    "children": [
+      "flex-layout.col#zs-sport-image-banner-club14",
+      "flex-layout.col#zs-sport-item-text-banner-club14"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#zs-sport-image-banner-club14": {
+    "children": ["image#zs-motors-sport"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "flex-layout.col#zs-sport-item-text-banner-club14": {
+    "children": ["rich-text#zs-sport-title-club14"],
+    "props": {
+      "blockClass": "servicios-text-banner-col"
+    }
+  },
+  "rich-text#zs-sport-title-club14": {
+    "props": {
+      "text": "Copec **RallyMobil**",
+      "blockClass": "servicios-title"
+    }
+  },
+
+  "flex-layout.row#zs-motors-sport-image-text-club14": {
+    "children": [
+      "flex-layout.col#zs-sport-text-title-club14",
+      "flex-layout.col#zs-sport-image-club14"
+    ],
+    "props": {
+      "blockClass": "zs-sport-row-image-text"
+    }
+  },
+  "flex-layout.col#zs-sport-text-title-club14": {
+    "children": [
+      "rich-text#zs-sport-title-image-text-club14",
+      "rich-text#zs-sport-text-image-text-club14"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#zs-sport-image-club14": {
+    "children": ["image#zs-sport-club14"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#zs-sport-title-image-text-club14": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#zs-sport-text-image-text-club14": {
+    "props": {
+      "text": "FIRMADO EL CONVENIO ENTRE MICHELIN Y COPEC RALLYMOBIL™\n\nJuan Cruz MathusBy JUAN CRUZ MATHUS 19 mins ago\n\nLa mañana del Martes 22/02 ,  se oficializó el acuerdo mediante el cual Michelin pasa a ser desde la temporada 2022 el nuevo neumático oficial del campeonato Copec RallyMobil™ para todas sus clases.\n\nLa firma del mismo se llevó a cabo en las oficinas centrales de ZS Motor, empresa que proveerá los servicios en representación de Michelin Motorsport.\n\n“Esta alianza es muy significativa para nosotros, pues constituye un reconocimiento a la calidad y seguridad que otorgan nuestros productos y los valores compartidos que tenemos con los organizadores de esta categoría, ligados a la sustentabilidad y el permanente desarrollo tecnológico”, señaló Guillermo Crevatin, Gerente General de Michelin en Chile, Perú y Bolivia.\n\n“Creemos que la incorporación de la marca Michelin a nuestro campeonato es un gran aporte. Es una marca que trae una rica historia y avances constantes en su rubro, en sintonía con nuestra serie, que también está enfocada con un criterio de permanente evolución”, dijo Felipe Horta, Productor General de Copec RallyMobil™ .\n\nLa compañía entregará los productos directamente desde su fábrica en Francia, a la vez que mandará a Chile profesionales idóneos para el correspondiente soporte técnico a los equipos.\n\nEn la concreción del convenio también estuvieron la Gerente de Marketing de Michelin en Chile, Carla Allende, y el director de ZS Motor, Ziad Sarkis.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#zs-sport-club14": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-03.jpg",
+      "blockClass": "zs-sport-club14-banner-img" 
+    }
+  },
+
+  "flex-layout.row#zs-motors-sport-gallery-club14": {
+    "children": [
+      "flex-layout.col#zs-motors-sport-gallery-title-club14",
+      "flex-layout.col#zs-motors-sport-gallery-gallery-club14"
+    ],
+    "props": {
+      "blockClass": "zs-sport-row-gallery",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#zs-motors-sport-gallery-title-club14": {
+    "children": ["rich-text#zs-sport-title-gallery-club14"],
+    "props": {
+      "blockClass": "zs-motors-sport-gallery-title"
+    }
+  },
+  "flex-layout.col#zs-motors-sport-gallery-gallery-club14": {
+    "children": [
+      "image#zs-sport-club14-item-01",
+      "image#zs-sport-club14-item-02",
+      "image#zs-sport-club14-item-03",
+      "image#zs-sport-club14-item-04",
+      "image#zs-sport-club14-item-05",
+      "image#zs-sport-club14-item-06",
+      "image#zs-sport-club14-item-07",
+      "image#zs-sport-club14-item-08",
+      "image#zs-sport-club14-item-09",
+      "image#zs-sport-club14-item-10",
+      "image#zs-sport-club14-item-11",
+      "image#zs-sport-club14-item-12",
+      "image#zs-sport-club14-item-13",
+      "image#zs-sport-club14-item-14",
+      "image#zs-sport-club14-item-15",
+      "image#zs-sport-club14-item-16",
+      "image#zs-sport-club14-item-17",
+      "image#zs-sport-club14-item-18",
+      "image#zs-sport-club14-item-19",
+      "image#zs-sport-club14-item-20",
+      "image#zs-sport-club14-item-21",
+      "image#zs-sport-club14-item-22",
+      "image#zs-sport-club14-item-23",
+      "image#zs-sport-club14-item-24",
+      "image#zs-sport-club14-item-25",
+      "image#zs-sport-club14-item-26",
+      "image#zs-sport-club14-item-27"
+    ],
+    "props": {
+      "blockClass": "zs-motors-sport-gallery-gallery"
+    }
+  },
+  "rich-text#zs-sport-title-gallery-club14": {
+    "props": {
+      "text": "Galería de \n**Imágenes**",
+      "blockClass": "shelf-title"
+    }
+  },
+
+  "image#zs-sport-club14-item-01": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-01.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  }, 
+  "image#zs-sport-club14-item-02": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-02.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-03": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-03.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-04": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-04.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-05": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-05.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-06": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-06.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-07": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-07.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-08": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-08.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-09": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-09.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-10": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-10.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-11": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-11.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-12": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-12.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-13": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-13.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-14": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-14.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-15": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-15.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-16": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-16.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-17": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-17.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-18": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-18.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-19": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-19.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-20": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-20.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-21": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-21.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-22": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-22.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-23": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-23.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-24": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-24.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-25": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-25.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-26": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-26.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  },
+  "image#zs-sport-club14-item-27": {
+    "props": {
+      "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club14-27.jpg",
+      "blockClass": "zs-sport-gallery-img"
+    }
+  }
+}

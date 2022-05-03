@@ -1,0 +1,110 @@
+{
+  "store.blog-home": {
+    "blocks" :[
+      "responsive-layout.desktop#blog-home",
+      "responsive-layout.phone#blog-home"
+    ]
+  },
+
+
+  "responsive-layout.desktop#blog-home": {
+    "children": [
+      "flex-layout.row#blog-banner",
+      // "blog-search.wordpress-search",
+      "blog-all-posts.wordpress-all-posts"
+    ]
+  },
+
+  "flex-layout.row#blog-banner": {
+    "children": [
+      "flex-layout.col#blog-image-banner",
+      "flex-layout.col#blog-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#blog-image-banner": {
+    "children": ["image#blog"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "image#blog": {
+    "props": {
+      "src": "assets/servicios/banner-servicios.jpg",
+      "blockClass": "servicios-image-banner-img"
+    }
+  },
+  "flex-layout.col#blog-text-banner": {
+    "children": ["rich-text#blog-title"],
+    "props": {
+      "blockClass": "servicios-text-banner-col"
+    }
+  },
+ 
+  "rich-text#blog-title": {
+    "props": {
+      "text": "Blog",
+      "blockClass": "servicios-title"
+    }
+  },
+
+
+    "blog-all-posts.wordpress-all-posts": {
+      "props": {
+        "postsPerPage": 12 
+      }
+  },
+
+
+
+    // Mobile
+    "responsive-layout.phone#blog-home": {
+      "children": [
+        "flex-layout.row#blog-banner-mobile",
+      // "blog-search.wordpress-search",
+      "blog-all-posts.wordpress-all-posts"
+      ]
+    },
+  
+    "flex-layout.row#blog-banner-mobile": {
+      "children": [
+        "flex-layout.col#blog-image-banner-mobile",
+        "flex-layout.col#blog-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#blog-image-banner-mobile": {
+      "children": ["image#blog-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "image#blog-mobile": {
+      "props": {
+        "src": "assets/servicios/banner-servicios-mobile2.jpg",
+        "blockClass": "servicios-image-banner-img"
+      }
+    }
+
+
+
+
+  // "blog-category-preview.wordpress-category-preview": {
+  //   "props" : {
+  //     "category" : 1
+  //   }
+  // },
+  // "blog-category-preview.wordpress-category-preview#2": {
+  //   "props" : {
+  //     "category" : 1
+  //   }
+  // }
+} 

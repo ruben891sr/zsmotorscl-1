@@ -1,0 +1,99 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "orderByField":"OrderByReleaseDateDESC",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 15,
+        "hideUnavailableItems": true,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "store.search#brand": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 15,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+
+  "store.search#department": {
+    "blocks": ["search-result-layout#department"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "orderByField": "OrderByReleaseDateDESC",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 15,
+        "hideUnavailableItems": true,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "store.search#category": {
+    "blocks": ["search-result-layout#category"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "orderByField": "OrderByReleaseDateDESC",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 15,
+        "hideUnavailableItems": true,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout#subcategory"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "orderByField": "OrderByReleaseDateDESC",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 15,
+        "hideUnavailableItems": true,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout#category": {
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile#category",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout#subcategory": {
+    "blocks": [
+      "search-result-layout.desktop#subcategory",
+      "search-result-layout.mobile#subcategory",
+      "search-not-found-layout"
+    ]
+  }
+}

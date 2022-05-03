@@ -1,0 +1,276 @@
+{
+  "store.custom#sucursal-av-marathon": {
+    "children": [
+
+      "responsive-layout.desktop#sucursales-marathon",
+      "responsive-layout.phone#sucursales-marathon"
+
+
+    ]
+  },
+
+  "responsive-layout.desktop#sucursales-marathon": {
+    "children": [
+      "flex-layout.row#sucursales-banner-interior-marathon",
+      "flex-layout.row#sucursales-iconos-marathon",
+      "flex-layout.row#sucursales-mapa-marathon",
+      "flex-layout.row#sucursales-personal-marathon",
+      "flex-layout.row#sucursales-galeria-marathon"
+    ]
+  },
+
+  // Banner
+  "flex-layout.row#sucursales-banner-interior-marathon": {
+    "children": [
+      "flex-layout.col#marathon-image-banner",
+      "flex-layout.col#marathon-text-banner"
+    ],
+    "props": {
+      "blockClass": "banner-interior-sucursales",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#marathon-image-banner": {
+    "children": ["image#marathon"],
+    "props": {
+      "blockClass": "sucursalesinterior-image-banner-col"
+    }
+  },
+  "image#marathon": {
+    "props": {
+      "src": "assets/sucursales/sucursal--marathon.jpg",
+      "blockClass": "sucursalesinterior-image-banner-img"
+    }
+  },
+  "flex-layout.col#marathon-text-banner": {
+    "children": ["rich-text#marathon-title", "rich-text#marathon-subtitle"],
+    "props": {
+      "blockClass": "sucursalesinterior-text-banner-col"
+    }
+  },
+  "rich-text#marathon-title": {
+    "props": {
+      "text": "Sucursal**Av. Marathon**",
+      "blockClass": "sucursalesinterior-title"
+    }
+  },
+  "rich-text#marathon-subtitle": {
+    "props": {
+      "text": "[+56 9 8543 6723](tel:56985436723)",
+      "blockClass": "sucursalesinterior-subtitle"
+    }
+  },
+
+  // Iconos
+  "flex-layout.row#sucursales-iconos-marathon": {
+    "children": [
+      "flex-layout.col#sucursales-horarios-marathon",
+      "flex-layout.col#sucursales-llegar-marathon",
+      "flex-layout.col#sucursales-direccion-marathon"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-sucursales"
+    }
+  },
+  "flex-layout.col#sucursales-horarios-marathon": {
+    "children": [
+      "rich-text#title-sucursales-horarios-marathon",
+      "rich-text#sucursales-horarios-marathon-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-llegar-marathon": {
+    "children": [
+      "rich-text#title-sucursales-llegar-marathon",
+      "rich-text#sucursales-llegar-marathon-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-direccion-marathon": {
+    "children": [
+      "rich-text#title-sucursales-direccion-marathon",
+      "rich-text#sucursales-direccion-marathon-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "rich-text#title-sucursales-horarios-marathon": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Horarios de atención"
+    }
+  },
+  "rich-text#sucursales-horarios-marathon-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "**Lunes a Viernes**: 9.00hrs a 18.00hrs \n **Sábado**: 9.00hrs a 14.00hrs"
+    }
+  },
+  "rich-text#title-sucursales-llegar-marathon": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Cómo llegar"
+    }
+  },
+  "rich-text#sucursales-llegar-marathon-content": {
+    "props": {
+      "blockClass": "sucursales-content-icons",
+      "text": "[title](https://goo.gl/maps/kS6P9VBzqGRq9QvP6) [title](https://waze.com/ul/h66jc3pwt8)"
+    }
+  },
+  "rich-text#title-sucursales-direccion-marathon": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Dirección"
+    }
+  },
+  "rich-text#sucursales-direccion-marathon-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "Av. Marathon N°3702"
+    }
+  },
+
+  // Mapa
+  "flex-layout.row#sucursales-mapa-marathon": {
+    "children": ["iframe#marathon-int"],
+    "props": {
+      "blockClass": "sucursales-mapa-sucursales"
+    }
+  },
+  "iframe#marathon-int": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26619.859889944837!2d-70.6117632!3d-33.488822!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5717e1db503%3A0x5d77237caf4b399!2sZS%20Motor%20%2F%20Av.%20Marathon%20N%C2%B03702!5e0!3m2!1ses!2scl!4v1650471499536!5m2!1ses!2scl",
+      "blockClass": "sucursal-iframe"
+    }
+  },
+
+  // Personal
+  "flex-layout.row#sucursales-personal-marathon": {
+    "children": ["slider-layout#personal-marathon"],
+    "props": {
+      "blockClass": "sucursales-personal-sucursales"
+    }
+  },
+
+  "slider-layout#personal-marathon": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-personal"
+    },
+    "children": [
+      "info-card#personal-marathon-1",
+      "info-card#personal-marathon-1",
+      "info-card#personal-marathon-1",
+      "info-card#personal-marathon-1"
+    ]
+  },
+  "info-card#personal-marathon-1": {
+    "props": {
+      "id": "info-card-personal-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/perfil-personal.jpg",
+      "headline": "Eduardo González",
+      "subhead": "Pioneros en innovación para mantenerse siempre un paso adelante en el juego. Esta es la filosofía que ha llevado a Pirelli a la vanguardia de la industria a escala mundial.",
+      "callToActionUrl": "#",
+      "blockClass": "info-card-sucursales-item", 
+      "textAlignment": "left"
+    }
+  },
+
+  // Galería
+  "flex-layout.row#sucursales-galeria-marathon": {
+    "children": [
+      "image#marathon-1",
+      "image#marathon-2",
+      "image#marathon-3",
+      "image#marathon-4",
+      "image#marathon-4",
+      "image#marathon-3",
+      "image#marathon-2",
+      "image#marathon-1"
+    ],
+    "props": {
+      "blockClass": "sucursales-galeria-sucursales"
+    }
+  },
+
+  "image#marathon-1": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-1.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#marathon-2": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-2.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#marathon-3": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-3.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#marathon-4": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-4.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+
+
+
+
+
+    // Mobile
+    "responsive-layout.phone#sucursales-marathon": {
+      "children": [
+        "flex-layout.row#sucursales-banner-interior-marathon-mobile",
+        "flex-layout.row#sucursales-iconos-marathon",
+        "flex-layout.row#sucursales-mapa-marathon",
+        "flex-layout.row#sucursales-personal-marathon",
+        "flex-layout.row#sucursales-galeria-marathon"
+      ]
+    },
+  
+    "flex-layout.row#sucursales-banner-interior-marathon-mobile": {
+      "children": [
+        "flex-layout.col#sucursales-marathon-image-banner-mobile",
+        "flex-layout.col#marathon-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#sucursales-marathon-image-banner-mobile": {
+      "children": ["image#sucursales-marathon-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "image#sucursales-marathon-mobile": {
+      "props": {
+        "src": "assets/sucursales/mobile-sucursal--marathon.jpg",
+        "blockClass": "servicios-image-banner-img"
+      }
+    }
+
+
+}

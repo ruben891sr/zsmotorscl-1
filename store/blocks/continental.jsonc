@@ -1,0 +1,96 @@
+{
+  "store.custom#continental": {
+    "blocks": ["search-result-layout.customQuery#continental"]
+  },
+  "search-result-layout.customQuery#continental": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "continental",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#continental",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#continental": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-continental",
+      "flex-layout.row#result-continental"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-continental": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-continental": {
+    "children": [
+      "flex-layout.col#brand-text-title-continental",
+      "flex-layout.col#brand-image-continental"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-continental": {
+    "children": [
+      "rich-text#brand-title-image-text-continental",
+      "rich-text#brand-text-image-text-continental"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-continental": {
+    "children": ["image#brand-continental"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-continental": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-continental": {
+    "props": {
+      "text": "Desde su fundación en 1871, Continental trabaja con un objetivo: llevar la seguridad a las calles sin comprometer la comodidad y el placer de conducción.\n\nDel primer diseño de banda de rodamiento de los neumáticos hasta los sistemas de seguridad más avanzados y con una visión común: hacer que la movilidad segura y sostenible estén interconectadas. \n\nLos vehículos se vuelven cada vez más inteligentes, nuestras tres divisiones: Chasis y Seguridad, Powertrain e Interior son trabajados de la mano con los datos de los vehículos para una mejor experiencia de conducción.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-continental": {
+    "props": {
+      "src": "assets/marcas/plp-continental.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

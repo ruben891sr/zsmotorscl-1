@@ -1,0 +1,9 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#section-texto-seo",
+      "flex-layout.row#insta-feed",
+      "flex-layout.row#footer-main"
+    ]
+  }
+}  

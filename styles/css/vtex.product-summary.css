@@ -1,0 +1,164 @@
+/* ZS MOTORS STYLE */
+
+.element {
+    padding: 1.5rem;
+    display: flex;
+    background-color: #fff;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    filter: drop-shadow(4px 4px 20px rgba(204, 204, 204, 0.25));
+}
+
+.container {
+    overflow: visible;
+}
+
+.productBrandContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+
+.productBrandName {
+    text-align: left;
+    position: relative;
+    visibility: hidden;
+}
+
+.productBrandName::before {
+    content: " ";
+    background-image: url(assets/brands-icon/michelin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 90px;
+    width: 110px;
+    margin-left: -19px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    visibility: visible;
+}
+
+.nameContainer {
+    height: auto;
+    padding-top: 0.7rem;
+    padding-bottom: 0.9rem;
+}
+
+.element :global(.vtex-product-summary-2-x-productBrand) {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Raleway-Bold';
+    text-align: left;
+    text-transform: capitalize;
+    padding: 0;
+    font-variant: lining-nums;
+    height: 3.3rem;
+    max-height: 3.3rem;
+    -webkit-line-clamp: 3;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.element :global(.vtex-button) {
+    background: #c63335;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 0;
+    height: 45px;
+    width: 55px;
+}
+
+.element :global(.vtex-button):hover {
+    background: #da4144;
+}
+
+
+/* JUNAPLAS STYLE */
+
+.element :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    color: #fff;
+}
+
+.productNameContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.skuSelectorContainer--select-sku-input :global(.vtex-store-components-3-x-skuSelectorTextContainer),
+.skuSelectorContainer--select-sku-input :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+    margin-left: 0px;
+}
+
+.element :global(.vtex-product-identifier-0-x-product-identifier__label),
+.element :global(.vtex-product-identifier-0-x-product-identifier__separator) {
+    display: none;
+}
+
+.element :global(.vtex-product-identifier-0-x-product-identifier__value) {
+    display: block;
+    text-align: left;
+    font-variant-numeric: lining-nums;
+}
+
+.imageContainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    height: fit-content;
+    background: #fff;
+    width: fit-content;
+}
+
+.imageContainer::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #00000005;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.SKUSelectorContainer--select-sku-input :global(.vtex-store-components-3-x-skuSelectorName) {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .element :global(.vtex-button) {
+        padding: 0;
+        width: 100%;
+        height: 35px;
+    }
+    .element {
+        max-width: none;
+        box-sizing: border-box;
+        margin: unset;
+        padding: .7rem;
+        display: flex;
+    }
+    .element .imageNormal.image {
+        height: auto !important;
+        padding: 1rem 0;
+    }
+    .element :global(.vtex-product-summary-2-x-productBrand) {
+        font-size: 15px;
+        height: 3.3rem;
+        max-height: 3.3rem;
+        -webkit-line-clamp: 3;
+    }
+    .nameContainer {
+        padding-top: 0.5rem;
+        padding-bottom: 0;
+    }
+}

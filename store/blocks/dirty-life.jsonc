@@ -1,0 +1,96 @@
+{
+  "store.custom#dirty-life": {
+    "blocks": ["search-result-layout.customQuery#dirty-life"]
+  },
+  "search-result-layout.customQuery#dirty-life": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "dirty-life",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#dirty-life",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#dirty-life": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-dirty-life",
+      "flex-layout.row#result-dirty-life"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-dirty-life": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-dirty-life": {
+    "children": [
+      "flex-layout.col#brand-text-title-dirty-life",
+      "flex-layout.col#brand-image-dirty-life"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-dirty-life": {
+    "children": [
+      "rich-text#brand-title-image-text-dirty-life",
+      "rich-text#brand-text-image-text-dirty-life"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-dirty-life": {
+    "children": ["image#brand-dirty-life"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-dirty-life": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-dirty-life": {
+    "props": {
+      "text": "Las Llantas Dirty Life están diseñadas para un viaje suave mientras complementa la apariencia de su vehículo.\n\nLas llantas Dirty Life son su  mejor opción de llantas ya que están hechas con tecnologías avanzadas y materiales de alta calidad para proporcionar un rendimiento excelente. \n\nDesde su construcción reforzada de radios múltiples hasta un borde ancho, cada elemento de estas llantas se desarrolla teniendo en cuenta el rendimiento todoterreno mejorado. \n\nPor lo tanto, sus radios sólidos como una roca le dan a las ruedas más durabilidad necesaria para soportar condiciones difíciles en la carretera, mientras que los bordes más anchos permiten montar neumáticos de gran tamaño y neumáticos todo terreno para aumentar las capacidades todoterreno de su vehículo. Al igual que las llantas en sí, sus acabados también son resistentes y duraderos para sobrevivir a la prueba del tiempo y soportar los rigores del uso duro. ",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-dirty-life": {
+    "props": {
+      "src": "assets/marcas/plp-dirty-life.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

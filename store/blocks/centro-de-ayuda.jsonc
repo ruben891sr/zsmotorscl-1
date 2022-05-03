@@ -1,0 +1,666 @@
+{
+  "store.custom#centro-de-ayuda": {
+    "children": [
+      "responsive-layout.desktop#centro-de-ayuda",
+      "responsive-layout.phone#centro-de-ayuda"      
+    ]
+  },
+
+
+  "responsive-layout.desktop#centro-de-ayuda": {
+    "children": [
+      "flex-layout.row#centroayuda-banner",
+      "flex-layout.row#centro-ayuda"
+    ]
+  },
+  "flex-layout.row#centro-ayuda": {
+    "children": ["tab-layout#centro-ayuda"],
+    "props": {
+      "blockClass": "row-centro-ayuda"
+    }
+  },
+
+// Banner
+"flex-layout.row#centroayuda-banner": {
+  "children": [
+    "flex-layout.col#centroayuda-image-banner",
+    "flex-layout.col#centroayuda-text-banner"
+  ],
+  "props": {
+    "blockClass": "servicios-banner-row",
+    "colSizing": "auto",
+    "fullWidth": true
+  }
+},
+"flex-layout.col#centroayuda-image-banner": {
+  "children": ["image#centroayuda"],
+  "props": {
+    "blockClass": "servicios-image-banner-col"
+  }
+},
+"image#centroayuda": {
+  "props": {
+    "src": "assets/servicios/banner-servicios.jpg",
+    "blockClass": "servicios-image-banner-img"
+  }
+},
+"flex-layout.col#centroayuda-text-banner": {
+  "children": ["rich-text#centroayuda-title"],
+  "props": {
+    "blockClass": "servicios-text-banner-col"
+  }
+},
+"rich-text#centroayuda-title": {
+  "props": {
+    "text": "Centro de **Ayuda**",
+    "blockClass": "servicios-title"
+  }
+},
+
+// TabLayout
+
+  "tab-layout#centro-ayuda": {
+    "children": ["tab-list#centro-ayuda", "tab-content#centro-ayuda"],
+    "props": {
+      "blockClass": "centro-ayuda",
+      "defaultActiveTabId": "centro-ayuda-contacto"
+    }
+  },
+
+  // Tab List
+  "tab-list#centro-ayuda": {
+    "children": [
+      "tab-list.item#centro-ayuda-contacto",
+      "tab-list.item#centro-ayuda-faq",
+      "tab-list.item#centro-ayuda-terminos",
+      "tab-list.item#centro-ayuda-politicas"
+    ],
+    "props":{
+      "blockClass": "centro-ayuda-tablist"
+    }
+  },
+  // Tab List Items
+  "tab-list.item#centro-ayuda-contacto": {
+    "props": {
+      "tabId": "centro-ayuda-contacto",
+      "label": "Contacto",
+      "defaultActiveTab": true,
+      "blockClass": "centro-ayuda-tablist-item"
+    }
+  },
+  "tab-list.item#centro-ayuda-faq": {
+    "props": {
+      "tabId": "centro-ayuda-faq",
+      "label": "Preguntas Frecuentes",
+      "blockClass": "centro-ayuda-tablist-item"
+    }
+  },
+  "tab-list.item#centro-ayuda-terminos": {
+    "props": {
+      "tabId": "centro-ayuda-terminos",
+      "label": "Términos y condiciones",
+      "defaultActiveTab": true,
+      "blockClass": "centro-ayuda-tablist-item"
+    }
+  },
+  "tab-list.item#centro-ayuda-politicas": {
+    "props": {
+      "tabId": "centro-ayuda-politicas",
+      "label": "Políticas y devoluciones",
+      "blockClass": "centro-ayuda-tablist-item"
+    }
+  },
+
+  // Tab Content
+  "tab-content#centro-ayuda": {
+    "children": [
+      "tab-content.item#centro-ayuda-contacto",
+      "tab-content.item#centro-ayuda-faq",
+      "tab-content.item#centro-ayuda-terminos",
+      "tab-content.item#centro-ayuda-politicas"
+    ],
+    "props": {
+      "blockClass": "centro-ayuda-tabcontent"
+    }
+  },
+  // Tab Content Items
+  "tab-content.item#centro-ayuda-contacto": {
+    "children": [
+      "zsform"
+    ],
+    "props": {
+      "tabId": "centro-ayuda-contacto",
+      "blockClass": "centro-ayuda-tabcontent-item"
+    }
+  },
+  "tab-content.item#centro-ayuda-faq": {
+    "children": ["vtex.menu@2.x:menu#faq"],
+    "props": {
+      "tabId": "centro-ayuda-faq",
+      "blockClass": "centro-ayuda-tabcontent-item"
+    }
+  },
+  "tab-content.item#centro-ayuda-terminos": {
+    "children": ["rich-text#tyc"],
+    "props": {
+      "tabId": "centro-ayuda-terminos", 
+      "blockClass": "centro-ayuda-tabcontent-item"
+    }
+  },
+  "tab-content.item#centro-ayuda-politicas": {
+    "children": ["rich-text#pyd"],
+    "props": {
+      "tabId": "centro-ayuda-politicas",
+      "blockClass": "centro-ayuda-tabcontent-item"
+    }
+  },
+
+  // Tab Content - Contacto
+  "form#contacto": {
+    "props": {
+      "entity": "form-contacto",
+      "schema": "form-contacto"
+    },
+    "children": [
+      "form-input.text#nombreContacto",
+      "form-input.text#apellidoContacto",
+      "form-input.text#telefonoContacto",
+      "form-input.text#emailContacto",
+      "form-input.dropdown#tipoContacto",
+      "form-input.textarea#mensajeContacto",
+      "form-submit#enviarContacto"
+    ],
+    "blocks": ["form-success#contacto"]
+  },
+  "form-input.text#nombreContacto": {
+    "props": {
+      "pointer": "#/properties/nombre",
+      "label": "Nombre"
+    }
+  },
+  "form-input.text#apellidoContacto": {
+    "props": {
+      "pointer": "#/properties/apellido",
+      "label": "Apellido"
+    }
+  },
+  "form-input.text#telefonoContacto": {
+    "props": {
+      "pointer": "#/properties/telefono",
+      "label": "Teléfono"
+    }
+  },
+  "form-input.text#emailContacto": {
+    "props": {
+      "pointer": "#/properties/mail",
+      "label": "Mail"
+    }
+  },
+  "form-input.dropdown#tipoContacto": {
+    "props": {
+      "pointer": "#/properties/tipo/properties/selectTipo",
+      "label": "Asunto"
+    }
+  },
+  "form-input.textarea#mensajeContacto": {
+    "props": {
+      "pointer": "#/properties/mensaje",
+      "label": "Mensaje"
+    }
+  },
+  "form-submit#enviarContacto": {
+    "props": {
+      "label": "Enviar"
+    }
+  },
+  "form-success#contacto": {
+    "children": ["rich-text#successSubmitContacto"]
+  },
+  "rich-text#successSubmitContacto": {
+    "props": {
+      "text": "¡Datos enviados exitosamente!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+
+
+
+  // Tab Content - FAQ
+  "vtex.menu@2.x:menu#faq": {
+    "children": [
+      "menu-item#pregunta-1",
+      "menu-item#pregunta-2",
+      "menu-item#pregunta-3",
+      "menu-item#pregunta-4",
+      "menu-item#pregunta-5",
+      "menu-item#pregunta-6",
+      "menu-item#pregunta-7",
+      "menu-item#pregunta-8",
+      "menu-item#pregunta-9",
+      "menu-item#pregunta-10",
+      "menu-item#pregunta-11",
+      "menu-item#pregunta-12"
+    ],
+    "props": {
+      "blockClass": "menu-faq",
+      "orientation": "vertical"
+    }
+  },
+  /**/
+  "menu-item#pregunta-1": {
+    "props": {
+      "id": "menu-item-pregunta-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Cómo realizar un pago?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-1"]
+  },
+  "menu-item#pregunta-2": {
+    "props": {
+      "id": "menu-item-pregunta-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Qué medidas de neumáticos son compatibles con mi auto?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-2"]
+  },
+  "menu-item#pregunta-3": {
+    "props": {
+      "id": "menu-item-pregunta-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Qué medidas de aro de llantas le sirven a mi auto?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-3"]
+  },
+  "menu-item#pregunta-4": {
+    "props": {
+      "id": "menu-item-pregunta-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Puedo instalar llantas de una medida diferente a la original?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-4"]
+  },
+  "menu-item#pregunta-5": {
+    "props": {
+      "id": "menu-item-pregunta-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Cuáles son las sucursales de zs motor que ofrecen accesorios?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-5"]
+  },
+  "menu-item#pregunta-6": {
+    "props": {
+      "id": "menu-item-pregunta-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Qué servicios automotrices ofrece zs motor?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-6"]
+  },
+  "menu-item#pregunta-7": {
+    "props": {
+      "id": "menu-item-pregunta-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿En qué locales ofrecen servicio automotriz?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-7"]
+  },
+  "menu-item#pregunta-8": {
+    "props": {
+      "id": "menu-item-pregunta-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Cuáles son los valores del servicio automotriz?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-8"]
+  },
+  "menu-item#pregunta-9": {
+    "props": {
+      "id": "menu-item-pregunta-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Qué servicios ofrece el taller móvil?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-9"]
+  },
+  "menu-item#pregunta-10": {
+    "props": {
+      "id": "menu-item-pregunta-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿A cuáles localidades realizan envíos?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-10"]
+  },
+  "menu-item#pregunta-11": {
+    "props": {
+      "id": "menu-item-pregunta-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿Qué opciones de envío ofrecen?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-11"]
+  },
+  "menu-item#pregunta-12": {
+    "props": {
+      "id": "menu-item-pregunta-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-faq-pregunta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "¿En cuánto tiempo llegan los envíos?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#pregunta-12"]
+  },
+  /**/
+  "vtex.menu@2.x:submenu.accordion#pregunta-1": {
+    "children": ["rich-text#pregunta-1"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-2": {
+    "children": ["rich-text#pregunta-2"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-3": {
+    "children": ["rich-text#pregunta-3"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-4": {
+    "children": ["rich-text#pregunta-4"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-5": {
+    "children": ["rich-text#pregunta-5"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-6": {
+    "children": ["rich-text#pregunta-6"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-7": {
+    "children": ["rich-text#pregunta-7"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-8": {
+    "children": ["rich-text#pregunta-8"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-9": {
+    "children": ["rich-text#pregunta-9"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-10": {
+    "children": ["rich-text#pregunta-10"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-11": {
+    "children": ["rich-text#pregunta-11"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#pregunta-12": {
+    "children": ["rich-text#pregunta-12"],
+    "props": {
+      "blockClass": "menu-faq-accordion"
+    }
+  },
+  /**/
+  "rich-text#pregunta-1": {
+    "props": {
+      "text": "### Formas de Pago internet \n\n \n Siga estas simples instrucciones para poder realizar sus pedidos en línea. Tómese su tiempo para leer como opera nuestro sistema de comercio electrónico. Si aún así tiene dudas por favor escríbanos a pago@zsmotor.cl.\n   \n **Tarjetas de Crédito**\n   \n Si desea usar tarjetas de crédito (VISA, MASTERCARD, AMERICAN EXPRESS),. El pago se realizará a través de Webpay Plus.\n   \n Ponga atención a las siguientes condiciones:\n   \n 1. Para Operar con Webpay Plus debe contar con la clave de acceso a Internet de su banco.\n 2. La orden de pedido Web, así como la boleta, solo puede ser realizada a nombre del titular de la tarjeta.\n 3. Las compras de regiones serán enviadas con los mismos datos de la boleta.\n 4. Pago en cuotas es sólo para tarjetas de crédito emitidas en Chile.\n 5. Toda promoción publicada por los Bancos en relación a la cantidad de cuotas ofrecidas como cuota contado será de exclusiva responsabilidad de la entidad bancaria emisora la cual debe reflejar el descuento pertinente según corresponda.\n 6. También ponemos a su disposición el canal de pago Servipag , con ellos podrás cancelar con cualquiera de los comercios asociados a este medio de pago\n 7. Aunque el pago se halla realzado con tarjetas de crédito , nosotros debemos decepcionar el pago y esto es realizado por un reporte que nos es enviado por parte de transbank junto al historial de nuestro banco. \n    \n   \n \n **Pago Efectivo Vía Transferencia Electrónica**\n   \n La transferencia debe realizarse a nuestra cuenta corriente. Los datos son los siguientes:\n   \n Titular: Comercial Cardepot Ltda\n R.U.T.: 77 358 700 - 0\n Banco: Santander · Santiago\n Nº Cuenta: 63 26 519 - 5\n Tipo de Cuenta: Cuenta Corriente\n Mail: pago@zsmotor.cl\n Teléfono: Whatsapp +569 6450 4333\n \n * El comprobante de depósito podrá enviarlo a través del correo electrónico a pago@zsmotor.cl",
+      "blockClass": "menu-faq-text"
+    }
+  },
+
+
+
+
+  "rich-text#pregunta-2": {
+    "props": {
+      "text": "Para conocer las medidas compatibles con tu auto, cuentas con nuestra sección de Neumáticos, en la cual puedes consultar según tu modelo de auto o las medidas de tus neumáticos. \n\nTambién cuentas con nuestros Agentes, quienes pueden aclarar todas tus consultas a través de un mensaje al Whatsapp +569 6450 4333.",
+      "blockClass": "menu-faq-text"
+    }
+  },
+  "rich-text#pregunta-3": {
+    "props": {
+      "text": "Para conocer las medidas compatibles con tu auto, cuentas con nuestra sección de Llantas, en la cual puedes consultar según tu modelo de auto o las medidas de tus llantas.\n\nTambién cuentas con nuestros Agentes, quienes pueden aclarar todas tus consultas a través de un mensaje al Whatsapp +569 6450 4333.",
+      "blockClass": "menu-faq-text"
+    }
+  },
+  "rich-text#pregunta-4": {
+    "props": {
+      "text": "Sí. Puedes instalar llantas de una medida distinta a la original de tu auto, pero ten en cuenta que esto requerirá que también cambies el neumático.\n\nTambién cuentas con nuestros Agentes, quienes pueden aclarar todas tus consultas a través de un mensaje al Whatsapp +569 6450 4333.",
+      "blockClass": "menu-faq-text"
+    }
+  },
+  "rich-text#pregunta-5": {
+    "props": {
+      "text": "Todas. En cada una de nuestras sucursales encuentras distintas variedades de accesorios.\n\nCuentas con nuestros Asesores, quienes pueden aclarar todas tus consultas sobre accesorios a través de un mensaje al Whatsapp +569 6450 4333.",
+      "blockClass": "menu-faq-text"
+    }
+  },
+  "rich-text#pregunta-6": {
+    "props": {
+      "text": "Ofrecemos servicios de montaje/instalación de neumáticos y llantas; alineación, balanceo, cambio de aceite, de amortiguadores y de pastillas de frenos, y mecánica ligera",
+      "blockClass": "menu-faq-text"
+    }
+  },
+  "rich-text#pregunta-7": {
+    "props": {
+      "text": "A continuación, encontrarás las sucursales en las que ofrecemos nuestro servicio automotriz:\n\n - Vitacura:Montaje/instalación, alineación, balanceo, mecánica ligera.\n Dirección:Av. Presidente Kennedy N°6722, Vitacura. \n Conoce cómo llegar Aquí.\n \n - Avenida La Dehesa:Montaje/instalación, alineación, balanceo.\n Dirección: Av. la Dehesa - 1961 .\n Conoce cómo llegar Aquí.\n \n - Avenida Matta: Montaje/instalación, alineación, balanceo, mecánica ligera.\n Dirección: Av. Matta N°130, Santiago Centro.\n Conoce cómo llegar Aquí.\n \n - Viña del Mar: Montaje/instalación, alineación, balanceo, mecánica ligera.\n Dirección: 6 Oriente #1280.\n Conoce cómo llegar Aquí.",
+      "blockClass": "menu-faq-text"
+    }
+  },
+
+  "rich-text#pregunta-8": {
+    "props": {
+      "text": "Puedes escribirnos  al Whatsapp +569 6450 4333 donde podrás realizar la cotización del servicio automotriz que necesites, obtener información y aclarar tus dudas.\n\n*Cualquier instalación con producto externo asociado a Llanta o Neumáticos NO comprado en ZS Motor, tendrá el precio lista individual si se requiere el Servicio. Solo se considera precio diferenciado en promoción al momento de comprar llantas o neumáticos . ",
+      "blockClass": "menu-faq-text"
+    }
+  },
+  "rich-text#pregunta-9": {
+    "props": {
+      "text": "Con el fin de lograr nuestra misión enfocada en nuestros clientes, y pensando en su comodidad, diseñamos un taller móvil como ningún otro, este está equipado con tecnología de punta. posee la capacidad de realizar cambio de neumáticos y llantas hasta aro 22 además de mecánica simple. Cuenta con energía autosustentada en caso de no disponer de algún punto eléctrico.\n\nActualmente nuestro taller móvil está disponible exclusivamente en la ciudad de Santiago.\n \nNos puedes contactar a través de un mensaje al Whatsapp +569 6450 4333.",
+      "blockClass": "menu-faq-text"
+    }
+  },
+  "rich-text#pregunta-10": {
+    "props": {
+      "text": "Realizamos envíos a todas las Regiones de Chile, incluyendo:\n \n - Región 01, Tarapacá\n - Región 02, Antofagasta\n - Región 03, Atacama\n - Región 04, Coquimbo\n - Región 05, Valparaíso\n - Región 06, O’Higgins\n - Región 07, Maule\n - Región 08, Bío-Bío\n - Región 09, La Araucanía\n - Región 10, Los Lagos\n - Región 11, Aysén\n - Región 12, Magallanes\n - Región 13, Metropolitana de Santiago\n - Región 14, Los Ríos\n - Región 15, Arica y Parinacota\n - Región 16, Ñuble",
+      "blockClass": "menu-faq-text"
+    }
+  },
+
+
+
+  "rich-text#pregunta-11": {
+    "props": {
+      "text": "Enviamos a todo Chile, con nuestro principal operador logístico Starken. Dichos envíos son realizados a las sucursales donde se tiene cobertura; Si deseas ocupar otro operador logístico, te solicitamos te comuniques con nosotros y nos hagas saber tu requerimiento , Nos puedes contactar a través de un mensaje al Whatsapp +569 6450 4333.\n\nSi lo prefieres, también podrás optar por el Retiro en tienda en cualquiera de nuestras sucursales.",
+      "blockClass": "menu-faq-text"
+    }
+  },
+  "rich-text#pregunta-12": {
+    "props": {
+      "text": "Los pedidos son despachados cuando se ha confirmado el pago de este, esto podría tardar 72 hrs., dependiendo del medio de pago; Todos los envíos son realizados previa coordinación directa con el cliente.\n\nDe igual modo, cuentas con nuestros Agentes , quienes estarán atentos para acompañarte y aclarar todas tus consultas, Nos puedes contactar a través de un mensaje al Whatsapp +569 6450 4333.",
+      "blockClass": "menu-faq-text"
+    }
+  },
+
+
+  // Tab Content - Términos
+  "rich-text#tyc": { 
+    "props": {
+      "blockClass": "tyc",
+      "text": "Las transacciones que se efectúen a través del sitio de ZS Motor Internet se sujetan a los presentes términos y condiciones, así como a la legislación chilena vigente, en particular a la Ley sobre Protección de los Derechos de los Consumidores.\n \n1. Es requisito para comprar en ZS Motor Internet la aceptación de los términos y condiciones de ventas descritos a continuación.\n3. El registro del cliente en este sitio constituye una condición indispensable para comprar productos a través de este. Para ello, el cliente debe registrar sus datos básicos dirección y teléfonos de contacto en la página de registro, datos que ZS Motor Internet considerará como fidedignos. El registro del cliente en el sitio www.zsmotor.cl implica el conocimiento y aceptación de los términos y condiciones de ventas descritos en el presente documento.\n4. Cada cliente al registrarse deberá ingresar su email y password. La password deberá ser de al menos 6 dígitos alfanumérico, la cual será solicitada antes de efectuar cada compra.\n5. La administración de esta contraseña es de absoluta responsabilidad del cliente y su acceso permite la compra. Su entrega a terceras personas no implicará responsabilidad alguna para ZS Motor.\n6. El usuario inscrito en ZS Motor Internet puede disponer la rectificación, eliminación y/o cancelación de sus datos cuando lo estime conveniente, en conformidad a la ley 19.628. En todo caso, los datos podrán ser cedidos o comunicados a empresas relacionadas, con el fin de mejorar la información y comercialización de los productos y servicios distribuidos o prestados.\n7. Los precios y servicios exhibidos en el sitio de ZS Motor Internet sólo tienen aplicación para las compras efectuadas en el mismo y no son aplicables a transacciones efectuadas en otras tiendas de ZS Motor Así mismo los precios y servicios exhibidos en otras tiendas de ZS Motor, no necesariamente tienen aplicación a las transacciones efectuadas en ZS Motor Internet.\n8. Las promociones de nuestra página cambian minuto a minuto y están relacionadas principalmente pero no excluyente a stock y tiempo de oferta. Por esto los precios pueden cambiar en cualquier momento al activarse una promoción o al término de una promoción. Debido a lo anterior el precio de venta es el precio de la página al momento de realizar la compra. Precios revisados anterior a la compra pueden variar por las promociones activas.\n9. Si por algún motivo o problemas ajenos a la voluntad de ZS Motor algún producto se encuentra con valor igual a $0 se entiende que este se encuentra agotado y que el valor expresado en $0 no es un valor comercial y por ende no se compromete en venta, en específico los productos llantas solo se comercializan en juegos de 4 unidades, si por algún problema de programación es posible realizar una compra , esta quedaría nula por no cumplir el requerimiento de 4 unidades\n10. Las compras realizadas en el sitio están sujetas a disponibilidad.\n11. Las compras no incluyen despacho ni instalación.\n12. Las promociones que incluyan montaje y balanceo de neumáticos, excluyen a llantas tipo beadlock , ciegas o llantas técnicas. \n13. Una vez realizado el depósito, o haber concluido satisfactoriamente el pago a través del sistema Webpay, ZS Motor, rectifica el pago, para luego ser enviado al transporte mencionado, para lo cual tenemos un plazo máximo de entrega de 72 horas.\n14. Las condiciones para cambio de artículos son las expresadas en este sitio y para su ejecución es necesario cumplir con los requerimientos solicitados en él.\n15. ZS Motor Internet no se responsabiliza de información proporcionada por otros sitios web y las consecuencias derivadas de ello, especialmente cuando el acceso al sitio de ZS Motor Internet se ha efectuado a través de algún navegador.\n16. ZS Motor Internet se reserva el derecho a modificar cualquier información contenida en este sitio.\n \n**Pago con Tarjeta de Crédito o Débito** \n17. Al seleccionar este método, el proceso de compra enlazará con Transbank, de esta forma, los datos no son retenidos por ZSMotor, sino son enviados directamente Transbank mediante un protocolo seguro (HTTPS). Así, te ofrecemos la máxima seguridad y confianza. El cargo en tu tarjeta se efectuará en el preciso instante en que valides el pago. Si existiera algún problema de stock en tu pedido, o hubiera cualquier incidencia en la expedición, reembolsaremos el importe correspondiente en tu tarjeta de crédito en un plazo no superior a 15 días. \n18. Por motivos de seguridad, ZS Motor se reserva el derecho a rechazar cualquier operación realizada con tarjeta de crédito. En este caso, procederemos a reintegrar el importe en la tarjeta utilizada. Si el cliente está interesado en continuar con el pedido, solicitaremos una transferencia bancaria.\n19. Una vez realizado el pago te enviaremos un e-mail con los detalles y la confirmación del pedido.\n"
+    }
+  },
+
+  // Tab Content - Políticas
+  "rich-text#pyd": {
+    "props": {
+      "blockClass": "pyd",
+      "text": "\nSólo procederá el cambio de productos en los casos indicados en la ley 19.496, entre otros:\n\n1. Cuando los materiales, partes, piezas, elementos, sustancias o ingredientes que constituyan o integren los productos no correspondan a las especificaciones que ostente o a las mencionadas del rotulado;\n \n2. Cuando cualquier producto, por deficiencias de fabricación, elaboración, materiales, piezas, elementos, sustancias, ingredientes, estructura, calidad o condiciones sanitarias, en su caso, no sea enteramente apto para el uso o consumo al que está destinado o al que el proveedor hubiese señalado en su publicidad;\n \n3. Cuando después de la primera vez de haberse hecho efectiva la garantía y prestado el servicio técnico correspondiente, subsistieren las deficiencias que hagan al bien inepto para el uso o consumo al que está destinado;\n\n4. Cuando la cosa objeto del contrato tenga defectos o vicios ocultos que imposibiliten el uso a que habitualmente se destine.\n\nEste derecho sólo se podrá hacer efectivo dentro de los 3 meses siguientes a la entrega, y siempre que éste no se hubiese deteriorado por un hecho imputable al cliente.\n\nEn el caso de productos perecibles o que por su naturaleza estén destinados a ser usados o consumidos en los plazos breves, el término para hacer la devolución será el impreso en el producto o su envoltorio o, en su defecto, el término máximo de 7 días.\n\nEl caso de productos que estén acogidos a garantía, los gastos de envió son propios de ZS Motor; para los productos que requiera un cambio por compra inadecuada o errónea son de exclusiva responsabilidad del cliente, quien deberá incurrir con los gastos de envió correspondiente.\n\nEl cambio de producto se realizará por uno de similares características o en un caso eventual y previo acuerdo con el cliente solicitante se determinara que tipo de articulo se envía en reemplazo si es que fuese necesario\n \n Las devoluciones se realizarán solo a una cuenta asociada al RUT al cual se emitió la boleta o factura.\n\nNo procederá el derecho de retracto a que se refiere el artículo 3 bis de la ley N° 19.496.\n\nTodo cambio de producto debe solicitarse al Mail a info@zsmotor.cl\n \n \n **Requisitos para realizar cambios y devoluciones:**\n\nPresentar la boleta o factura de compra del producto\n Solicitarlo dentro del plazo legal posterior a la compra del producto.\n El producto debe estar sin uso, con etiquetas y en perfectas condiciones.\n Tener los embalajes originales.\n \nEntregar todos sus accesorios, manuales y pólizas de garantía\n\n\n **Garantías**\n\nTodos los productos ZS Motor están garantizados por tres meses. Si la falla ocurre por un error en la manufactura o defecto en los materiales, nosotros repararemos el producto, sin cargos, o lo reemplazaremos, a nuestra discreción.\n\nEsta garantía no cubrirá daños por accidente, uso impropio, negligencia o el decaimiento natural de los colores y materiales después del uso intensivo.\n \nLa garantía de cada fabricante no cubre los defectos derivados de un desgaste normal, de una manipulación indebida, de negligencia del usuario o accidentes (choques, incendios, daños por agua). \n\nPara dar cumplimiento a la normativa legal del consumidor, todos nuestros productos que presenten falla de fábrica se recibirán por nuestro equipo en tienda quienes enviaran el producto a control de calidad para determinar si es válida la solicitud de garantía. Para llevar a cabo tal proceso es necesaria la recepción física del producto, envío de evidencia como fotografías específicas o videos de respaldo si fuese necesario.\n\nSi esta correspondiera a problemas de material, fabricación y/o modelo con detalles indicados por el fabricante, será acogida a proceso de garantía siempre que se encuentre dentro del plazo establecido por la ley al consumidor -90 días desde la fecha de compra-. Si el problema es provocado por agentes externos se hará devolución del mismo producto sin reparación. \n\nEl tiempo estimado de respuesta frente a una solicitud de garantía es de aproximadamente 15 días hábiles, incluyendo en el tiempo mencionado: evaluación - resolución e informe final. \n\nEn algunos casos específicos, y por sobre todo los que se encuentran fuera del plazo legal, la solicitud de garantía puede llegar a tardar de 3 a 4 semanas y estará sujeta a las políticas del fabricante, sus pólizas y gestión de garantías, las cuales pueden involucrar el envío de mercadería a sus talleres en cada país de origen o evaluación continua durante 1 o 2 meses.\n\nZS Motor no está adherido a ninguna garantía de satisfacción, por lo cual, no rige derecho a retracto y/o ley de arrepentimiento para las compras realizadas en tienda, por lo tanto, una vez realizada su compra no se efectuará devolución de dinero (Ley del consumidor 19.496 ART. 3° B.)\n\nPara la evaluación de la garantía su producto debe ser enviado directo al local donde se originó la compra y si esta fue realizada en nuestra tienda virtual debe comunicarse al mail: info@zsmotor.cl.\n\nLa tienda virtual de ZS Motor ( www.zsmotor.cl ) declara por conocidas y entendidas todas las cláusulas que obliga la ley tanto para nosotros como vendedor, como para nuestros consumidores.\n\nZS Motor suscribe las políticas de buenas prácticas entre proveedor y cliente contenido en la ley de la república 19.496 de derechos del consumidor. "
+    }
+  },
+
+
+
+
+
+
+
+    // Mobile
+    "responsive-layout.phone#centro-de-ayuda": {
+      "children": [
+        "flex-layout.row#centro-de-ayuda-banner-mobile",
+        "flex-layout.row#centro-ayuda"
+      ]
+    },
+  
+    "flex-layout.row#centro-de-ayuda-banner-mobile": {
+      "children": [
+        "flex-layout.col#centro-de-ayuda-image-banner-mobile",
+        "flex-layout.col#centroayuda-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#centro-de-ayuda-image-banner-mobile": {
+      "children": ["image#centro-de-ayuda-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "image#centro-de-ayuda-mobile": {
+      "props": {
+        "src": "assets/servicios/banner-servicios-mobile2.jpg",
+        "blockClass": "servicios-image-banner-img"
+      }
+    }
+}
+ 

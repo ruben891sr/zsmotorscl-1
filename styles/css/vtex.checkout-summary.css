@@ -1,0 +1,10 @@
+.summaryItemLabel,
+.price,
+.summarySmallDisclaimer {
+    font-family: "Raleway-Bold";
+    color: #000000;
+}
+
+.summarySmallDisclaimer {
+    font-family: "Raleway";
+}

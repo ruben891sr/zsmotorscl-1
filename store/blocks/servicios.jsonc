@@ -1,0 +1,123 @@
+{
+  "store.custom#servicios": {
+    "children": [
+      "responsive-layout.desktop#servicios",
+      "responsive-layout.phone#servicios"
+    ]
+  },
+
+  "responsive-layout.desktop#servicios": {
+    "children": [
+      "flex-layout.row#servicios-banner",
+      "flex-layout.row#servicios-cards"
+    ]
+  },
+
+  "flex-layout.row#servicios-banner": {
+    "children": [
+      "flex-layout.col#servicios-image-banner",
+      "flex-layout.col#servicios-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#servicios-image-banner": {
+    "children": ["image#servicios"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "image#servicios": {
+    "props": {
+      "src": "assets/servicios/banner-servicios.jpg",
+      "blockClass": "servicios-image-banner-img"
+    }
+  },
+  "flex-layout.col#servicios-text-banner": {
+    "children": ["rich-text#servicios-title", "rich-text#servicios-subtitle"],
+    "props": {
+      "blockClass": "servicios-text-banner-col"
+    }
+  },
+
+  "rich-text#servicios-title": {
+    "props": {
+      "text": "Servicios",
+      "blockClass": "servicios-title"
+    }
+  },
+  "rich-text#servicios-subtitle": {
+    "props": {
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+      "blockClass": "servicios-subtitle"
+    }
+  },
+
+  "flex-layout.row#servicios-cards": {
+    "children": [
+      "info-card#servicio-item",
+      "info-card#servicio-item",
+      "info-card#servicio-item",
+      "info-card#servicio-item",
+      "info-card#servicio-item",
+      "info-card#servicio-item",
+      "info-card#servicio-item",
+      "info-card#servicio-item",
+      "info-card#servicio-item",
+      "info-card#servicio-item"
+    ],
+    "props": {
+      "blockClass": "servicios-cards-row"
+    }
+  },
+  "info-card#servicio-item": {
+    "props": {
+      "id": "info-card-blog-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/servicios/servicio-item-2.jpg",
+      "headline": "Cambio de aceite",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-servicios-item",
+      "textAlignment": "center"
+    }
+  },
+
+
+
+  // Mobile
+  "responsive-layout.phone#servicios": {
+    "children": [
+      "flex-layout.row#servicios-banner-mobile",
+      "flex-layout.row#servicios-cards"
+    ]
+  },
+
+  "flex-layout.row#servicios-banner-mobile": {
+    "children": [
+      "flex-layout.col#servicios-image-banner-mobile",
+      "flex-layout.col#servicios-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#servicios-image-banner-mobile": {
+    "children": ["image#servicios-mobile"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "image#servicios-mobile": {
+    "props": {
+      "src": "assets/servicios/banner-servicios-mobile2.jpg",
+      "blockClass": "servicios-image-banner-img"
+    }
+  }
+}

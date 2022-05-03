@@ -1,0 +1,186 @@
+{
+  "store.custom#zs-motors-sport-club-mini-chile": {
+    "children": [
+      "flex-layout.row#zs-sport-banner-club5",
+      "flex-layout.row#zs-motors-sport-image-text-club5"
+      // "flex-layout.row#zs-motors-sport-gallery-club5"
+    ]
+  },
+    // Hero
+    "flex-layout.row#zs-sport-banner-club5": {
+      "children": [
+        "flex-layout.col#zs-sport-image-banner-club5",
+        "flex-layout.col#zs-sport-item-text-banner-club5"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#zs-sport-image-banner-club5": {
+      "children": ["image#zs-motors-sport"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "flex-layout.col#zs-sport-item-text-banner-club5": {
+      "children": ["rich-text#zs-sport-title-club5"],
+      "props": {
+        "blockClass": "servicios-text-banner-col"
+      }
+    },
+    "rich-text#zs-sport-title-club5": {
+      "props": {
+        "text": "Club **Mini Chile**",
+        "blockClass": "servicios-title"
+      }
+    },
+  
+    "flex-layout.row#zs-motors-sport-image-text-club5": {
+      "children": [
+        "flex-layout.col#zs-sport-text-title-club5",
+        "flex-layout.col#zs-sport-image-club5"
+      ],
+      "props": {
+        "blockClass": "zs-sport-row-image-text"
+      }
+    },
+    "flex-layout.col#zs-sport-text-title-club5": {
+      "children": [
+        "rich-text#zs-sport-title-image-text-club5",
+        "rich-text#zs-sport-text-image-text-club5"
+      ],
+      "props": {
+        "blockClass": "zs-sport-text-title"
+      }
+    },
+    "flex-layout.col#zs-sport-image-club5": {
+      "children": ["image#zs-sport-club5"],
+      "props": {
+        "blockClass": "zs-sport-image"
+      }
+    },
+  
+    "rich-text#zs-sport-title-image-text-club5": {
+      "props": {
+        "text": "Sobre la Marca",
+        "blockClass": "zs-sport-title-image-text"
+      }
+    },
+    "rich-text#zs-sport-text-image-text-club5": {
+      "props": {
+        "text": "El Club Mini Chile reúne a los hombres y mujeres con el interés más fervoroso por los autos Mini, que se juntan en emocionantes actividades sociales para compartir a lo largo de todo el país, en Santiago, Viña del Mar, otras provincias y a nivel internacional en lugares como Porto Alegre, Brasil. Fundado en 2014.\n\nSus más de 1400 miembros son proveedores, propietarios y entusiastas interesados en adquirir un ejemplar Mini, quienes comparten su afición en un ambiente de respeto, diversión y compañerismo",
+        "blockClass": "zs-sport-text-image-text"
+      }
+    },
+  
+    "image#zs-sport-club5": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/zssports-club5-bn.jpg",
+        "blockClass": "zs-sport-club5-banner-img"
+      }
+    },
+  
+    "flex-layout.row#zs-motors-sport-gallery-club5": {
+      "children": [
+        "flex-layout.col#zs-motors-sport-gallery-title-club5",
+        "flex-layout.col#zs-motors-sport-gallery-gallery-club5"
+      ],
+      "props": {
+        "blockClass": "zs-sport-row-gallery",
+        "colSizing": "auto"
+      }
+    },
+  
+    "flex-layout.col#zs-motors-sport-gallery-title-club5": {
+      "children": ["rich-text#zs-sport-title-gallery-club5"],
+      "props": {
+        "blockClass": "zs-motors-sport-gallery-title"
+      }
+    },
+    "flex-layout.col#zs-motors-sport-gallery-gallery-club5": {
+      "children": [
+        "image#zs-sport-club5-item-01",
+        "image#zs-sport-club5-item-02",
+        "image#zs-sport-club5-item-03",
+        "image#zs-sport-club5-item-04",
+        "image#zs-sport-club5-item-05",
+        "image#zs-sport-club5-item-06",
+        "image#zs-sport-club5-item-07",
+        "image#zs-sport-club5-item-08",
+        "image#zs-sport-club5-item-09",
+        "image#zs-sport-club5-item-10"
+      ],
+      "props": {
+        "blockClass": "zs-motors-sport-gallery-gallery"
+      }
+    },
+    "rich-text#zs-sport-title-gallery-club5": {
+      "props": {
+        "text": "Galería de \n**Imágenes**",
+        "blockClass": "shelf-title"
+      }
+    },
+  
+    "image#zs-sport-club5-item-01": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-01.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    }, 
+    "image#zs-sport-club5-item-02": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-02.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club5-item-03": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-03.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club5-item-04": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-04.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club5-item-05": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-05.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club5-item-06": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-06.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club5-item-07": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-07.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club5-item-08": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-08.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club5-item-09": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-09.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club5-item-10": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club5-10.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    }
+}

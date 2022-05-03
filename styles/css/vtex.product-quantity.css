@@ -1,0 +1,41 @@
+/* ZS MOTORS STYLE */
+
+.quantitySelectorTitle {
+    display: none;
+}
+
+
+/* JUNAPLAS STYLE */
+
+.quantitySelectorStepper--pdp-quantity :global(.vtex-numeric-stepper__input),
+.quantitySelectorStepper--pdp-quantity :global(.vtex-numeric-stepper__minus-button),
+.quantitySelectorStepper--pdp-quantity :global(.vtex-numeric-stepper__plus-button) {
+    border-radius: 0;
+    border-width: 1px;
+    outline: 0;
+    height: 40px;
+}
+
+.quantitySelectorStepper--pdp-quantity :global(.vtex-numeric-stepper__input) {
+    width: 100%;
+}
+
+.quantitySelectorContainer--pdp-quantity {
+    margin: 0;
+}
+
+.quantitySelectorTitle--pdp-quantity {
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+@media screen and (max-width: 1024px) {
+    .quantitySelectorStepper--pdp-quantity :global(.vtex-numeric-stepper__input) {
+        width: 40%;
+    }
+    .quantitySelectorStepper--pdp-quantity :global(.vtex-numeric-stepper__minus-button),
+    .quantitySelectorStepper--pdp-quantity :global(.vtex-numeric-stepper__plus-button) {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "store.product": {
+    "blocks": [
+      "responsive-layout.desktop#desktop-products",
+      "responsive-layout.mobile#mobile-product",
+      // "flex-layout.row#details-section",
+      "flex-layout.row#desktop-product-shelf-complementarios"
+    ]
+  }
+}

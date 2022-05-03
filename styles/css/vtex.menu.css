@@ -1,0 +1,464 @@
+/* ZS MOTORSS STYLE */
+
+
+/* ZS MOTORS - Sucursales */
+
+.menuContainer--tab-sucursales-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.styledLinkContainer--tab-sucursales-menu-direccion,
+.styledLinkContainer--tab-sucursales-menu-horario,
+.styledLinkContainer--tab-sucursales-menu-cta,
+.styledLinkContainer--tab-sucursales-menu-telefono {
+    margin: 0;
+    padding: 0;
+}
+
+.styledLinkContent--tab-sucursales-menu-direccion,
+.styledLinkContent--tab-sucursales-menu-cta,
+.styledLinkContent--tab-sucursales-menu-telefono,
+.styledLinkContent--tab-sucursales-menu-horario {
+    white-space: initial;
+    font-family: 'Raleway-Medium';
+    font-size: .9rem;
+    font-variant-numeric: lining-nums;
+    margin: 0.3rem 0;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    line-height: 1;
+    position: relative;
+}
+
+.styledLinkContent--tab-sucursales-menu-cta {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: #000;
+    font-size: .8rem;
+    font-family: 'Raleway-Bold';
+    margin-top: .7rem;
+}
+
+.styledLinkContent--tab-sucursales-menu-direccion::before {
+    content: "";
+    background-image: url(assets/sucursales/vector-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    margin-right: .5rem;
+}
+
+.styledLinkContent--tab-sucursales-menu-telefono::before {
+    content: "";
+    background-image: url(assets/sucursales/vector-1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    margin-right: .5rem;
+}
+
+.styledLinkContent--tab-sucursales-menu-horario::before {
+    content: "";
+    background-image: url(assets/sucursales/vector-3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    margin-right: .5rem;
+}
+
+.styledLinkContainer--menu-desktop {
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.styledLinkContent--menu-desktop {
+    font-size: 15px;
+    font-family: "Raleway-Bold";
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem 0;
+}
+
+.styledLinkContent--footer-title {
+    font-family: "Raleway-Bold";
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.styledLinkContent--footer-subtitle {
+    font-family: "Raleway";
+    font-size: 12px;
+    color: #fff;
+}
+
+
+/* ZS MOTORS - Centro de ayuda */
+
+.menuItem--menu-faq-pregunta {
+    background-color: #f2f2f2;
+    margin: 0.5rem 0;
+    padding: 1.3rem 0;
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 3px;
+}
+
+.submenuAccordion--menu-faq-accordion {
+    padding: 0 3rem;
+}
+
+
+/* JUNAPLAS STYLE */
+
+.menuItem--submenu-catalogo-desktop.menuItem {
+    border-bottom: 1px solid #f4f4f4;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 1px 0 0 #cacaca;
+    width: 100%;
+}
+
+.menuItem--submenu-categories-desktop.menuItem {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.menuItem--submenu-catalogo-desktop.menuItem:hover {
+    background: #f4f4f4;
+    box-shadow: inset 2px 0 0 #4ea2e2;
+    font-family: "Raleway-Bold";
+}
+
+.menuItem--menu-desktop:hover .styledLinkContent--menu-desktop::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: #c63335;
+    margin-top: 1rem;
+    z-index: 1;
+}
+
+.menuItem--menu-desktop.menuItem--isOpen .styledLinkContent--menu-desktop:hover::after {
+    left: 0;
+}
+
+.styledLinkContent--submenu-catalogo-desktop {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: #000000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    padding-right: 2rem;
+    padding-top: 0.2rem;
+    align-items: center;
+}
+
+.styledLinkContainer--submenu-catalogo-desktop {
+    width: 100%;
+}
+
+.styledLinkContainer--submenu-categories-desktop {
+    width: 100%;
+}
+
+.menuItem--submenu-catalogo-desktop.menuItem .styledLinkContent--submenu-catalogo-desktop:hover {
+    font-family: "Raleway-Bold";
+    color: #c63335;
+}
+
+
+/*.menuItem--submenu-catalogo-desktop.menuItem--isOpen
+  .styledLinkContent--submenu-catalogo-desktop::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  width: 90%;
+  height: 1px;
+  background: #c63335;
+  transition: left 0.4s;
+}
+.menuItem--submenu-catalogo-desktop.menuItem--isOpen
+  .styledLinkContent--submenu-catalogo-desktop:hover::after {
+  left: 0;
+}*/
+
+.menuItem--submenu-catalogo-desktop.menuItem::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='5' height='8' viewBox='0 0 5 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L1 7' stroke='%23CACACA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    width: 5px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 1rem;
+    z-index: 10;
+}
+
+.menuItem--submenu-catalogo-desktop.menuItem:hover::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='5' height='8' viewBox='0 0 5 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L1 7' stroke='%23c63335' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    width: 5px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 1rem;
+    z-index: 10;
+}
+
+.styledLinkContent--submenu-categories-desktop {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: #000000;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    padding-top: 0.2rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.styledLinkContent--submenu-categories-desktop:hover {
+    font-family: "Raleway-Bold";
+    color: #c63335;
+}
+
+.menuItem--menu-desktop--isOpen .submenuWrapper--isOpen {
+    display: block;
+    left: 20%;
+    top: 1px;
+    height: 662px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-color: #ffffff;
+    padding-top: 0px;
+}
+
+.menuItem--submenu-catalogo-desktop--isOpen .submenuWrapper--isOpen {
+    box-shadow: 20px 0px 20px rgb(0 0 0 / 0%), 6px 13px 5px rgb(0 0 0 / 23%);
+    left: 100%;
+    top: 0;
+    background: #f4f4f4;
+    padding-right: 3rem;
+    height: 662px;
+}
+
+.menuItem--submenu-catalogo-desktop--isOpen .submenuWrapper--isOpen :global(.vtex-menu-2-x-submenu) {
+    justify-content: flex-start;
+}
+
+.menuItem--submenu-catalogo-desktop--isOpen .submenuContainer {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.menuItem--footer-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.menuItem--footer-subtitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.styledLinkIcon--menu-search-bar:first-child {
+    overflow: visible;
+}
+
+.styledLinkContainer--menu-search-bar {
+    margin-left: 0;
+    margin-right: 0.5rem;
+    padding-top: 0.8rem;
+}
+
+.menuContainerNav--menu-drawer-mobile {
+    width: 100%;
+}
+
+.accordionIcon--menu-mobile {
+    color: #c63335;
+    font-size: 24px;
+    font-family: "Raleway-Bold";
+}
+
+.styledLinkContent--submenu-catalogo-mobile {
+    font-size: 12px;
+    font-family: "Raleway-Bold";
+    margin: 0;
+    padding: .3rem 0 .2rem;
+}
+
+.menuItem--menu-mobile {
+    border-bottom: 1px solid #cacaca;
+}
+
+.styledLinkContent--menu-mobile {
+    font-size: 14px;
+    font-family: "Raleway-Bold";
+    color: #fff;
+    padding: 1.3rem 1.5rem;
+    margin: 0;
+    align-items: center;
+    position: relative;
+}
+
+.menuItem--submenu-catalogo-mobile {
+    background: #f4f4f4;
+    margin-bottom: .5rem;
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.menuItem--submenu-catalogo-mobile::after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='5' height='8' viewBox='0 0 5 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L1 7' stroke='%23CACACA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    width: 5px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 9px;
+}
+
+.styledLinkContainer--menu-mobile {
+    margin: 0 .5rem;
+}
+
+.menuContainerNav--menu-mobile {
+    width: 100%;
+}
+
+.menuContainerNav--menu-mobile :global(.vtex-store-drawer-0-x-openIconContainer) {
+    padding: .3rem .5rem .3rem;
+    background: #f4f4f4;
+    margin-bottom: .5rem;
+    width: 90%;
+}
+
+.styledLinkContent--menu-details {
+    font-size: 14px;
+    font-family: "Raleway-Bold";
+    color: #3d3d3d;
+    align-items: center;
+    padding: .25rem 0;
+    text-transform: uppercase;
+}
+
+.accordionIcon--menu-details {
+    font-family: "Raleway";
+    color: #000000;
+    font-size: 22px;
+}
+
+.styledLinkContainer--menu-details {
+    margin: 0;
+}
+
+.menuItem--menu-details {
+    border-bottom: 1px solid #4ea2e2;
+}
+
+.menuItem--menu-details:first-child {
+    border-top: 1px solid #4ea2e2;
+}
+
+.submenuAccordion--menu-details {
+    margin-bottom: 1rem;
+    background: #f8f8f8;
+    padding-bottom: 1rem;
+    font-size: .9rem;
+    font-family: 'Lato';
+    color: #3d3d3d;
+}
+
+@media screen and (max-width: 1024px) {
+    .styledLinkContainer--menu-desktop {
+        margin: 0 .5rem;
+    }
+    .menuItem--menu-desktop {
+        margin: 0;
+        border-bottom: 1px solid #cacaca;
+    }
+    .menuItem--menu-desktop:nth-child(4n) {
+        margin: 0;
+    }
+    .styledLinkContent--menu-desktop {
+        font-size: 14px;
+        padding: 0.5rem;
+        font-family: "Raleway-Bold";
+    }
+    .menuItem--submenu-catalogo-desktop.menuItem {
+        /* position: absolute; */
+        /* top: 0.75rem; */
+        box-shadow: none;
+        border-bottom: none;
+        width: 80%;
+        margin-top: -2.7rem;
+        margin-bottom: 2rem;
+    }
+    .menuItem--submenu-catalogo-desktop.menuItem::before {
+        display: none;
+    }
+    .styledLinkContent--submenu-catalogo-desktop {
+        font-size: 15px;
+        font-family: "Raleway-bold";
+        color: #c63335;
+    }
+    .styledLinkContent--footer-title {
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+    }
+    .styledLinkContainer--menu-search-bar {
+        margin: 0;
+        padding: 0;
+    }
+    .styledLinkContent--menu-faq-pregunta {
+        white-space: normal;
+    }
+    .submenuAccordion--menu-faq-accordion {
+        padding: 0 2rem;
+    }
+}

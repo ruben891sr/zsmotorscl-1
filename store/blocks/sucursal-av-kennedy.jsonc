@@ -1,0 +1,270 @@
+{
+  "store.custom#sucursal-av-kennedy": {
+    "children": [
+      "responsive-layout.desktop#sucursales-kennedy",
+      "responsive-layout.phone#sucursales-kennedy"
+    ]
+  },
+
+  "responsive-layout.desktop#sucursales-kennedy":{
+    "children": [
+      "flex-layout.row#sucursales-banner-interior-kennedy",
+      "flex-layout.row#sucursales-iconos-kennedy",
+      "flex-layout.row#sucursales-mapa-kennedy",
+      "flex-layout.row#sucursales-personal-kennedy",
+      "flex-layout.row#sucursales-galeria-kennedy"
+    ]
+  },
+
+  // Banner
+  "flex-layout.row#sucursales-banner-interior-kennedy": {
+    "children": [
+      "flex-layout.col#kennedy-image-banner",
+      "flex-layout.col#kennedy-text-banner"
+    ],
+    "props": {
+      "blockClass": "banner-interior-sucursales",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#kennedy-image-banner": {
+    "children": ["image#kennedy"],
+    "props": {
+      "blockClass": "sucursalesinterior-image-banner-col"
+    }
+  },
+  "image#kennedy": {
+    "props": {
+      "src": "assets/sucursales/sucursal--kennedy.jpg",
+      "blockClass": "sucursalesinterior-image-banner-img"
+    }
+  },
+  "flex-layout.col#kennedy-text-banner": {
+    "children": ["rich-text#kennedy-title", "rich-text#kennedy-subtitle"],
+    "props": {
+      "blockClass": "sucursalesinterior-text-banner-col"
+    }
+  },
+  "rich-text#kennedy-title": {
+    "props": {
+      "text": "Sucursal**Av. Kennedy**",
+      "blockClass": "sucursalesinterior-title"
+    }
+  },
+  "rich-text#kennedy-subtitle": {
+    "props": {
+      "text": "[+562 2630 7720](tel:+56226307720)",
+      "blockClass": "sucursalesinterior-subtitle"
+    }
+  },
+  
+
+  // Iconos
+  "flex-layout.row#sucursales-iconos-kennedy": {
+    "children": [
+      "flex-layout.col#sucursales-horarios-kennedy",
+      "flex-layout.col#sucursales-llegar-kennedy",
+      "flex-layout.col#sucursales-direccion-kennedy"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-sucursales"
+    }
+  },
+  "flex-layout.col#sucursales-horarios-kennedy": {
+    "children": [
+      "rich-text#title-sucursales-horarios-kennedy",
+      "rich-text#sucursales-horarios-kennedy-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-llegar-kennedy": {
+    "children": [
+      "rich-text#title-sucursales-llegar-kennedy",
+      "rich-text#sucursales-llegar-kennedy-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-direccion-kennedy": {
+    "children": [
+      "rich-text#title-sucursales-direccion-kennedy",
+      "rich-text#sucursales-direccion-kennedy-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "rich-text#title-sucursales-horarios-kennedy": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Horarios de atención"
+    }
+  },
+  "rich-text#sucursales-horarios-kennedy-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "**Lunes a Viernes**: 9.00hrs a 18.00hrs \n **Sábado**: 9.00hrs a 14.00hrs"
+    }
+  },
+  "rich-text#title-sucursales-llegar-kennedy": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Cómo llegar"
+    }
+  },
+  "rich-text#sucursales-llegar-kennedy-content": {
+    "props": {
+      "blockClass": "sucursales-content-icons",
+      "text": "[title](https://g.page/zs-av-kennedy-6722?share) [title](https://waze.com/ul/h66jf428gw)"
+    }
+  },
+  "rich-text#title-sucursales-direccion-kennedy": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Dirección"
+    }
+  },
+  "rich-text#sucursales-direccion-kennedy-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "Av. Presidente Kennedy nº6722, \nVitacura"
+    }
+  },
+
+
+  // Mapa
+  "flex-layout.row#sucursales-mapa-kennedy": {
+    "children": ["iframe#kennedy-int"],
+    "props": {
+      "blockClass": "sucursales-mapa-sucursales"
+    }
+  },
+  "iframe#kennedy-int": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.081272936988!2d-70.56606418385171!3d-33.395043802058794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ced196b194bf%3A0x3b15ebfb9b31df44!2sZS%20Motor%20%2F%20Av.%20Presidente%20Kennedy%20N%C2%B06722!5e0!3m2!1ses-419!2scl!4v1650474335683!5m2!1ses-419!2scl",
+      "blockClass": "sucursal-iframe"
+    }
+  },
+
+
+  // Personal
+  "flex-layout.row#sucursales-personal-kennedy": {
+    "children": ["slider-layout#personal-kennedy"],
+    "props": {
+      "blockClass": "sucursales-personal-sucursales"
+    }
+  },
+  "slider-layout#personal-kennedy": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-personal"
+    },
+    "children": [
+      "info-card#personal-kennedy-1",
+      "info-card#personal-kennedy-1",
+      "info-card#personal-kennedy-1",
+      "info-card#personal-kennedy-1"
+    ]
+  },
+  "info-card#personal-kennedy-1": {
+    "props": {
+      "id": "info-card-personal-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/perfil-personal.jpg",
+      "headline": "Eduardo González",
+      "subhead": "Pioneros en innovación para mantenerse siempre un paso adelante en el juego. Esta es la filosofía que ha llevado a Pirelli a la vanguardia de la industria a escala mundial.",
+      "callToActionUrl": "#",
+      "blockClass": "info-card-sucursales-item", 
+      "textAlignment": "left"
+    }
+  },
+
+
+  // Galería
+  "flex-layout.row#sucursales-galeria-kennedy": {
+    "children": [
+      "image#kennedy-1",
+      "image#kennedy-2",
+      "image#kennedy-3",
+      "image#kennedy-4",
+      "image#kennedy-4",
+      "image#kennedy-3",
+      "image#kennedy-2",
+      "image#kennedy-1"
+    ],
+    "props": {
+      "blockClass": "sucursales-galeria-sucursales"
+    }
+  },
+  "image#kennedy-1": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-1.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#kennedy-2": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-2.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#kennedy-3": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-3.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#kennedy-4": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-4.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+
+
+    // Mobile
+    "responsive-layout.phone#sucursales-kennedy": {
+      "children": [
+        "flex-layout.row#sucursales-banner-interior-kennedy-mobile",
+        "flex-layout.row#sucursales-iconos-kennedy",
+        "flex-layout.row#sucursales-mapa-kennedy",
+        "flex-layout.row#sucursales-personal-kennedy",
+        "flex-layout.row#sucursales-galeria-kennedy"
+      ]
+    },
+  
+    "flex-layout.row#sucursales-banner-interior-kennedy-mobile": {
+      "children": [
+        "flex-layout.col#sucursales-kennedy-image-banner-mobile",
+        "flex-layout.col#kennedy-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#sucursales-kennedy-image-banner-mobile": {
+      "children": ["image#sucursales-kennedy-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "image#sucursales-kennedy-mobile": {
+      "props": {
+        "src": "assets/sucursales/mobile-sucursal--kennedy.jpg",
+        "blockClass": "servicios-image-banner-img"
+      }
+    }
+}

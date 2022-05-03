@@ -1,0 +1,96 @@
+{
+  "vtex.menu@2.x:menu#corporativo": {
+    "children": [
+      "menu-item#nuestra-corporativo",
+      "menu-item#zs-motors-sport",
+      "menu-item#quienes-somos",
+      "menu-item#blog",
+      "menu-item#contacto"
+    ],
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#nuestra-corporativo": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Corporativo",
+        "text": "Corporativo"
+      }
+    }
+  },
+  "menu-item#zs-motors-sport": {
+    "props": {
+      "id": "menu-item-zs-motors-sport",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/zs-motors-sport",
+        "noFollow": true,
+        "tagTitle": "zs-motors-sport",
+        "text": "ZS Motors Sport"
+      }
+    }
+  },
+  "menu-item#quienes-somos": {
+    "props": {
+      "id": "menu-item-quienes-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/empresa",
+        "noFollow": true,
+        "tagTitle": "quienes-somos",
+        "text": "Nuestra empresa"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog",
+        "noFollow": true,
+        "tagTitle": "blog",
+        "text": "Blog"
+      }
+    }
+  },
+
+  "menu-item#contacto": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "footer-subtitle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/centro-de-ayuda",
+        "noFollow": true,
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    }
+  }
+}

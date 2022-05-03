@@ -1,0 +1,1200 @@
+:global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__input) {
+    height: 45px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__input) {
+    height: 45px;
+    width: 50px;
+    border: 1px solid #ccc;
+    font-family: "Raleway-Bold";
+    color: #c63335;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__minus-button),
+:global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__plus-button) {
+    height: 45px;
+    width: 2.5em !important;
+    border-radius: 3px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-shelf-desktop > div > div > div) {
+    justify-content: flex-start;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__minus-button) {
+    border-left: 1px solid #ccc;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__plus-button) {
+    border-right: 1px solid #ccc;
+}
+
+:global(.vtex-login-2-x-buttonLink .vtex-button) {
+    padding: 0 1rem !important;
+}
+
+:global(.vtex-login-2-x-buttonLink .vtex-button__label) {
+    padding: 0;
+}
+
+:global(.vtex-login-2-x-buttonLink .vtex-button__label > span) {
+    display: block;
+}
+
+:global(.vtex-login-2-x-buttonLink .vtex-button__label > span > div) {
+    margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--llantas-vehiculos-row .vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 100% !important;
+}
+
+:global(.vtex-store-components-3-x-container.vtex-search-result-3-x-searchResultContainer) {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+:global(.vtex-store-components-3-x-productImagesGallerySwiperContainer > div):last-child {
+    display: none;
+}
+
+:global(.vtex-tab-layout-0-x-listItem--tab-sucursales-list-item > .vtex-button) {
+    background: #f2f2f2 !important;
+    height: 220px;
+    width: 100%;
+}
+
+:global(.vtex-tab-layout-0-x-listItem--tab-sucursales-list-item > .vtex-button > .vtex-button__label) {
+    margin: 0 !important;
+    width: 100% !important;
+    text-align: left;
+    padding-top: 2rem !important;
+    padding-left: 2rem !important;
+    font-size: 1.3rem;
+    font-family: "Raleway-ExtraBold" !important;
+    border-left: 10px solid transparent;
+    color: #000;
+    box-shadow: 1px 1px 3px #ccc;
+    background-color: #f2f2f2;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--tab-sucursales-list .vtex-tab-layout-0-x-listItem.vtex-tab-layout-0-x-listItemActive .vtex-button__label) {
+    color: #000 !important;
+    border-left: 10px solid #c63335;
+    box-shadow: 3px 3px 30px rgb(0 0 0 / 40%);
+    background-color: transparent !important;
+}
+
+:global(.vtex-iframe-0-x-container--tab-sucursales-iframe iframe) {
+    width: 100%;
+    height: 70vh !important;
+    margin-top: 6rem;
+    padding-left: 6rem;
+    box-sizing: border-box;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-kennedy .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label),
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-vina .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label),
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-dehesa .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label),
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-matta .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label),
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-marathon .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label) {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-kennedy .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label) {
+    background-image: url(assets/sucursales/sucursal-kennedy.jpg);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-vina .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label) {
+    background-image: url(assets/sucursales/sucursal-vina.jpg);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-dehesa .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label) {
+    background-image: url(assets/sucursales/sucursal-dehesa.jpg);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-matta .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label) {
+    background-image: url(assets/sucursales/sucursal-matta.jpg);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--tab-sucursales-col-marathon .vtex-tab-layout-0-x-listItemActive--tab-sucursales-list-item .vtex-button__label) {
+    background-image: url(assets/sucursales/sucursal-marathon.jpg);
+}
+
+:global(.vtex-tab-layout-0-x-listItem--centro-ayuda-tablist-item > .vtex-button) {
+    width: 100% !important;
+    margin-bottom: 1.5rem;
+}
+
+:global(.vtex-tab-layout-0-x-listItem--centro-ayuda-tablist-item > .vtex-button > .vtex-button__label) {
+    width: 100% !important;
+    font-family: "Raleway-ExtraBold";
+    margin: 0;
+    display: block;
+    padding: 1.7rem 3rem 4.7rem 3rem !important;
+    text-align: left;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+:global(.vtex-tab-layout-0-x-listItemActive--centro-ayuda-tablist-item > .vtex-button > .vtex-button__label) {
+    background: -moz-linear-gradient(left,
+            rgba(229, 45, 45, 1) 0%,
+            rgba(0, 0, 0, 0.68) 100%);
+    background: -webkit-linear-gradient(left,
+            rgba(229, 45, 45, 1) 0%,
+            rgba(0, 0, 0, 0.68) 100%);
+    background: linear-gradient(to right,
+            rgba(229, 45, 45, 1) 0%,
+            rgba(0, 0, 0, 0.68) 100%);
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--centro-ayuda-tablist > div):nth-child(1) :global(.vtex-button__label)::before {
+    content: "Ingresa tus datos y contáctate con nosotros";
+    position: absolute;
+    left: 0;
+    top: 65px;
+    font-size: 14px;
+    padding: 0 3rem;
+    font-family: "Raleway-Medium";
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--centro-ayuda-tablist > div):nth-child(2) :global(.vtex-button__label)::before {
+    content: "Aquí encontrar respuesta a las principales consultas de nuestros clientes";
+    position: absolute;
+    left: 0;
+    top: 65px;
+    font-size: 14px;
+    padding: 0 3rem;
+    font-family: "Raleway-Medium";
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--centro-ayuda-tablist > div):nth-child(3) :global(.vtex-button__label)::before {
+    content: "Toda la información que necesitas para estar informado respecto al contenido del sitio:";
+    position: absolute;
+    left: 0;
+    top: 65px;
+    font-size: 14px;
+    padding: 0 3rem;
+    font-family: "Raleway-Medium";
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--centro-ayuda-tablist > div):nth-child(4) :global(.vtex-button__label)::before {
+    content: "Mantente informado de como funcionan nuestra política de devoluciones";
+    position: absolute;
+    left: 0;
+    top: 65px;
+    font-size: 14px;
+    padding: 0 3rem;
+    font-family: "Raleway-Medium";
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup-caracteristicas > div > div > div):nth-child(1) {
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup-caracteristicas > div > div > div):nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fefefe;
+    margin-top: 2rem;
+    border-radius: 3px;
+    padding: 1.3rem;
+    box-shadow: 3px 3px 30px rgb(204 204 204 / 50%);
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup-caracteristicas > div > div > div):nth-child(2) :global(.vtex-flex-layout-0-x-flexRow--productSpecification-caracteristicas):nth-child(2) {
+    border-right: 3px solid #da0001;
+    border-left: 3px solid #da0001;
+}
+
+:global(.flexRowContent--productSpecification-caracteristicas > div) {
+    width: auto !important;
+    padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup-caracteristicas .vtex-product-specifications-1-x-specificationValue) {
+    font-size: 16px;
+    padding-left: 0.4rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup-caracteristicas .vtex-product-specifications-1-x-specificationName) {
+    font-size: 16px;
+    font-family: "Raleway-ExtraBold";
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup-caracteristicas .vtex-product-specifications-1-x-specificationName)::after {
+    content: ":";
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecification-caracteristicas > div) {
+    width: auto !important;
+    padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecification-cantidad-de-venta > div) {
+    width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup-cantidad-venta > div > div) {
+    width: 40%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup-cantidad-venta > div > div > div):nth-child(2) :global(.vtex-flex-layout-0-x-flexRow--productSpecification-cantidad-de-venta):nth-child(odd) {
+    background-color: #ededed;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sucursales-iconos-sucursales > div):nth-child(1) {
+    background-image: url(assets/sucursales/horario.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 7rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sucursales-iconos-sucursales > div):nth-child(2) {
+    background-image: url(assets/sucursales/llegar.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 7rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sucursales-iconos-sucursales > div):nth-child(3) {
+    background-image: url(assets/sucursales/direccion.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 7rem;
+}
+
+:global(.vtex-iframe-0-x-container--sucursal-iframe iframe) {
+    width: 90%;
+    height: 400px;
+}
+
+:global(.vtex-minicart-2-x-overlay--visible.bg-base--inverted) {
+    background-color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-price > div):first-child {
+    position: relative;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-price > div):first-child::before {
+    content: "Precio:";
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+}
+
+:global(.zsmotorscl-zs-forms-0-x-containerView) {
+    margin-bottom: 1.5rem;
+}
+
+:global(.zsmotorscl-zs-forms-0-x-containerView label) {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+:global(.zsmotorscl-zs-forms-0-x-containerView textarea) {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 1rem 1.3rem;
+    font-size: 0.9rem;
+    font-family: "Raleway-Medium";
+    border-radius: 3px;
+}
+
+:global(.zsmotorscl-zs-forms-0-x-inputForms) {
+    height: 50px;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 0 1.3rem;
+    font-size: 0.9rem;
+    font-family: "Raleway-Medium";
+    border-radius: 3px;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--pdp-desktop-info > div) {
+    margin: 0 1.5rem;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--pdp-desktop-info > .vtex-tab-layout-0-x-listItemActive) {
+    padding: 0 !important;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--pdp-desktop-info .vtex-button) {
+    border-radius: 3px !important;
+    box-shadow: 2px 2px 10px rgb(51 51 51 / 52%);
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--pdp-desktop-info .vtex-button__label) {
+    margin: 0 !important;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--pdp-desktop-info .vtex-tab-layout-0-x-listItem .vtex-button .vtex-button__label) {
+    background-color: #f2f2f2 !important;
+    color: #000 !important;
+}
+
+/* Custom Search */
+
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(1) :global(.vtex-button__label),
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(2) :global(.vtex-button__label),
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(3) :global(.vtex-button__label) {
+    position: relative;
+    padding-left: 5.4rem !important;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(1) :global(.vtex-button__label)::before,
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(2) :global(.vtex-button__label)::before,
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(3) :global(.vtex-button__label)::before {
+    content: " ";
+    width: 37px;
+    height: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(1) :global(.vtex-button__label)::before {
+    background-image: url(assets/wrench-03-03.svg);
+    left: 18%;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(2) :global(.vtex-button__label)::before {
+    background-image: url(assets/wrench-03-01.svg);
+    left: 22%;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-main > div):nth-child(3) :global(.vtex-button__label)::before {
+    background-image: url(assets/wrench-03-02.svg);
+    left: 17%;
+}
+
+/* Wordpress */
+
+:global(.vtex-wordpress-integration-2-x-teaserBody > p) {
+    height: 5rem;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 4;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 1.1rem;
+    color: #fff;
+    font-variant-numeric: lining-nums;
+    font-family: "Raleway-Light";
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserTitleLink > span) {
+    height: 4.5rem;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 2;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 2rem;
+    color: #fff;
+    font-variant-numeric: lining-nums;
+    font-family: "Raleway-Light";
+}
+
+:global(.vtex-wordpress-integration-2-x-listFlexItem) {
+    width: 20%;
+}
+
+:global(.vtex-wordpress-integration-2-x-postFlex),
+:global(.vtex-wordpress-integration-2-x-listContainer) {
+    background-image: url(assets/bg-texture.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+:global(.vtex-wordpress-integration-2-x-postTitle) {
+    color: #da0001;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+:global(.vtex-wordpress-integration-2-x-postContainer) {
+    width: 60%;
+    margin: 0 auto;
+}
+
+:global(.vtex-wordpress-integration-2-x-postBody p) {
+    font-family: "Raleway-Regular";
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+:global(.vtex-wordpress-integration-2-x-wp-block-image img) {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+:global(.vtex-wordpress-integration-2-x-wp-block-image) {
+    margin: 2rem 0;
+    box-shadow: 3px 3px 30px rgb(204 204 204 / 50%);
+}
+
+:global(.vtex-wordpress-integration-2-x-postBody p strong) {
+    font-size: 1.5rem;
+    font-family: "Raleway-Bold";
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+:global(.vtex-wordpress-integration-2-x-postFeaturedImageContainer),
+:global(.vtex-wordpress-integration-2-x-teaserHeader),
+:global(.vtex-wordpress-integration-2-x-categorySelectContainer),
+:global(.vtex-wordpress-integration-2-x-filtersContainer) {
+    display: none;
+}
+
+:global(.vtex-wordpress-integration-2-x-listFlexItem) {
+    width: 20%;
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserImageContainer) {
+    height: 40rem;
+    display: block;
+    position: relative;
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserContainer) {
+    position: relative;
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserImageContainer)::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: -moz-linear-gradient(top,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 90%);
+    background: -webkit-linear-gradient(top,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 90%);
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 90%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserImage) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+:global(.vtex-wordpress-integration-2-x-teaserTitleLink) {
+    text-decoration: none;
+}
+
+:global(.vtex-wordpress-integration-2-x-listContainer > div):nth-child(1) {
+    display: none;
+}
+
+/* Custom Brand */
+
+:global(.homologado h4) {
+    margin: -0.7rem 0 -0.5rem 0;
+}
+
+:global(.model-custom) {
+    text-align: center;
+    background-color: #fefefe;
+    padding: 1.3rem;
+    line-height: 1;
+    border-radius: 3px;
+    box-shadow: 3px 3px 30px rgb(204 204 204 / 50%);
+}
+
+:global(.mercedes),
+:global(.jeep),
+:global(.chevrolet),
+:global(.mitsubishi),
+:global(.ford),
+:global(.maxus),
+:global(.toyota),
+:global(.volkswagen),
+:global(.ironman),
+:global(.ome),
+:global(.fox),
+:global(.rubicon),
+:global(.pirelli),
+:global(.bfgoodrich),
+:global(.michelin),
+:global(.tekmotor),
+:global(.continental),
+:global(.kmc),
+:global(.goodride),
+:global(.zsmotor) {
+    position: relative;
+    font-size: 0;
+    display: inline-block;
+    visibility: hidden;
+    margin: 0;
+    height: 75px;
+}
+
+:global(.mercedes)::before,
+:global(.jeep)::before,
+:global(.chevrolet)::before,
+:global(.mitsubishi)::before,
+:global(.ford)::before,
+:global(.maxus)::before,
+:global(.toyota)::before,
+:global(.volkswagen),
+:global(.ironman)::before,
+:global(.ome)::before,
+:global(.fox)::before,
+:global(.rubicon)::before,
+:global(.pirelli)::before,
+:global(.bfgoodrich)::before,
+:global(.michelin)::before,
+:global(.tekmotor)::before,
+:global(.continental)::before,
+:global(.kmc)::before,
+:global(.goodride)::before,
+:global(.zsmotor)::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100px;
+    width: 95px;
+    visibility: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+:global(.ironman)::before {
+    background-image: url(assets/brands-icon/ironman.png);
+}
+
+:global(.ome)::before {
+    background-image: url(assets/brands-icon/emu.png);
+}
+
+:global(.fox)::before {
+    background-image: url(assets/brands-icon/fox.png);
+}
+
+:global(.rubicon)::before {
+    background-image: url(assets/brands-icon/icon.png);
+}
+
+:global(.pirelli)::before {
+    background-image: url(assets/brands-icon/pirelli.png);
+}
+
+:global(.bfgoodrich)::before {
+    background-image: url(assets/brands-icon/bf.png);
+}
+
+:global(.michelin)::before {
+    background-image: url(assets/brands-icon/michelin.png);
+}
+
+:global(.tekmotor)::before {
+    background-image: url(assets/brands-icon/tekmotor.png);
+}
+
+:global(.continental)::before {
+    background-image: url(assets/brands-icon/conti.png);
+}
+
+:global(.kmc)::before {
+    background-image: url(assets/brands-icon/kmc.png);
+}
+
+:global(.goodride)::before {
+    background-image: url(assets/brands-icon/goodride.png);
+}
+
+
+:global(.zsmotor)::before {
+    background-image: url(assets/marcas-auto/zs.png);
+}
+
+:global(.mercedes)::before {
+    background-image: url(assets/marcas-auto/mercedes-benz.png);
+}
+
+:global(.jeep)::before {
+    background-image: url(assets/marcas-auto/Jeep.png);
+}
+
+:global(.chevrolet)::before {
+    background-image: url(assets/marcas-auto/chevrolet.png);
+}
+
+:global(.mitsubishi)::before {
+    background-image: url(assets/marcas-auto/mitsubishi_motors.png);
+}
+
+:global(.ford)::before {
+    background-image: url(assets/marcas-auto/ford.png);
+}
+
+:global(.maxus)::before {
+    background-image: url(assets/marcas-auto/zs.png);
+}
+
+:global(.toyota)::before {
+    background-image: url(assets/marcas-auto/toyota.png);
+}
+
+:global(.volkswagen)::before {
+    background-image: url(assets/marcas-auto/volkswagen.png);
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--pdp-desktop-info .vtex-tab-layout-0-x-listItemActive .vtex-button .vtex-button__label) {
+    background-color: #c63235 !important;
+    color: #fff !important;
+}
+
+/* Servicios PLP */
+:global(.servicios-plp__banner) {
+    position: relative;
+}
+
+:global(.servicios-plp__banner__text) {
+    width: 90%;
+    margin: 0 auto;
+}
+
+:global(.servicios-plp__banner__text__container) {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+:global(.servicios-plp__banner__text h2) {
+    font-family: Raleway-ExtraBold;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 4rem;
+}
+
+:global(.servicios-plp__banner__text h3) {
+    color: #fff;
+}
+
+:global(.servicios-plp__banner__text li) {
+    list-style-type: none;
+}
+
+:global(.servicios-plp__banner__text a) {
+    color: #fff;
+    text-decoration: none;
+}
+
+:global(.servicios-plp__content) {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 3rem;
+}
+
+:global(.servicios-plp__content__wrapper__image) {
+    height: 50vh;
+}
+
+:global(.servicios-plp__content__wrapper__image img) {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+:global(.servicios-plp__content__wrapper) {
+    display: flex;
+    align-items: center;
+}
+
+:global(.servicios-plp__content__wrapper > div) {
+    width: 50%;
+    margin: 0 2rem;
+}
+
+:global(.servicios-plp__content__wrapper h4) {
+    color: red;
+    font-size: 1.3rem;
+}
+
+:global(.servicios-plp__content__wrapper p) {
+    font-family: "Raleway-Regular";
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+:global(.servicios .vtex-search-result-3-x-gallery) {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+:global(.servicios .vtex-flex-layout-0-x-flexRow--summary-qty-buybutton-row-container),
+:global(.servicios .vtex-flex-layout-0-x-flexRow--summary-prices-container),
+:global(.servicios .vtex-product-identifier-0-x-product-identifier__value),
+:global(.servicios .vtex-product-summary-2-x-element .zsmotor),
+:global(.servicios .vtex-flex-layout-0-x-flexRow--productCountRow),
+:global(.servicios .vtex-flex-layout-0-x-flexRow--searchinfo-row),
+:global(.servicios .vtex-flex-layout-0-x-flexRowContent--filter-content-item-row > div):first-child,
+:global(.servicios .vtex-flex-layout-0-x-flexCol--searchbread),
+:global(.servicios .vtex-flex-layout-0-x-flexRow--custom-search-row),
+:global(.servicios h1.vtex-search-result-3-x-galleryTitle--layout) {
+    display: none !important;
+}
+
+:global(.servicios .vtex-flex-layout-0-x-flexRow--row-result) {
+    padding-top: 0;
+}
+
+:global(.servicios .vtex-product-summary-2-x-element--standard-search-summary-shelf) {
+    padding: 0;
+    position: relative;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+:global(.servicios .vtex-flex-layout-0-x-flexRowContent--filter-content-item-row > div):last-child {
+    width: 100% !important;
+    padding-top: 3rem;
+}
+
+:global(.servicios .vtex-product-summary-2-x-element .vtex-product-summary-2-x-productBrand) {
+    height: auto;
+    max-height: initial;
+    color: #fff;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+:global(.servicios .vtex-flex-layout-0-x-flexRow--summary-name-container) {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+}
+
+:global(.servicios .vtex-product-summary-2-x-imageNormal) {
+    height: 120% !important;
+    width: 120% !important;
+    object-fit: cover !important;
+    max-width: initial !important;
+    max-height: initial !important;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+:global(.servicios .vtex-store-components-3-x-discountContainer),
+:global(.servicios .vtex-product-summary-2-x-imageContainer) {
+    position: static !important;
+    height: 100% !important;
+}
+
+:global(.servicios .vtex-product-summary-2-x-imageContainer)::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0 0 0 / 30%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--desciption-servicios) {
+    background-image: url(assets/bg-texture.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios) {
+    width: 70%;
+    margin: 3rem auto 0 auto;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+}*/
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios > div) {
+    margin: 0 2rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios > div):last-child {
+    height: 50vh;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios > div):first-child :global(.vtex-store-components-3-x-content--pdp-description) {
+    background-color: transparent;
+    font-size: 1rem;
+    background: transparent;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios > div):first-child :global(.vtex-store-components-3-x-productDescriptionTitle--pdp-description) {
+    display: block;
+    font-size: 1.7rem;
+    font-family: "Raleway-ExtraBold";
+    margin-bottom: 2rem;
+    color: #d94854;
+    padding-right: 3rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios > div):first-child :global(.vtex-store-components-3-x-productDescriptionTitle--pdp-description)::after {
+    content: " del servicio";
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios > div):first-child :global(.vtex-store-components-3-x-container--pdp-description) {
+    max-width: initial !important;
+    padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios > div):first-child :global(.vtex-store-components-3-x-productDescriptionContainer--pdp-description) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--desciption-servicios > div img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* :global(.vtex-flex-layout-0-x-flexRow--pasos-servicios) {
+
+} */
+
+:global(.vtex-flex-layout-0-x-flexRow--main-pasos-servicios) {
+    background-image: url(assets/servicios/servicios-pdp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin: 5rem 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--main-pasos-servicios)::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel3--pasos-titulo) {
+    color: #fff;
+    font-size: 1.8rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--productSpecificationValue-pasos > span) {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+:global(.vtex-product-specifications-1-x-specificationName--productspecificationName-pasos) {
+    margin-bottom: 1rem;
+    font-size: 1.3rem !important;
+    color: #fff;
+    display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(1),
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(2),
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(3) {
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(1)::before,
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(2)::before,
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(3)::before {
+    position: absolute;
+    color: #fff;
+    font-family: 'Raleway-ExtraBold';
+    font-variant-numeric: lining-nums;
+    font-size: 10rem;
+    opacity: .3;
+    left: 20%;
+    bottom: 60%;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(1)::before {
+    content: '1';
+}
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(2)::before {
+    content: '2';
+}
+:global(.vtex-flex-layout-0-x-flexColChild--col-pasos > .vtex-flex-layout-0-x-flexRow--productSpecification-pasos):nth-child(3)::before {
+    content: '3';
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--marcas-servicios) {
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgb(51 51 51 / 20%);
+    padding: 1rem;
+    margin-top: -9rem;
+    position: relative;
+    width: 70%;
+    z-index: 2;
+    margin: -7rem auto 0 auto;
+}
+:global(.vtex-rich-text-0-x-container--marcas-titulo) {
+    justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel3--marcas-titulo) {
+    color: #000;
+}
+
+:global(.zsmotorscl-custom-brand-0-x-slide p)::before {
+    height: 120px !important;
+    width: 162px !important;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--servicios-name-pdp-row) {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--servicios-name-pdp-row>div):first-child {
+    width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--servicios-name-pdp-row>div):last-child {
+    width: 90% !important;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--servicios-name-pdp-row .vtex-store-components-3-x-productNameContainer) {
+    line-height: 1;
+    position: relative;
+    margin-top: 0;
+    font-family: "Raleway-ExtraBold";
+    color: #fff;
+    margin: 0;
+    font-size: 4rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+
+    :global(.vtex-flex-layout-0-x-flexRow--zs-sport-row-gallery .vtex-store-components-3-x-container),
+    :global(.vtex-flex-layout-0-x-flexRow--servicios-cards-row .vtex-store-components-3-x-container),
+    :global(.vtex-flex-layout-0-x-flexRow--dekstop-shelf-pdp .vtex-store-components-3-x-container),
+    :global(.vtex-flex-layout-0-x-flexRow--row-result .vtex-store-components-3-x-container),
+    :global(.vtex-flex-layout-0-x-flexRow--productos-destacados-dos .vtex-store-components-3-x-container),
+    :global(.vtex-flex-layout-0-x-flexRow--productos-destacados .vtex-store-components-3-x-container) {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__input) {
+        width: 40% !important;
+        height: 35px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__minus-button),
+    :global(.vtex-flex-layout-0-x-flexColChild--summary-qty-col .vtex-numeric-stepper__plus-button) {
+        width: 100% !important;
+        height: 35px;
+    }
+
+    :global(.numeric-stepper__plus-button-container),
+    :global(.numeric-stepper__minus-button-container) {
+        width: 30% !important;
+    }
+
+    :global(.vtex-menu-2-x-styledLinkIcon--menu-search-bar .menu-search-mobile) {
+        fill: #fff;
+        width: 24px;
+        height: 24px;
+        margin-top: 11px;
+    }
+
+    :global(.vtex-login-2-x-buttonLink .vtex-button) {
+        padding: 0 0.5rem !important;
+    }
+
+    :global(.openIconContainer .vtex-button__label) {
+        padding-left: 0.3rem;
+    }
+
+    :global(.mercedes),
+    :global(.jeep),
+    :global(.chevrolet),
+    :global(.mitsubishi),
+    :global(.ford),
+    :global(.maxus),
+    :global(.toyota),
+    :global(.volkswagen),
+    :global(.ironman),
+    :global(.ome),
+    :global(.fox),
+    :global(.rubicon),
+    :global(.pirelli),
+    :global(.bfgoodrich),
+    :global(.michelin),
+    :global(.tekmotor),
+    :global(.continental),
+    :global(.kmc),
+    :global(.goodride),
+    :global(.zsmotor) {
+        height: 50px;
+    }
+
+    :global(.mercedes)::before,
+    :global(.jeep)::before,
+    :global(.chevrolet)::before,
+    :global(.mitsubishi)::before,
+    :global(.ford)::before,
+    :global(.maxus)::before,
+    :global(.toyota)::before,
+    :global(.volkswagen),
+    :global(.ironman)::before,
+    :global(.ome)::before,
+    :global(.fox)::before,
+    :global(.rubicon)::before,
+    :global(.pirelli)::before,
+    :global(.bfgoodrich)::before,
+    :global(.michelin)::before,
+    :global(.tekmotor)::before,
+    :global(.continental)::before,
+    :global(.kmc)::before,
+    :global(.goodride)::before,
+    :global(.zsmotor)::before {
+        height: 100px;
+        width: 70px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--product-shelf-desktop > div > div > div) {
+        justify-content: center !important;
+    }
+
+    :global(.vtex-tab-layout-0-x-listItem--centro-ayuda-tablist-item > .vtex-button > .vtex-button__label) {
+        padding: 1rem !important;
+        font-size: 1.2rem;
+        text-align: center;
+        border-top: none;
+    }
+
+    :global(.vtex-tab-layout-0-x-listContainer--centro-ayuda-tablist > div):nth-child(2) :global(.vtex-button__label)::before,
+    :global(.vtex-tab-layout-0-x-listContainer--centro-ayuda-tablist > div):nth-child(3) :global(.vtex-button__label)::before,
+    :global(.vtex-tab-layout-0-x-listContainer--centro-ayuda-tablist > div):nth-child(4) :global(.vtex-button__label)::before,
+    :global(.vtex-tab-layout-0-x-listContainer--centro-ayuda-tablist > div):nth-child(1) :global(.vtex-button__label)::before {
+        display: none;
+    }
+
+    :global(.vtex-tab-layout-0-x-listItem--tab-sucursales-list-item > .vtex-button) {
+        background: #f2f2f2 !important;
+        height: 260px;
+        width: 100%;
+    }
+
+    :global(.vtex-iframe-0-x-container--tab-sucursales-iframe iframe) {
+        margin-top: 2rem;
+        padding-left: 0rem;
+    }
+
+    :global(.homologado h4) {
+        margin-top: 1rem;
+    }
+
+    :global(.vtex-wordpress-integration-2-x-listFlexItem) {
+        width: 100%;
+    }
+
+    :global(.vtex-wordpress-integration-2-x-teaserImageContainer) {
+        height: 30rem;
+    }
+
+    :global(.vtex-wordpress-integration-2-x-postContainer) {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    :global(.vtex-wordpress-integration-2-x-postTitle) {
+        font-size: 1.6rem;
+    }
+
+    :global(.vtex-wordpress-integration-2-x-postBody p strong) {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    /* Sucursales */
+    :global(.vtex-flex-layout-0-x-flexRowContent--sucursales-iconos-sucursales > div):nth-child(1),
+    :global(.vtex-flex-layout-0-x-flexRowContent--sucursales-iconos-sucursales > div):nth-child(2),
+    :global(.vtex-flex-layout-0-x-flexRowContent--sucursales-iconos-sucursales > div):nth-child(3) {
+        padding-left: 0;
+        background-position: top center;
+        background-size: 20%;
+        padding-top: 1rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--sucursales-iconos-sucursales > div):nth-child(2) :global(.vtex-flex-layout-0-x-flexColChild--sucursales-iconos-col .vtex-rich-text-0-x-paragraph--sucursales-title-iconos) {
+        margin: 0 !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--sucursales-iconos-sucursales > div):nth-child(3) {
+        margin-top: 1rem;
+    }
+}

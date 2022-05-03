@@ -1,0 +1,271 @@
+{
+  "store.custom#sucursal-av-ladehesa": {
+    "children": [
+      "responsive-layout.desktop#sucursales-ladehesa",
+      "responsive-layout.phone#sucursales-ladehesa"
+    ]
+  },
+
+  "responsive-layout.desktop#sucursales-ladehesa": {
+    "children": [
+      "flex-layout.row#sucursales-banner-interior-dehesa",
+      "flex-layout.row#sucursales-iconos-dehesa",
+      "flex-layout.row#sucursales-mapa-dehesa",
+      "flex-layout.row#sucursales-personal-dehesa",
+      "flex-layout.row#sucursales-galeria-dehesa"
+    ]
+  },
+
+
+  // Banner
+  "flex-layout.row#sucursales-banner-interior-dehesa": {
+    "children": [
+      "flex-layout.col#dehesa-image-banner",
+      "flex-layout.col#dehesa-text-banner"
+    ],
+    "props": {
+      "blockClass": "banner-interior-sucursales",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#dehesa-image-banner": {
+    "children": ["image#dehesa"],
+    "props": {
+      "blockClass": "sucursalesinterior-image-banner-col"
+    }
+  },
+  "image#dehesa": {
+    "props": {
+      "src": "assets/sucursales/sucursal--dehesa.jpg",
+      "blockClass": "sucursalesinterior-image-banner-img"
+    }
+  },
+  "flex-layout.col#dehesa-text-banner": {
+    "children": ["rich-text#dehesa-title", "rich-text#dehesa-subtitle"],
+    "props": {
+      "blockClass": "sucursalesinterior-text-banner-col"
+    }
+  },
+  "rich-text#dehesa-title": {
+    "props": {
+      "text": "Sucursal**La Dehesa**",
+      "blockClass": "sucursalesinterior-title"
+    }
+  },
+  "rich-text#dehesa-subtitle": {
+    "props": {
+      "text": "[+56 2 2630 7700](tel:+56226307700)",
+      "blockClass": "sucursalesinterior-subtitle"
+    }
+  },
+
+  // Iconos
+  "flex-layout.row#sucursales-iconos-dehesa": {
+    "children": [
+      "flex-layout.col#sucursales-horarios-dehesa",
+      "flex-layout.col#sucursales-llegar-dehesa",
+      "flex-layout.col#sucursales-direccion-dehesa"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-sucursales"
+    }
+  },
+  "flex-layout.col#sucursales-horarios-dehesa": {
+    "children": [
+      "rich-text#title-sucursales-horarios-dehesa",
+      "rich-text#sucursales-horarios-dehesa-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-llegar-dehesa": {
+    "children": [
+      "rich-text#title-sucursales-llegar-dehesa",
+      "rich-text#sucursales-llegar-dehesa-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "flex-layout.col#sucursales-direccion-dehesa": {
+    "children": [
+      "rich-text#title-sucursales-direccion-dehesa",
+      "rich-text#sucursales-direccion-dehesa-content"
+    ],
+    "props": {
+      "blockClass": "sucursales-iconos-col"
+    }
+  },
+  "rich-text#title-sucursales-horarios-dehesa": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Horarios de atención"
+    }
+  },
+  "rich-text#sucursales-horarios-dehesa-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "**Lunes a Viernes**: 9.00hrs a 18.00hrs \n **Sábado**: 9.00hrs a 14.00hrs"
+    }
+  },
+  "rich-text#title-sucursales-llegar-dehesa": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Cómo llegar"
+    }
+  },
+  "rich-text#sucursales-llegar-dehesa-content": {
+    "props": {
+      "blockClass": "sucursales-content-icons",
+      "text": "[title](https://goo.gl/maps/5iFAGF7Tscjj4ybc8) [title]( https://waze.com/ul/h66jf5rfws)"
+    }
+  },
+  "rich-text#title-sucursales-direccion-dehesa": {
+    "props": {
+      "blockClass": "sucursales-title-iconos",
+      "text": "Dirección"
+    }
+  },
+  "rich-text#sucursales-direccion-dehesa-content": {
+    "props": {
+      "blockClass": "sucursales-content-text",
+      "text": "Av. La Dehesa 1961,\nLo Barnechea,\nRegión Metropolitana"
+    }
+  },
+
+  // Mapa
+  "flex-layout.row#sucursales-mapa-dehesa": {
+    "children": ["iframe#dehesa-int"],
+    "props": {
+      "blockClass": "sucursales-mapa-sucursales"
+    }
+  },
+  "iframe#dehesa-int": {
+    "props": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.6275081627778!2d-70.51973418385255!3d-33.35467999999134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cbdc877f2325%3A0x947cee09d390589c!2sAv.%20La%20Dehesa%201961%2C%20Lo%20Barnechea%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1650474741107!5m2!1ses-419!2scl",
+      "blockClass": "sucursal-iframe"
+    }
+  },
+
+  // Personal
+  "flex-layout.row#sucursales-personal-dehesa": {
+    "children": ["slider-layout#personal"],
+    "props": {
+      "blockClass": "sucursales-personal-sucursales"
+    }
+  },
+
+  "slider-layout#personal": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-personal"
+    },
+    "children": [
+      "info-card#personal-1",
+      "info-card#personal-1",
+      "info-card#personal-1",
+      "info-card#personal-1"
+    ]
+  },
+  "info-card#personal-1": {
+    "props": {
+      "id": "info-card-personal-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/perfil-personal.jpg",
+      "headline": "Eduardo González",
+      "subhead": "Pioneros en innovación para mantenerse siempre un paso adelante en el juego. Esta es la filosofía que ha llevado a Pirelli a la vanguardia de la industria a escala mundial.",
+      "callToActionUrl": "#",
+      "blockClass": "info-card-sucursales-item", 
+      "textAlignment": "left"
+    }
+  },
+
+  // Galería
+  "flex-layout.row#sucursales-galeria-dehesa": {
+    "children": [
+      "image#dehesa-1",
+      "image#dehesa-2",
+      "image#dehesa-3",
+      "image#dehesa-4",
+      "image#dehesa-4",
+      "image#dehesa-3",
+      "image#dehesa-2",
+      "image#dehesa-1"
+    ],
+    "props": {
+      "blockClass": "sucursales-galeria-sucursales"
+    }
+  },
+
+  "image#dehesa-1": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-1.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#dehesa-2": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-2.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#dehesa-3": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-3.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+  "image#dehesa-4": {
+    "props": {
+      "src": "assets/sucursales/sucursal-gallery-4.jpg",
+      "blockClass": "sucursales-image-gallery-img"
+    }
+  },
+
+
+
+    // Mobile
+    "responsive-layout.phone#sucursales-ladehesa": {
+      "children": [
+        "flex-layout.row#sucursales-banner-interior-dehesa-mobile",
+        "flex-layout.row#sucursales-iconos-dehesa",
+        "flex-layout.row#sucursales-mapa-dehesa",
+        "flex-layout.row#sucursales-personal-dehesa",
+        "flex-layout.row#sucursales-galeria-dehesa"
+      ]
+    },
+  
+    "flex-layout.row#sucursales-banner-interior-dehesa-mobile": {
+      "children": [
+        "flex-layout.col#sucursales-dehesa-image-banner-mobile",
+        "flex-layout.col#dehesa-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#sucursales-dehesa-image-banner-mobile": {
+      "children": ["image#sucursales-dehesa-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "image#sucursales-dehesa-mobile": {
+      "props": {
+        "src": "assets/sucursales/mobile-sucursal--dehesa.jpg",
+        "blockClass": "servicios-image-banner-img"
+      }
+    }
+
+}

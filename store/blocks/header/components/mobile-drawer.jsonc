@@ -1,0 +1,26 @@
+{
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ],
+    "blocks": [
+      "drawer-header#zs"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-mobile"
+    ],
+    "props": {
+      "orientation": "vertical", 
+      "blockClass":"menu-drawer-mobile"
+    }
+  },
+  "drawer-header#zs": {
+    "children": [
+      "logo",
+      "drawer-close-button"
+    ]
+  }
+
+}

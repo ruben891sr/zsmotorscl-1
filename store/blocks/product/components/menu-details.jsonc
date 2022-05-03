@@ -1,0 +1,94 @@
+{
+    "vtex.menu@2.x:menu#menu-details": {
+        "children": [
+            //"menu-item#unidad-de-venta",
+            "menu-item#descripcion",
+            "menu-item#caracteristicas"
+        ],
+        "props": {
+            "blockClass": "menu-details",
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#unidad-de-venta": {
+        "props": {
+            "id": "menu-item-unidad-de-venta",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-details",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Cantidad mínima de venta"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#unidad-de-venta"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#unidad-de-venta": {
+        "children": [
+            "product-specification-group#cantidad-de-venta"
+        ],
+        "props": {
+            "blockClass": "menu-details"
+        }
+    },
+    "menu-item#descripcion": {
+        "props": {
+            "id": "menu-item-descripcion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-details",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Descripción"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#descripcion"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#descripcion": {
+        "children": [
+            "product-description"
+        ],
+        "props": {
+            "blockClass": "menu-details"
+        }
+    },
+    "menu-item#caracteristicas": {
+        "props": {
+            "id": "menu-item-caracteristicas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-details",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "",
+                "text": "Características"
+            }
+        },
+        "blocks": [
+            // "vtex.menu@2.x:submenu.accordion#caracteristicas"
+        ]
+    }
+    // "vtex.menu@2.x:submenu.accordion#caracteristicas": {
+    //     "children": [
+    //         "product-specification-group#table"
+    //     ],
+    //     "props": {
+    //         "blockClass": "menu-details"
+    //     }
+    // }
+}

@@ -1,0 +1,96 @@
+{
+  "store.custom#kmc-wheels": {
+    "blocks": ["search-result-layout.customQuery#kmc-wheels"]
+  },
+  "search-result-layout.customQuery#kmc-wheels": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "kmc-wheels",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#kmc-wheels",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#kmc-wheels": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-kmc-wheels",
+      "flex-layout.row#result-kmc-wheels"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-kmc-wheels": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-kmc-wheels": {
+    "children": [
+      "flex-layout.col#brand-text-title-kmc-wheels",
+      "flex-layout.col#brand-image-kmc-wheels"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-kmc-wheels": {
+    "children": [
+      "rich-text#brand-title-image-text-kmc-wheels",
+      "rich-text#brand-text-image-text-kmc-wheels"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-kmc-wheels": {
+    "children": ["image#brand-kmc-wheels"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-kmc-wheels": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-kmc-wheels": {
+    "props": {
+      "text": "Redefiniendo el rendimiento\n\nkmc está redefiniendo el rendimiento en el asfalto y fuera de asfalto con innovación, estilo y una búsqueda inadecuada para enfrentar la posibilidad. \n\nEstamos a favor de los individuos que rompen barreras y cambian el juego que desafían el pensamiento convencional en los deportes de motor y utilizan máquinas para arrancar lo imposible.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-kmc-wheels": {
+    "props": {
+      "src": "assets/marcas/plp-kmc-wheels.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

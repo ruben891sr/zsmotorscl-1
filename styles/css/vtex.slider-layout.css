@@ -1,0 +1,69 @@
+/* ZS MOTORS STYLE */
+
+.imageElement {
+    max-height: 100% !important;
+}
+
+.sliderLeftArrow--main-banner {
+    padding-left: 2rem;
+}
+
+.sliderRightArrow--main-banner {
+    padding-right: 2rem;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot) {
+    background: #fff;
+    border: 1px solid #c63335;
+    margin: 0 .4rem;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+    background: #c63335!important;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon) {
+    width: 18px;
+    height: auto;
+}
+
+.paginationDotsContainer {
+    bottom: 12px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer) {
+    max-width: 100% !important;
+}
+
+.sliderLeftArrow--calugas,
+.sliderRightArrow--calugas {
+    padding: initial;
+}
+
+.sliderLeftArrow--especial,
+.sliderLeftArrow--mas-vendidos {
+    left: -1.5rem;
+}
+
+.sliderRightArrow--especial,
+.sliderRightArrow--mas-vendidos {
+    right: -1.5rem;
+}
+
+.paginationDotsContainer--carousel-personal {
+    bottom: -25px;
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderLeftArrow--especial,
+    .sliderLeftArrow--mas-vendidos {
+        left: 0rem;
+    }
+    .sliderRightArrow--especial,
+    .sliderRightArrow--mas-vendidos {
+        right: 0rem;
+    }
+    .slide--productos-destacados {
+        margin: 0 .4rem;
+    }
+}

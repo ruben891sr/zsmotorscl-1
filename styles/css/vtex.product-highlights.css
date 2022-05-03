@@ -1,0 +1,20 @@
+.productHighlightText {
+    background: #183152;
+    border-radius: 4px 4px 4px 0;
+    color: white;
+    display: inline-flex;
+    padding: 5px 10px;
+    position: relative;
+    margin: 10px 0 5px;
+}
+.productHighlightText::before {
+    content: "";
+    background-color: transparent;
+    border-top-left-radius: 12px;
+    bottom: -15px;
+    box-shadow: 0px -8px 0px 0px #183152;
+    height: 15px;
+    position: absolute;
+    left: 0px;
+    width: 20px;
+}

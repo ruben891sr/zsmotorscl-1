@@ -1,0 +1,227 @@
+/* ZS MOTORS STYLES */
+
+.galleryItem {
+    max-width: 230px!important;
+    width: 230px;
+    flex-basis: initial!important;
+    padding: 0.4rem;
+}
+
+.filter__container--title {
+    display: none;
+}
+
+.gallery {
+    padding-left: 2rem;
+}
+
+.filterAvailable {
+    margin: 0.4rem 0;
+    padding: 1.7rem;
+    background: #f4f5f7;
+    box-shadow: 0 0 20px 0 #f4f5f7;
+}
+
+.filterAvailable .filterTitle {
+    font-family: "Raleway-Bold";
+    font-size: 16px;
+    text-transform: initial;
+}
+
+.filterContent {
+    padding-left: 5px;
+}
+
+.filterContent :global(.vtex-checkbox__inner-container) {
+    border: 1px solid #c63335;
+}
+
+
+/* JUNAPLAS STYLES */
+
+.orderByText {
+    font-family: "Raleway";
+    color: #000000;
+    font-size: 14px;
+    text-transform: initial;
+    margin-right: .3rem;
+}
+
+.filterPopupTitle {
+    color: #000;
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+    text-transform: initial;
+}
+
+.orderByButton {
+    width: fit-content;
+    color: #000;
+    background-color: #f2f2f2;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgb(204 204 204 / 40%);
+}
+
+.totalProducts--layout {
+    font-family: 'Raleway-Bold';
+    color: #000;
+    text-transform: capitalize;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    width: fit-content;
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgb(204 204 204 / 40%);
+}
+
+.caretIcon {
+    fill: #c63335;
+}
+
+.filterPopupArrowIcon {
+    padding-left: 0.5rem;
+}
+
+.filterMessage {
+    font-family: "Raleway";
+    font-size: 16px;
+}
+
+.filter__container {
+    border-color: #e7e7e7;
+}
+
+.filterTitle {
+    font-family: "Raleway-Bold";
+    font-size: 16px;
+}
+
+.filterItem {
+    font-family: "Raleway";
+    font-size: 14px;
+    color: #000000;
+    padding: 0.2rem 0;
+    text-transform: capitalize;
+}
+
+.filterItem--selected :global(.vtex-checkbox__label) {
+    color: #000000;
+    font-family: "Raleway";
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__selector),
+.filterTemplateOverflow :global(.vtex-slider__base-internal) {
+    background: #c63335;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__left-value),
+.filterTemplateOverflow :global(.vtex-slider__right-value) {
+    font-family: "Raleway-Bold";
+    color: #000000;
+    font-size: 14px;
+}
+
+.buttonShowMore :global(.vtex-button) {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #c63335;
+    background: #ffffff;
+}
+
+.buttonShowMore :global(.vtex-button):hover {
+    border-radius: 0;
+    border-color: #c63335;
+    background: #c63335;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+    color: #000;
+    font-family: "Raleway-Bold";
+}
+
+.buttonShowMore :global(.vtex-button__label):hover {
+    color: #ffffff;
+}
+
+.showingProductsCount,
+.totalProductsMessage,
+.totalProducts--layout {
+    font-family: "Raleway";
+    color: #888a8b;
+}
+
+.galleryTitle--layout {
+    font-family: Raleway-ExtraBold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px;
+    font-size: 4rem;
+}
+
+.filterBreadcrumbsText {
+    font-family: 'Raleway-ExtraBold';
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+
+.accordionFilterItemTitle {
+    font-size: .9rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .galleryTitle--layout {
+        margin: 0;
+        justify-content: center;
+        font-size: 2.3rem;
+        padding: 0;
+        margin-top: 0;
+    }
+    .gallery {
+        justify-content: center;
+        padding: 0;
+    }
+    .galleryItem {
+        padding: 0 !important;
+        max-width: 45% !important;
+        width: 50% !important;
+        flex-basis: initial!important;
+    }
+    .filterPopupButton {
+        height: 50px;
+        background-color: #f2f2f2;
+        border-radius: 3px;
+        width: 90%;
+        margin: 0 auto;
+        box-shadow: 0 0 20px rgb(51 51 51 / 20%);
+    }
+    .orderByButton {
+        padding: 1rem 0.5rem;
+        margin-bottom: 0;
+        background-color: #f2f2f2;
+        opacity: 1!important;
+        width: 100%;
+        margin-top: 0;
+        border: 0;
+        border-radius: 3px;
+        box-shadow: 0 0 20px rgb(51 51 51 / 20%);
+    }
+    .filterPopupTitle {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 11%;
+    }
+    .orderByText {
+        display: none;
+        margin-right: 10px;
+    }
+    .orderByDropdown {
+        margin: 0;
+        padding: 0;
+    }
+}

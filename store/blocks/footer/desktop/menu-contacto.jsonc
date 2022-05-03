@@ -1,0 +1,79 @@
+{
+    "vtex.menu@2.x:menu#contacto": {
+      "children": [
+        "menu-item#rrss",
+        "menu-item#facebook",
+        "menu-item#instagram",
+        "menu-item#twitter"
+      ],
+      "props":{
+         "blockClass": "menu-footer",
+         "orientation": "vertical"
+      }
+    },
+    "menu-item#rrss": {
+      "props": {
+        "id": "menu-item-rrss",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "rrss",
+          "text": "Redes Sociales"
+        }
+      }
+    },
+    "menu-item#facebook": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/facebook",
+          "noFollow": true,
+          "tagTitle": "Facebook",
+          "text": "Facebook"
+        }
+      }
+    },
+    "menu-item#instagram": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/instagram",
+          "noFollow": true,
+          "tagTitle": "Instagram",
+          "text": "Instagram"
+        }
+      }
+    },
+    "menu-item#twitter": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/instagram",
+          "noFollow": true,
+          "tagTitle": "Instagram",
+          "text": "Instagram"
+        }
+      }
+    }
+
+}

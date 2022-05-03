@@ -1,0 +1,65 @@
+{
+  "vtex.menu@2.x:submenu#marcas": {
+    "children": ["vtex.menu@2.x:menu#submenu-marcas"]
+  },
+
+  "vtex.menu@2.x:menu#submenu-marcas": {
+    "children": [
+      "menu-item#papel-en-rollos-para-envolver",
+      "menu-item#papel-para-regalo",
+      "menu-item#papel-en-pliegos"
+    ],
+    "props": {
+      "blockClass": "submenu-categories",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#papel-en-rollos-para-envolver": {
+    "props": {
+      "id": "menu-item-papel-en-rollos-para-envolver",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/articulos-de-papel/papel-en-rollos-para-envolver",
+        "noFollow": true,
+        "tagTitle": "Papel en rollos para envolver",
+        "text": "Papel en rollos para envolver"
+      }
+    }
+  },
+  "menu-item#papel-para-regalo": {
+    "props": {
+      "id": "menu-item-papel-para-regalo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/articulos-de-papel/papel-para-regalo",
+        "noFollow": true,
+        "tagTitle": "Papel para regalo",
+        "text": "Papel para regalo"
+      }
+    }
+  },
+  "menu-item#papel-en-pliegos": {
+    "props": {
+      "id": "menu-item-papel-en-pliegos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/articulos-de-papel/papel-en-pliegos",
+        "noFollow": true,
+        "tagTitle": "Papel en pliegos",
+        "text": "Papel en pliegos"
+      }
+    }
+  }
+}

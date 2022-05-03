@@ -1,0 +1,113 @@
+{
+  "vtex.menu@2.x:menu#menu-desktop": {
+    "children": [
+      "menu-item#neumaticos",
+      "menu-item#llantas",
+      "menu-item#offroad",
+      "menu-item#servicios",
+      "menu-item#marcas",
+      "menu-item#accesorios"
+    ],
+    "props": {
+      "blockClass": "menu-desktop"
+    }
+  },
+  "menu-item#neumaticos": {
+    "props": {
+      "id": "menu-item-neumaticos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/neumaticos",
+        "noFollow": true,
+        "tagTitle": "neumaticos",
+        "text": "Neumáticos"
+      }
+    }
+  },
+  "menu-item#llantas": {
+    "props": {
+      "id": "menu-item-llantas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/llantas",
+        "noFollow": true,
+        "tagTitle": "llantas",
+        "text": "Llantas"
+      }
+    }
+  },
+  "menu-item#offroad": {
+    "props": {
+      "id": "menu-item-offroad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": true,
+        "tagTitle": "offroad",
+        "text": "Off Road"
+      }
+    }
+  },
+  "menu-item#servicios": {
+    "props": {
+      "id": "menu-item-servicios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicios",
+        "noFollow": true,
+        "tagTitle": "servicios",
+        "text": "Servicios"
+      }
+    }
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": true,
+        "tagTitle": "marcas",
+        "text": "Marcas"
+      }
+    }
+    // "blocks": ["vtex.menu@2.x:submenu#marcas"]
+  },
+  "menu-item#accesorios": {
+    "props": {
+      "id": "menu-item-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": true,
+        "tagTitle": "accesorios",
+        "text": "Accesorios"
+      }
+    }
+    // "blocks": ["vtex.menu@2.x:submenu#accesorios"]
+  }
+}

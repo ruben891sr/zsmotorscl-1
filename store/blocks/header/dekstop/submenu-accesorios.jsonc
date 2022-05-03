@@ -1,0 +1,133 @@
+{
+  "vtex.menu@2.x:submenu#accesorios": {
+    "children": ["vtex.menu@2.x:menu#submenu-accesorios"]
+  },
+
+  "vtex.menu@2.x:menu#submenu-accesorios": {
+    "children": [
+      "menu-item#bombillas-de-papel",
+      "menu-item#cubiertos-plasticos-blanco-y-colores",
+      "menu-item#cubiertos-de-madera",
+      "menu-item#platos-plasticos-blancos-y-colores",
+      "menu-item#platos-de-plumavit",
+      "menu-item#platos-de-carton-blanco-y-colores",
+      "menu-item#servilletas"
+    ],
+    "props": {
+      "blockClass": "menu-desktop",
+      "orientation": "horizontal"
+    }
+  },
+  "menu-item#cubiertos-plasticos-blanco-y-colores": {
+    "props": {
+      "id": "menu-item-cubiertos-plasticos-blanco-y-colores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/platos-cubiertos-y-servilletas/cubiertos-plasticos-blanco-y-colores",
+        "noFollow": true,
+        "tagTitle": "Cubiertos plásticos, blanco y colores",
+        "text": "Cubiertos plásticos, blanco y colores"
+      }
+    }
+  },
+  "menu-item#cubiertos-de-madera": {
+    "props": {
+      "id": "menu-item-cubiertos-de-madera",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/platos-cubiertos-y-servilletas/cubiertos-de-madera",
+        "noFollow": true,
+        "tagTitle": "Cubiertos de madera",
+        "text": "Cubiertos de madera"
+      }
+    }
+  },
+  "menu-item#platos-plasticos-blancos-y-colores": {
+    "props": {
+      "id": "menu-item-platos-plasticos-blancos-y-colores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/platos-cubiertos-y-servilletas/platos-plasticos-blanco-y-colores",
+        "noFollow": true,
+        "tagTitle": "Platos plásticos blanco y colores",
+        "text": "Platos plásticos blanco y colores"
+      }
+    }
+  },
+  "menu-item#platos-de-plumavit": {
+    "props": {
+      "id": "menu-item-platos-de-plumavit",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/platos-cubiertos-y-servilletas/platos-de-plumavit",
+        "noFollow": true,
+        "tagTitle": "Platos de plumavit",
+        "text": "Platos de plumavit"
+      }
+    }
+  },
+  "menu-item#platos-de-carton-blanco-y-colores": {
+    "props": {
+      "id": "menu-item-platos-de-carton-blanco-y-colores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/platos-cubiertos-y-servilletas/platos-de-carton-blanco-y-colores",
+        "noFollow": true,
+        "tagTitle": "Platos de cartón blanco y colores",
+        "text": "Platos de cartón blanco y colores"
+      }
+    }
+  },
+  "menu-item#bombillas-de-papel": {
+    "props": {
+      "id": "menu-item-bombillas-de-papel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/platos-cubiertos-y-servilletas/bombillas-de-papel",
+        "noFollow": true,
+        "tagTitle": "Bombillas de papel",
+        "text": "Bombillas de papel"
+      }
+    }
+  },
+  "menu-item#servilletas": {
+    "props": {
+      "id": "menu-item-servilletas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-categories-desktop",
+      "itemProps": {
+        "type": "internal",
+        "href": "/platos-cubiertos-y-servilletas/servilletas",
+        "noFollow": true,
+        "tagTitle": "Servilletas",
+        "text": "Servilletas"
+      }
+    }
+  }
+}

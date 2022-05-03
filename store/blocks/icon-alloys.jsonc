@@ -1,0 +1,96 @@
+{
+  "store.custom#icon-alloys": {
+    "blocks": ["search-result-layout.customQuery#icon-alloys"]
+  },
+  "search-result-layout.customQuery#icon-alloys": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "icon-alloys",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#icon-alloys",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#icon-alloys": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-icon-alloys",
+      "flex-layout.row#result-icon-alloys"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-icon-alloys": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-icon-alloys": {
+    "children": [
+      "flex-layout.col#brand-text-title-icon-alloys",
+      "flex-layout.col#brand-image-icon-alloys"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-icon-alloys": {
+    "children": [
+      "rich-text#brand-title-image-text-icon-alloys",
+      "rich-text#brand-text-image-text-icon-alloys"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-icon-alloys": {
+    "children": ["image#brand-icon-alloys"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-icon-alloys": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-icon-alloys": {
+    "props": {
+      "text": "ICON ALLOYS se estableció con el objetivo de proporcionar al mercado todoterreno llantas de calidad fabricadas con precisión, rendimiento y resistencia para largo tiempo.\n\nEstas llantas han sido desarrolladas por  ICON VEHICLE DYNAMICS (fabricantes de sistemas de suspensión y amortiguadores de rendimiento líderes en la industria). \n\nEncuentra estas llantas y todos los accesorios que necesitas en nuestro local ZS Motor – Michelin, ubicado en Av. La Dehesa 1961",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-icon-alloys": {
+    "props": {
+      "src": "assets/marcas/plp-icon-alloys.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

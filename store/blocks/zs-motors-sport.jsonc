@@ -1,0 +1,321 @@
+{
+  "store.custom#zs-motors-sport": {
+    "children": [
+      "responsive-layout.desktop#zs-motors-sport",
+      "responsive-layout.phone#zs-motors-sport"
+    ]
+  },
+
+
+  "responsive-layout.desktop#zs-motors-sport": {
+    "children": [
+      "flex-layout.row#zs-motors-sport-banner",
+      "flex-layout.row#zs-motors-sport-cards"
+    ]
+  },
+
+
+  "flex-layout.row#zs-motors-sport-banner": {
+    "children": [
+      "flex-layout.col#zs-motors-sport-image-banner",
+      "flex-layout.col#zs-motors-sport-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#zs-motors-sport-image-banner": {
+    "children": [
+      "image#zs-motors-sport"
+    ],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "image#zs-motors-sport": {
+    "props": {
+      "src": "assets/servicios/banner-servicios.jpg",
+      "srcset": "assets/servicios/banner-servicios-mobile2.jpg",
+      "blockClass": "servicios-image-banner-img"
+    }
+  },
+
+  "flex-layout.col#zs-motors-sport-text-banner": {
+    "children": [
+      "rich-text#zs-motors-sport-title",
+      "rich-text#zs-motors-sport-subtitle"
+    ],
+    "props": {
+      "blockClass": "servicios-text-banner-col"
+    }
+  },
+
+
+  "rich-text#zs-motors-sport-title": {
+    "props": {
+      "text": "ZS Motors **Sport**",
+      "blockClass": "servicios-title"
+    }
+  },
+  "rich-text#zs-motors-sport-subtitle": {
+    "props": {
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+      "blockClass": "servicios-subtitle"
+    }
+  },
+  "flex-layout.row#zs-motors-sport-cards": {
+    "children": [
+      "info-card#zs-motors-sport-item-1",
+      "info-card#zs-motors-sport-item-2",
+      "info-card#zs-motors-sport-item-3",
+      "info-card#zs-motors-sport-item-4",
+      "info-card#zs-motors-sport-item-5",
+      "info-card#zs-motors-sport-item-6",
+      "info-card#zs-motors-sport-item-7",
+      "info-card#zs-motors-sport-item-8",
+      "info-card#zs-motors-sport-item-9",
+      "info-card#zs-motors-sport-item-10",
+      "info-card#zs-motors-sport-item-11",
+      "info-card#zs-motors-sport-item-12",
+      "info-card#zs-motors-sport-item-13",
+      "info-card#zs-motors-sport-item-14"
+    ],
+    "props": {
+      "blockClass": "servicios-cards-row"
+    }  
+  }, 
+
+  "info-card#zs-motors-sport-item-1": {
+    "props": {
+      "id": "info-card-zs-motors-sport-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-porsche.jpg",
+      "headline": "Porsche \nClub Andino",
+      "subhead": "Nacido oficialmente en octubre de 2018, el Porsche Club Andino evolucionó a partir del Club Porsche Santiago",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-porsche-club-andino",
+      "blockClass": "info-card-sports-item",
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-2": {
+    "props": {
+      "id": "info-card-zs-motors-sport-2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-ferrari.jpg",
+      "headline": "Ferrari \nClub Chile",
+      "subhead": "Con un gran espíritu de equipo, el Ferrari Club Chile ha realizado emocionantes hazañas desde sus inicios en el año 2003",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-ferrari-club-chile",
+      "blockClass": "info-card-sports-item",
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-3": {
+    "props": {
+      "id": "info-card-zs-motors-sport-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-mustang.jpg",
+      "headline": "Mustang \nClub Chile",
+      "subhead": "El Mustang Club Chile reúne a los fanáticos chilenos más fervientes, propietarios del emblemático auto de la Ford Company en cualquiera de sus 6 versiones",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-mustang-club-chile",
+      "blockClass": "info-card-sports-item",
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-4": {
+    "props": {
+      "id": "info-card-zs-motors-sport-4",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssport-camaro.jpg",
+      "headline": "Club \nCamaro",
+      "subhead": "En sus juntas semanales, el Club Camaro Chile se reúne en puntos urbanos y fuera de la ciudad para intercambiar experiencias",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-club-camaro",
+      "blockClass": "info-card-sports-item",
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-5": {
+    "props": {
+      "id": "info-card-zs-motors-sport-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-mini.jpg",
+      "headline": "Club Mini \nChile",
+      "subhead": "El Club Mini Chile reúne a los hombres y mujeres con el interés más fervoroso por los autos Mini, que se juntan en emocionantes actividades sociales para compartir a lo largo de todo el país",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-club-mini-chile",
+      "blockClass": "info-card-sports-item",
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-6": {
+    "props": {
+      "id": "info-card-zs-motors-sport-6",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-amigoscuatro.jpg",
+      "headline": "Amigos 4x4 \nV Región",
+      "subhead": "Autoclub dedicado a actividades de aventura. Alentando a las buenas costumbres, promoviendo la amistad, el compañerismo y la mejor camaradería.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-amigos-cuatroxcuatro-v-region",
+      "blockClass": "info-card-sports-item",
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-7": {
+    "props": {
+      "id": "info-card-zs-motors-sport-7",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-gt4.jpg",
+      "headline": "Porsche \nGT4",
+      "subhead": "Es la emocionante categoría de carreras en la que compiten los asombrosos automóviles Porsche Modelo Cayman GT4",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-porsche-gt4",
+      "blockClass": "info-card-sports-item", 
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-8": {
+    "props": {
+      "id": "info-card-zs-motors-sport-8",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-ruta69.jpg",
+      "headline": "Ruta \n69",
+      "subhead": "Nacido oficialmente en Santiago, el grupo de entusiastas de los legendarios muscle cars americanos integra una comunidad de apasionados que se reúnen para profundizar la camaradería",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-ruta-69",
+      "blockClass": "info-card-sports-item", 
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-9": {
+    "props": {
+      "id": "info-card-zs-motors-sport-9",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-rad.jpg",
+      "headline": "RAD \nChile",
+      "subhead": "Si lo que buscas es un máximo de nivel de servicio , los mejores productos y las marcas mas representativas del mercado , como son Michelin , BF Goodrich , Pirelli , Momo Tires",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-rad-chile",
+      "blockClass": "info-card-sports-item", 
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-10": {
+    "props": {
+      "id": "info-card-zs-motors-sport-10",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssport-bmw.jpg",
+      "headline": "BMW Auto \nClub Chile",
+      "subhead": "Si lo que buscas es un máximo de nivel de servicio , los mejores productos y las marcas mas representativas del mercado , como son Michelin , BF Goodrich , Pirelli , Momo Tires",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-bmw-auto-club-chile",
+      "blockClass": "info-card-sports-item", 
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-11": {
+    "props": {
+      "id": "info-card-zs-motors-sport-11",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-timeattack.jpg",
+      "headline": "Time Attack \nChile",
+      "subhead": "Eventos recreativos de autos y pista. Track day, Drag day, Festival y mas. Prueba tu auto en un lugar seguro y controlado",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-time-attack-chile",
+      "blockClass": "info-card-sports-item", 
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-12": {
+    "props": {
+      "id": "info-card-zs-motors-sport-12",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-boutique.jpg",
+      "headline": "ZS Motor - Michelin",
+      "subhead": "La tienda ZS Motor – Michelin, es toda una celebración del automóvil, ostenta una clara determinación de ser el lugar donde los apasionados de los autos consiguen lo que necesitan y desean",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-boutique-zs-motor-michelin",
+      "blockClass": "info-card-sports-item", 
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-13": {
+    "props": {
+      "id": "info-card-zs-motors-sport-13",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-nico.jpg",
+      "headline": "Nico \nPino",
+      "subhead": "Nico Pino es un piloto de carreras chileno que actualmente compite en el Campeonato Abierto de Euroformula para Drivex School",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-nico-pino",
+      "blockClass": "info-card-sports-item", 
+      "textAlignment": "left"  
+    }
+  },
+  "info-card#zs-motors-sport-item-14": {
+    "props": {
+      "id": "info-card-zs-motors-sport-14",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/zsmotor-sport/zssports-copec.jpg",
+      "headline": "Copec \nRallymobil",
+      "subhead": "La mañana del Martes 22/02 ,  se oficializó el acuerdo mediante el cual Michelin pasa a ser desde la temporada 2022 el nuevo neumático oficial del campeonato Copec RallyMobil™ para todas sus clases.",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/zs-motors-sport-copec-rallymobil",
+      "blockClass": "info-card-sports-item",  
+      "textAlignment": "left"  
+    }
+  },
+
+
+
+
+
+    // Mobile
+    "responsive-layout.phone#zs-motors-sport": {
+      "children": [
+        "flex-layout.row#zs-motors-sport-banner-mobile",
+        "flex-layout.row#zs-motors-sport-cards"
+      ]
+    },
+  
+    "flex-layout.row#zs-motors-sport-banner-mobile": {
+      "children": [
+        "flex-layout.col#zs-motors-sport-image-banner-mobile",
+        "flex-layout.col#zs-motors-sport-text-banner"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#zs-motors-sport-image-banner-mobile": {
+      "children": ["image#servicios-mobile"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    }
+
+
+
+
+
+}

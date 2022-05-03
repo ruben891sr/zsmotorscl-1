@@ -1,0 +1,14 @@
+.formSubmitButton :global(.vtex-button) {
+    width: 100%;
+    border-radius: 0;
+    background: #c63335;
+}
+
+.formSubmitButton :global(.vtex-button__label) {
+    text-transform: capitalize;
+}
+
+.formSubmitButton :global(.vtex-button):hover {
+    border: 0;
+    background: #4EA2E2;
+}

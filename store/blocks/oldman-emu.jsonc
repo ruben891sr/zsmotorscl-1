@@ -1,0 +1,96 @@
+{
+  "store.custom#oldman-emu": {
+    "blocks": ["search-result-layout.customQuery#oldman-emu"]
+  },
+  "search-result-layout.customQuery#oldman-emu": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "oldman-emu",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#oldman-emu",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#oldman-emu": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-oldman-emu",
+      "flex-layout.row#result-oldman-emu"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-oldman-emu": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-oldman-emu": {
+    "children": [
+      "flex-layout.col#brand-text-title-oldman-emu",
+      "flex-layout.col#brand-image-oldman-emu"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-oldman-emu": {
+    "children": [
+      "rich-text#brand-title-image-text-oldman-emu",
+      "rich-text#brand-text-image-text-oldman-emu"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-oldman-emu": {
+    "children": ["image#brand-oldman-emu"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-oldman-emu": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-oldman-emu": {
+    "props": {
+      "text": "Los sistemas de suspensión son extremadamente complejos, especialmente cuando se refieren a vehículos todo terreno. Determinar una solución correcta para cada vehículo 4×4 requiere una atención dedicada a todos estos detalles. En este sentido, el factor peso es el punto más crítico pero, las suspensiones 4×4 Old Man Emu de ARB resuelven este problema de manera inigualable.\n\nEn lugar de ofrecer un conjunto de piezas escogidas normalmente para incrementar la altura del vehículo, la suspensión OME para 4×4 provee una serie de sistemas codificados, alineados e integrados, cada uno ofreciendo niveles óptimos de comodidad, capacidad de carga en el transporte y control del vehículo.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-oldman-emu": {
+    "props": {
+      "src": "assets/marcas/plp-oldman-emu.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

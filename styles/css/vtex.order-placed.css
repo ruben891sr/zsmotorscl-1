@@ -1,0 +1,151 @@
+.confirmationIconWrapper {
+    color: #c63335;
+}
+
+.confirmationTitle {
+    font-family: "Raleway-Bold";
+    color: #000000;
+}
+
+.confirmationTitle::after {
+    content: "\A Su pedido fue realizado con éxito";
+    white-space: pre;
+    font-size: 16px;
+}
+
+.confirmationMessage {
+    font-family: "Raleway";
+    color: #000000;
+    margin-top: 2rem;
+}
+
+.noticeListItem {
+    border: 1px solid #f2f2f2;
+    background: #f2f2f2f2;
+    padding: 1rem;
+}
+
+.noticesList {
+    background: #ffffff;
+    font-family: "Raleway";
+    color: #000000;
+}
+
+.orderNumber {
+    font-family: "Raleway-Bold";
+    color: #000000;
+    font-size: 24px;
+}
+
+.updateOrderButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button) {
+    background: #c63335;
+    border-color: #c63335;
+    border-radius: 0;
+}
+
+.updateOrderButton :global(.vtex-button__label),
+.myOrdersButton :global(.vtex-button__label) {
+    color: #ffffff;
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+}
+
+.cancelOrderButton :global(.vtex-button) {
+    border: 1px solid #c63335;
+    border-radius: 0;
+}
+
+.cancelOrderButton :global(.vtex-button):hover {
+    background: #c63335;
+}
+
+.cancelOrderButton :global(.vtex-button__label):hover {
+    color: #ffffff;
+}
+
+.cancelOrderButton :global(.vtex-button__label) {
+    color: #c63335;
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+}
+
+.orderDatetime,
+.orderSoldBy,
+.productPrice {
+    font-family: "Raleway-Bold";
+    color: #000000;
+    font-size: 14px;
+    position: relative;
+}
+
+.productPrice {
+    font-size: 16px;
+    padding-right: 1rem;
+}
+
+.orderDatetime {
+    margin-left: 1.5rem;
+}
+
+.orderDatetime::before {
+    content: "Realizado";
+    color: #000000;
+    font-size: 14px;
+    position: absolute;
+    background: #ffffff;
+    margin-left: -1.5rem;
+    padding-right: 0.2rem;
+}
+
+.section--paymentMethods,
+.section--pickupPackages {
+    border-bottom: 1px solid #c63335;
+}
+
+.customerInfoListName,
+.customerInfoListEmail,
+.customerInfoListDocument,
+.customerInfoListPhone,
+.paymentGroup,
+.paymentValue,
+.packageHeader,
+.packageShippingEstimate,
+.addressContainer,
+.productName,
+.productQuantity,
+.totalListItemLabel,
+.totalListItemValue {
+    color: #000000;
+    font-family: "Raleway-Bold";
+}
+
+.totalListItem:last-child {
+    font-size: 18px;
+}
+
+.totalListItem .totalListItemValue {
+    padding-right: 1rem;
+}
+
+.packageHeader {
+    font-size: 0;
+    margin-bottom: 0;
+}
+
+.packageHeader::before {
+    content: "Entrega";
+    font-size: 18px;
+}
+
+.packageReceiverName {
+    display: none;
+}
+
+.productInfoColumn {
+    display: flex;
+}
+
+.orderPlacedWrapper {
+    margin-bottom: 5rem;
+}

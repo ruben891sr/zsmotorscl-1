@@ -1,0 +1,632 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop", 
+      "responsive-layout.mobile"
+    ]
+  },
+
+  // Desktop Version
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#main-banner-slider",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#productos-destacados",
+      "flex-layout.row#gallery-1",
+      "flex-layout.row#marcas-home",
+      "flex-layout.row#blog-home",
+      "flex-layout.row#gallery-2",
+      "flex-layout.row#sucursales-home",
+      "flex-layout.row#productos-destacados-dos"
+    ]
+  },
+
+  // Slider
+  "flex-layout.row#main-banner-slider": {
+    "children": ["list-context.image-list#slider-banner"],
+    "props": {
+      "blockClass": "main-banner-slider",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "list-context.image-list#slider-banner": {
+    "children": ["slider-layout#banners"],
+    "props": {
+      "blockClass": "images-main-banner",
+      "width": "100%",
+      "height": 500,
+      "images": [
+        {
+          "image": "assets/home/hero.jpg",
+          "mobileImage": "assets/home/hero-mobile.jpg",
+          "description": "slide-1"
+        },
+        {
+          "image": "assets/home/hero.jpg",
+          "mobileImage": "assets/home/hero-mobile.jpg",
+          "description": "slide-1"
+        },
+        {
+          "image": "assets/home/hero.jpg",
+          "mobileImage": "assets/home/hero-mobile.jpg",
+          "description": "slide-1" 
+        }
+      ]
+    }
+  },
+  "slider-layout#banners": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "arrowSize": 10,
+      "fullWidth": true,
+      "blockClass": "main-banner"
+    }
+  },
+
+  // Productos Destacados
+  "flex-layout.row#productos-destacados": {
+    "children": [
+      "rich-text#productos-destacados",
+      "list-context.product-list#carousel-productos-destacados"
+    ],
+    "props": {
+      "blockClass": "productos-destacados",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#productos-destacados": {
+    "props": {
+      "text": "Productos \n**Destacados**",
+      "blockClass": "shelf-title"
+    }
+  },
+  "list-context.product-list#carousel-productos-destacados": {
+    "blocks": ["product-summary.shelf#main"],
+    "children": ["slider-layout#productos-destacados"],
+    "props": {
+      "collection": "137"
+    }
+  },
+  "slider-layout#productos-destacados": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "arrowSize": 10,
+      "fullWidth": true,
+      "blockClass": "productos-destacados"
+    }
+  },
+
+  // Productos Destacados Dos
+  "flex-layout.row#productos-destacados-dos": {
+    "children": [
+      "rich-text#productos-destacados",
+      "list-context.product-list#carousel-productos-destacados"
+    ],
+    "props": {
+      "blockClass": "productos-destacados-dos",
+      "preventHorizontalStretch": true
+    }
+  },
+
+  // Galería de imagenes - Primera
+  "flex-layout.row#gallery-1": {
+    "children": [
+      "flex-layout.col#gallery-1-col-1",
+      "flex-layout.col#gallery-1-col-2"
+    ],
+    "props": {
+      "blockClass": "gallery-row",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#gallery-1-col-1": {
+    "children": [
+      "image#gallery-1-col-1-item-1",
+      "image#gallery-1-col-1-item-2"
+    ],
+    "props": {
+      "blockClass": "gallery-col"
+    }
+  },
+  "flex-layout.col#gallery-1-col-2": {
+    "children": [
+      "image#gallery-1-col-2-item-1",
+      "image#gallery-1-col-2-item-2",
+      "image#gallery-1-col-2-item-3"
+    ],
+    "props": {
+      "blockClass": "gallery-col"
+    }
+  },
+  "image#gallery-1-col-1-item-1": {
+    "props": {
+      "src": "assets/gallery-home/gallery-1-1.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+  "image#gallery-1-col-1-item-2": {
+    "props": {
+      "src": "assets/gallery-home/gallery-1-1.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+  "image#gallery-1-col-2-item-1": {
+    "props": {
+      "src": "assets/gallery-home/gallery-1-2.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+  "image#gallery-1-col-2-item-2": {
+    "props": {
+      "src": "assets/gallery-home/gallery-1-2.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+  "image#gallery-1-col-2-item-3": {
+    "props": {
+      "src": "assets/gallery-home/gallery-1-2.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+
+  // Galería de imagenes - Segunda
+  "flex-layout.row#gallery-2": {
+    "children": ["flex-layout.col#gallery-2-col-1"],
+    "props": {
+      "blockClass": "gallery-row",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#gallery-2-col-1": {
+    "children": [
+      "image#gallery-2-col-1-item-1",
+      "image#gallery-2-col-1-item-2",
+      "image#gallery-2-col-1-item-3",
+      "image#gallery-2-col-1-item-4"
+    ],
+    "props": {
+      "blockClass": "gallery-col"
+    }
+  },
+  "image#gallery-2-col-1-item-1": {
+    "props": {
+      "src": "assets/gallery-home/gallery-2-1.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+  "image#gallery-2-col-1-item-2": {
+    "props": {
+      "src": "assets/gallery-home/gallery-2-1.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+  "image#gallery-2-col-1-item-3": {
+    "props": {
+      "src": "assets/gallery-home/gallery-2-1.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+  "image#gallery-2-col-1-item-4": {
+    "props": {
+      "src": "assets/gallery-home/gallery-2-1.jpg",
+      "blockClass": "gallery-item"
+    }
+  },
+
+  // Marcas
+  "flex-layout.row#marcas-home": {
+    "children": [
+      "rich-text#marcas-home-title",
+      "slider-layout#marcas-home",
+      "rich-text#marcas-home-cta"
+    ],
+    "props": {
+      "blockClass": "marcas-home-row",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#marcas-home-title": {
+    "props": {
+      "text": "Marcas **A las que representamos**",
+      "blockClass": "marcas-home-title"
+    }
+  },
+  "slider-layout#marcas-home": {
+    "children": [
+      "image#brand-1",
+      "image#brand-2",
+      "image#brand-3",
+      "image#brand-4",
+      "image#brand-5",
+      "image#brand-6",
+      "image#brand-1",
+      "image#brand-2"
+    ],
+    "props": {
+      "infinite": false,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always"
+    }
+  },
+  "image#brand-1": {
+    "props": {
+      "src": "assets/brands-white/bf.png",
+      "blockClass": "marcas-home-item",
+      "link": ""
+    }
+  },
+  "image#brand-2": {
+    "props": {
+      "src": "assets/brands-white/conti.png",
+      "blockClass": "marcas-home-item",
+      "link": ""
+    }
+  },
+  "image#brand-3": {
+    "props": {
+      "src": "assets/brands-white/michelin.png",
+      "blockClass": "marcas-home-item",
+      "link": ""
+    }
+  },
+  "image#brand-4": {
+    "props": {
+      "src": "assets/brands-white/momo.png",
+      "blockClass": "marcas-home-item",
+      "link": ""
+    }
+  },
+  "image#brand-5": {
+    "props": {
+      "src": "assets/brands-white/pirelli.png",
+      "blockClass": "marcas-home-item",
+      "link": ""
+    }
+  },
+  "image#brand-6": {
+    "props": {
+      "src": "assets/brands-white/rydanz.png",
+      "blockClass": "marcas-home-item",
+      "link": ""
+    }
+  },
+  "rich-text#marcas-home-cta": {
+    "props": {
+      "text": "[Ver todas las marcas](/marcas)",
+      "blockClass": "marcas-home-cta"
+    }
+  },
+
+  // Blog
+  "flex-layout.row#blog-home": {
+    "children": [
+      "flex-layout.col#blog-home-text",
+      "flex-layout.col#blog-home-infocards"
+    ],
+    "props": {
+      "blockClass": "blog-home",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#blog-home-text": {
+    "children": [
+      "rich-text#blog-home-text-title",
+      "rich-text#blog-home-text-cta"
+    ],
+    "props": {
+      "blockClass": "blog-home-text"
+    }
+  },
+  "rich-text#blog-home-text-title": {
+    "props": {
+      "text": "Nuestro \n**Blog**",
+      "blockClass": "blog-home-text-title"
+    }
+  },
+  "rich-text#blog-home-text-cta": {
+    "props": {
+      "text": "[Ver todo](/brand)",
+      "blockClass": "blog-home-text-cta"
+    }
+  },
+  "flex-layout.col#blog-home-infocards": {
+    "children": [
+      "info-card#blog-1",
+      "info-card#blog-2",
+      "info-card#blog-3",
+      "info-card#blog-4"
+    ],
+    "props": {
+      "blockClass": "blog-home-infocards"
+    }
+  },
+  "info-card#blog-1": {
+    "props": {
+      "id": "info-card-blog-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/blog/blog-1.jpg",
+      "headline": "El desgaste de los neumáticos en verano",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-blog-item",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#blog-2": {
+    "props": {
+      "id": "info-card-blog-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/blog/blog-2.jpg",
+      "headline": "El desgaste de los neumáticos en verano",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-blog-item",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#blog-3": {
+    "props": {
+      "id": "info-card-blog-3",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/blog/blog-3.jpg",
+      "headline": "El desgaste de los neumáticos en verano",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-blog-item",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#blog-4": {
+    "props": {
+      "id": "info-card-blog-4",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/blog/blog-1.jpg",
+      "headline": "El desgaste de los neumáticos en verano",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-blog-item",
+      "textAlignment": "center"
+    }
+  },
+
+  // Sucursales
+  "flex-layout.row#sucursales-home": {
+    "children": [
+      "flex-layout.col#sucursales-home-text",
+      "flex-layout.col#sucursales-home-infocards"
+    ],
+    "props": {
+      "blockClass": "blog-home",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#sucursales-home-text": {
+    "children": [
+      "rich-text#sucursales-home-text-title",
+      "rich-text#sucursales-home-text-cta"
+    ],
+    "props": {
+      "blockClass": "blog-home-text"
+    }
+  },
+  "rich-text#sucursales-home-text-title": {
+    "props": {
+      "text": "Nuestras \n**Sucursales**",
+      "blockClass": "blog-home-text-title"
+    }
+  },
+  "rich-text#sucursales-home-text-cta": {
+    "props": {
+      "text": "[Ver todo](/brand)",
+      "blockClass": "blog-home-text-cta"
+    }
+  },
+  "flex-layout.col#sucursales-home-infocards": {
+    "children": [
+      "info-card#sucursales-1",
+      "info-card#sucursales-2",
+      "info-card#sucursales-3",
+      "info-card#sucursales-4"
+    ],
+    "props": {
+      "blockClass": "blog-home-infocards"
+    }
+  },
+  "info-card#sucursales-1": {
+    "props": {
+      "id": "info-card-sucursales-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/sucursales-1.jpg",
+      "headline": "Avenida La Dehesa",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-blog-item",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#sucursales-2": {
+    "props": {
+      "id": "info-card-sucursales-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/sucursales-4.jpg",
+      "headline": "Avenida Matta",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-blog-item",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#sucursales-3": {
+    "props": {
+      "id": "info-card-sucursales-3",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/sucursales-1.jpg",
+      "headline": "Viña del Mar",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-blog-item",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#sucursales-4": {
+    "props": {
+      "id": "info-card-sucursales-4",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/sucursales/sucursales-4.jpg",
+      "headline": "Avenida Marathon",
+      "callToActionText": "Ver más",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-blog-item",
+      "textAlignment": "center"
+    }
+  },
+
+  // Mobile Version
+  "responsive-layout.mobile": {
+    "children": [
+      "flex-layout.row#main-banner-slider",
+      // "flex-layout.row#custom-search",
+      "flex-layout.row#productos-destacados",
+      "flex-layout.row#gallery-1-mobile",
+      "flex-layout.row#marcas-home",
+      "flex-layout.row#blog-home-mobile",
+      "flex-layout.row#gallery-1-mobile",
+      "flex-layout.row#sucursales-home-mobile",
+      "flex-layout.row#productos-destacados-dos"
+    ]
+  },
+  "flex-layout.row#gallery-1-mobile": {
+    "children": [
+      "flex-layout.col#gallery-1-col-mobile"
+    ],
+    "props": {
+      "blockClass": "gallery-row",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#gallery-1-col-mobile": {
+    "children": [
+      "image#gallery-1-col-2-item-3",
+      "image#gallery-1-col-2-item-3",
+      "image#gallery-1-col-2-item-3",
+      "image#gallery-1-col-2-item-3"
+    ],
+    "props": {
+      "blockClass": "gallery-col"
+    }
+  },
+  "flex-layout.row#blog-home-mobile": {
+    "children": [
+      "flex-layout.col#blog-home-text",
+      "flex-layout.col#blog-home-infocards-mobile"
+    ],
+    "props": {
+      "blockClass": "blog-home",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#blog-home-infocards-mobile": {
+    "children": [
+      "slider-layout#blog-home-infocards-mobile"
+    ],
+    "props": {
+      "blockClass": "blog-home-infocards"
+    }
+  },
+  "slider-layout#blog-home-infocards-mobile": {
+    "children": [
+      "info-card#blog-1",
+      "info-card#blog-2",
+      "info-card#blog-3",
+      "info-card#blog-4"
+    ],
+    "props": {
+      "infinite": false,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always"
+    }
+  },
+
+  "flex-layout.row#sucursales-home-mobile": {
+    "children": [
+      "flex-layout.col#sucursales-home-text",
+      "flex-layout.col#sucursales-home-infocards-mobile"
+    ],
+    "props": {
+      "blockClass": "blog-home",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#sucursales-home-infocards-mobile": {
+    "children": [
+      "slider-layout#sucursales-home-infocards-mobile"
+    ],
+    "props": {
+      "blockClass": "blog-home-infocards"
+    }
+  },
+  "slider-layout#sucursales-home-infocards-mobile": {
+    "children": [
+      "info-card#sucursales-1",
+      "info-card#sucursales-2",
+      "info-card#sucursales-3",
+      "info-card#sucursales-4"
+    ],
+    "props": {
+      "infinite": false,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always"
+    }
+  }
+
+
+}

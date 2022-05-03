@@ -1,0 +1,96 @@
+{
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"],
+    "props": {
+      "blockClass": "header-sticky"
+    }
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "overlay-trigger#search",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#search": {
+    "children": ["flex-layout.col#search"],
+    "props": {
+      "blockClass": "search-mobile",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#search": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "col-search-mobile",
+      "width": "100%"
+    }
+  },
+  "overlay-trigger#search": {
+    "children": ["vtex.menu@2.x:menu#search-bar", "overlay-layout#search"]
+  },
+  "rich-text#buscar": {
+    "props": {
+      "text": "Search",
+      "blockClass": "icon-search"
+    }
+  },
+  "overlay-layout#search": {
+    "props": {
+      "placement": "bottom",
+      "blockClass": "search-mobile"
+    },
+    "children": ["search-bar#mobile"]
+  },
+  "flex-layout.row#search-bar": {
+    "children": ["search-bar#mobile"]
+  },
+  "vtex.menu@2.x:menu#search-bar": {
+    "children": ["menu-item#search-bar"]
+  },
+  "menu-item#search-bar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-search-bar",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "search",
+        "text": ""
+      },
+      "iconProps": {
+        "id": "hpa-search",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "activeClassName": "menu-search-mobile",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "search-bar#mobile": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "blockClass": "search-mobile",
+      "openAutocompleteOnFocus": true,
+      "maxTopSearches": 10,
+      "autocompleteWidth": 1,
+      "maxHistory": 10
+    }
+  }
+}

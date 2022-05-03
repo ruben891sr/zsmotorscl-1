@@ -1,0 +1,217 @@
+{
+  "tab-layout#custom-search-llantas": {
+    "children": [
+      "tab-list#custom-search-llantas",
+      "tab-content#custom-search-llantas"
+    ],
+    "props": {
+      "blockClass": "custom-search-tab-second",
+      "defaultActiveTabId": "llantas-medidas"
+    }
+  },
+  "tab-list#custom-search-llantas": {
+    "children": [
+      "tab-list.item#llantas-medidas",
+      "tab-list.item#llantas-vehiculos"
+    ],
+    "props": {
+      "blockClass": "tab-list-second"
+    }
+  },
+  "tab-list.item#llantas-medidas": {
+    "props": {
+      "tabId": "llantas-medidas",
+      "label": "Por medidas",
+      "defaultActiveTab": true,
+      "blockClass": "tab-list-item-second"
+    }
+  },
+  "tab-list.item#llantas-vehiculos": {
+    "props": {
+      "tabId": "llantas-vehiculos",
+      "label": "Por vehiculos",
+      "blockClass": "tab-list-item-second"
+    }
+  },
+  "tab-content#custom-search-llantas": {
+    "children": [
+      "tab-content.item#llantas-medidas",
+      "tab-content.item#llantas-vehiculos"
+    ]
+  },
+  "tab-content.item#llantas-medidas": {
+    "children": ["flex-layout.row#llantas-medidas"],
+    "props": {
+      "tabId": "llantas-medidas"
+    }
+  },
+  "tab-content.item#llantas-vehiculos": {
+    "children": [
+      // "form#llantas-vehiculos"
+      "flex-layout.row#llantas-vehiculos"
+    ],
+    "props": {
+      "tabId": "llantas-vehiculos"
+    }
+  },
+
+  // Llantas, Por Medidas
+  "flex-layout.row#llantas-medidas": {
+    "children": [
+      "flex-layout.col#llantas-medidas-custom-search-inputs",
+      "flex-layout.col#llantas-medidas-custom-search-submit"
+    ],
+    "props": {
+      "blockClass": "llantas-vehiculos-row",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#llantas-medidas-custom-search-inputs": {
+    "children": [
+      "rich-text#llantas-medidas-aro",
+      "rich-text#llantas-medidas-apernadura"
+    ],
+    "props": {
+      "blockClass": "custom-search-inputs"
+    }
+  },
+  "flex-layout.col#llantas-medidas-custom-search-submit": {
+    "children": ["rich-text#llantas-medidas-submit"],
+    "props": {
+      "blockClass": "custom-search-submit"
+    }
+  },
+  "rich-text#llantas-medidas-aro": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Aro"
+    }
+  },
+  "rich-text#llantas-medidas-apernadura": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Apernadura"
+    }
+  },
+  "rich-text#llantas-medidas-submit": {
+    "props": {
+      "blockClass": "custom-search-submit",
+      "text": "Buscar"
+    }
+  },
+
+  // Llantas, Por Vehiculo
+  "flex-layout.row#llantas-vehiculos": {
+    "children": [
+      "flex-layout.col#llantas-vehiculos-custom-search-inputs",
+      "flex-layout.col#llantas-vehiculos-custom-search-submit"
+    ],
+    "props": {
+      "blockClass": "llantas-vehiculos-row",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#llantas-vehiculos-custom-search-inputs": {
+    "children": [
+      "rich-text#llantas-vehiculos-marca",
+      "rich-text#llantas-vehiculos-ano",
+      "rich-text#llantas-vehiculos-modelo",
+      "rich-text#llantas-vehiculos-version"
+    ],
+    "props": {
+      "blockClass": "custom-search-inputs"
+    }
+  },
+  "flex-layout.col#llantas-vehiculos-custom-search-submit": {
+    "children": ["rich-text#llantas-vehiculos-submit"],
+    "props": {
+      "blockClass": "custom-search-submit"
+    }
+  },
+
+  "rich-text#llantas-vehiculos-marca": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Marca"
+    }
+  },
+  "rich-text#llantas-vehiculos-ano": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Año"
+    }
+  },
+  "rich-text#llantas-vehiculos-modelo": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Modelo"
+    }
+  },
+  "rich-text#llantas-vehiculos-version": {
+    "props": {
+      "blockClass": "custom-search-dropdown",
+      "text": "Versión"
+    }
+  },
+  "rich-text#llantas-vehiculos-submit": {
+    "props": {
+      "blockClass": "custom-search-submit",
+      "text": "Buscar"
+    }
+  }
+
+  //Form
+  //   "form#llantas-vehiculos": {
+  //     "props": {
+  //       "entity": "clients",
+  //       "schema": "person"
+  //     },
+  //     "children": [
+  //       "form-input.dropdown#llantas-vehiculos-marca",
+  //       "form-input.dropdown#llantas-vehiculos-ano",
+  //       "form-input.dropdown#llantas-vehiculos-modelo",
+  //       "form-input.dropdown#llantas-vehiculos-version",
+  //       "form-submit#llantas-vehiculos"
+  //     ],
+  //     "blocks": ["form-success#llantas-vehiculos"]
+  //   },
+  //   "form-input.dropdown#llantas-vehiculos-marca": {
+  //     "props": {
+  //       "pointer": "#/properties/diaVencimiento",
+  //       "placeholder": "Marca"
+  //     }
+  //   },
+  //   "form-input.dropdown#llantas-vehiculos-ano": {
+  //     "props": {
+  //       "pointer": "#/properties/diaVencimiento",
+  //       "placeholder": "Año"
+  //     }
+  //   },
+  //   "form-input.dropdown#llantas-vehiculos-modelo": {
+  //     "props": {
+  //       "pointer": "#/properties/diaVencimiento",
+  //       "placeholder": "Modelo"
+  //     }
+  //   },
+  //   "form-input.dropdown#llantas-vehiculos-version": {
+  //     "props": {
+  //       "pointer": "#/properties/diaVencimiento",
+  //       "placeholder": "Versión"
+  //     }
+  //   },
+  //   "form-success#llantas-vehiculos": {
+  //     "children": ["rich-text#successSubmit-llantas-vehiculos"]
+  //   },
+  //   "rich-text#successSubmit-llantas-vehiculos": {
+  //     "props": {
+  //       "text": "Succesfully submitted the data!",
+  //       "textAlignment": "CENTER",
+  //       "textPosition": "CENTER"
+  //     }
+  //   },
+  //   "form-submit#llantas-vehiculos": {
+  //     "props": {
+  //       "label": "Submit"
+  //     }
+  //   }
+}

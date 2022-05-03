@@ -1,0 +1,96 @@
+{
+    "vtex.menu@2.x:menu#servicio-al-cliente": {
+      "children": [
+        "menu-item#servicio-al-cliente-title",
+        "menu-item#terminos-y-condiciones",
+        "menu-item#politicas-de-privacidad",
+        "menu-item#tiendas",
+        "menu-item#seguimiento"
+      ],
+      "props":{
+         "blockClass": "menu-footer",
+         "orientation": "vertical"
+      }
+    },
+
+    "menu-item#servicio-al-cliente-title": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-title",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Servicio al cliente",
+          "text": "Servicio al cliente"
+        }
+      }
+    },
+    "menu-item#terminos-y-condiciones": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/centro-de-ayuda",
+          "noFollow": true,
+          "tagTitle": "Términos y condiciones",
+          "text": "Términos y condiciones"
+        }
+      }
+    },
+    "menu-item#politicas-de-privacidad": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/centro-de-ayuda",
+          "noFollow": true,
+          "tagTitle": "Políticas de privacidad",
+          "text": "Políticas de privacidad"
+        }
+      }
+    },
+    "menu-item#tiendas": {
+      "props": {
+        "id": "menu-item-catalogo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/sucursales",
+          "noFollow": true,
+          "tagTitle": "Sucursales",
+          "text": "Sucursales"
+        }
+      }
+    },
+    "menu-item#seguimiento": {
+      "props": {
+        "id": "menu-item-seguimiento",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "footer-subtitle",
+        "itemProps": {
+          "type": "internal",
+          "href": "/login",
+          "noFollow": true,
+          "tagTitle": "seguimiento",
+          "text": "Seguimiento del envío"
+        }
+      }
+    }
+}

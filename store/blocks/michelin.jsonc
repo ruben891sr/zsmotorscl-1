@@ -1,0 +1,107 @@
+{
+  "store.custom#michelin": {
+    "blocks": ["search-result-layout.customQuery#michelin"]
+  },
+  "search-result-layout.customQuery#michelin": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "michelin",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#michelin",
+      "search-result-layout.mobile#michelin",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#michelin": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-michelin",
+      "flex-layout.row#result-michelin"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-michelin": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-michelin": {
+    "children": [
+      "flex-layout.col#brand-text-title-michelin",
+      "flex-layout.col#brand-image-michelin"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-michelin": {
+    "children": [
+      "rich-text#brand-title-image-text-michelin",
+      "rich-text#brand-text-image-text-michelin"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-michelin": {
+    "children": ["image#brand-michelin"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-michelin": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-michelin": {
+    "props": {
+      "text": "Michelin... más allá de los neumáticos\nUna empresa con una trayectoria desde 1889, Michelin ha estado innovando para hacer que nuestros viajes sean cada vez más seguros, agradables y responsables, dondequiera que estemos y como sea que avancemos. \n\nEl desarrollo tecnológico de cada modelo de neumático es ligado al motor sport, con una mirada al cliente final para poder ofrecer un producto de altísima calidad. \n\nMichelin lleva mucho tiempo comprometido con el diseño y la mejora del rendimiento de sus neumáticos.\nLos neumáticos se desgastan, pero la seguridad debe durar.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-michelin": {
+    "props": {
+      "src": "assets/marcas/plp-michelin.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  },
+
+
+      // Mobile
+      "search-result-layout.mobile#michelin": {
+        "children": [
+          "flex-layout.row#banner-category",
+          "flex-layout.row#brand-text-image-michelin",
+          "flex-layout.row#result-michelin"
+        ]
+      }
+}

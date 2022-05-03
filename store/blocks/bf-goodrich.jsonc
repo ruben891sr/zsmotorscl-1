@@ -1,0 +1,104 @@
+{
+  "store.custom#bf-goodrich": {
+    "blocks": ["search-result-layout.customQuery#bf-goodrich"]
+  },
+  "search-result-layout.customQuery#bf-goodrich": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "bf-goodrich",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#bf-goodrich",
+      "search-result-layout.mobile#bf-goodrich",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#bf-goodrich": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-bf-goodrich",
+      "flex-layout.row#result-bf-goodrich"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-bf-goodrich": {
+    "children": ["flex-layout.col#filter-content"],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-bf-goodrich": {
+    "children": [
+      "flex-layout.col#brand-text-title-bf-goodrich",
+      "flex-layout.col#brand-image-bf-goodrich"
+    ],
+    "props": {
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-bf-goodrich": {
+    "children": [
+      "rich-text#brand-title-image-text-bf-goodrich",
+      "rich-text#brand-text-image-text-bf-goodrich"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-bf-goodrich": {
+    "children": ["image#brand-bf-goodrich"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-bf-goodrich": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-bf-goodrich": {
+    "props": {
+      "text": "Los neumáticos BF Goodrich están hechos para y por entusiastas… Todo aquel que viva su vida con espíritu aventurero siente la necesidad de salir a la ruta y disfrutar cada minuto de libertad. Nuestros neumáticos están diseñados y fabricados por verdaderos entusiastas, que pasan los fines de semana batallando en caminos pedregosos (OffRoad – KO2 – Km3)  o haciendo curvas en pistas de carrera (Uhp). \n\nNos esforzamos por mejorar continuamente el rendimiento porque queremos lo mismo que usted: más control, más potencia y más disfrute al volante.\n\nEl amor por conducir ha sido, desde hace mucho tiempo, una fuente de inspiración para BF Goodrich, y en ZS Motor estamos siempre están disponibles para ofrecerle asesoramiento y servicio especializado.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-bf-goodrich": {
+    "props": {
+      "src": "assets/marcas/plp-bf-goodrich.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  },
+
+  // Mobile
+  "search-result-layout.mobile#bf-goodrich": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#brand-text-image-bf-goodrich",
+      "flex-layout.row#result-bf-goodrich"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+.wrapper--sticky-header {
+    background: #262626;
+}
+
+.wrapper.container--header-sticky--stuck {
+    background: #262626;
+}

@@ -1,0 +1,240 @@
+{
+  "store.custom#empresa": {
+    "children": [
+      "responsive-layout.desktop#empresa",
+      "responsive-layout.phone#empresa"
+    ]
+  },
+
+  "responsive-layout.desktop#empresa": {
+    "children": [
+      "flex-layout.row#empresa-banner",
+      "flex-layout.row#empresa-textImage-1",
+      "flex-layout.row#empresa-textImage-2",
+      "flex-layout.row#empresa-cards"
+    ]
+  },
+
+  // Banner
+  "flex-layout.row#empresa-banner": {
+    "children": [
+      "flex-layout.col#empresa-image-banner",
+      "flex-layout.col#empresa-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#empresa-image-banner": {
+    "children": ["image#empresa"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  },
+  "image#empresa": {
+    "props": {
+      "src": "assets/servicios/banner-servicios.jpg",
+      "blockClass": "servicios-image-banner-img"
+    }
+  },
+
+  "flex-layout.col#empresa-text-banner": {
+    "children": ["rich-text#empresa-title"],
+    "props": {
+      "blockClass": "servicios-text-banner-col"
+    }
+  },
+
+  "rich-text#empresa-title": {
+    "props": {
+      "text": "Nuestra **Empresa**",
+      "blockClass": "servicios-title"
+    }
+  },
+
+  // Content
+  "flex-layout.row#empresa-textImage-1": {
+    "children": [
+      "flex-layout.col#empresa-text-1",
+      "flex-layout.col#empresa-image-1"
+    ],
+    "props": {
+      "blockClass": "empresa-textImage-row-1"
+    }
+  },
+  "flex-layout.col#empresa-text-1": {
+    "children": ["rich-text#empresa-subtitle", "rich-text#empresa-text-uno"],
+    "props": {
+      "blockClass": "empresa-text-col"
+    }
+  },
+  "rich-text#empresa-subtitle": {
+    "props": {
+      "blockClass": "empresa-subtitle",
+      "text": "ZS Motors"
+    }
+  },
+  "rich-text#empresa-text-uno": {
+    "props": {
+      "blockClass": "empresa-text",
+      "text": "Con un trabajo desde el año 2000, ZS Motor a construido un liderazgo en la industria automotriz para vehículos y es por ello por lo que está presente en las más importantes cadenas de retail nacional, mercado mayorista, ventas y servicios online, así como también en mercados internacionales.\n \n Una red de sucursales destaca en la venta directa a público, donde se ha posicionado como una marca que cuenta con la más amplia variedad de productos, equipamiento y accesorios para vehículos en general, y principalmente la alta gama. Con un robusto canal on-line este le permite seguir posicionándose dentro de las preferencias de compra."
+    }
+  },
+
+  "flex-layout.col#empresa-image-1": {
+    "children": ["image#empresa-image-1"],
+    "props": {
+      "blockClass": "empresa-image-col"
+    }
+  },
+  "image#empresa-image-1": {
+    "props": {
+      "src": "assets/empresa/empresa-1.jpg",
+      "blockClass": "empresa-image"
+    }
+  },
+
+  "flex-layout.row#empresa-textImage-2": {
+    "children": [
+      "flex-layout.col#empresa-image-2",
+      "flex-layout.col#empresa-text-2"
+    ],
+    "props": {
+      "blockClass": "empresa-textImage-row-2"
+    }
+  },
+  "flex-layout.col#empresa-text-2": {
+    "children": ["rich-text#empresa-text-dos"],
+    "props": {
+      "blockClass": "empresa-text-col"
+    }
+  },
+  "rich-text#empresa-text-dos": {
+    "props": {
+      "blockClass": "empresa-text-2",
+      "text": "Una red de sucursales destaca en la venta directa a público, donde se ha posicionado como una marca que cuenta con la más amplia variedad de productos, equipamiento y accesorios para vehículos en general, y principalmente la alta gama. Con un robusto canal on-line este le permite seguir posicionándose dentro de las preferencias de compra.\n \n Con un trabajo desde el año 2000, ZS Motor a construido un liderazgo en la industria automotriz para vehículos y es por ello por lo que está presente en las más importantes cadenas de retail nacional, mercado mayorista, ventas y servicios online, así como también en mercados internacionales."
+    }
+  },
+
+  "flex-layout.col#empresa-image-2": {
+    "children": ["image#empresa-image-2"],
+    "props": {
+      "blockClass": "empresa-image-col"
+    }
+  },
+  "image#empresa-image-2": {
+    "props": {
+      "src": "assets/empresa/empresa-2.jpg",
+      "blockClass": "empresa-image"
+    }
+  },
+
+  "flex-layout.row#empresa-cards": {
+    "children": ["flex-layout.col#empresa-cards"],
+    "props": {
+      "blockClass": "empresa-cards-row"
+    }
+  },
+
+  "flex-layout.col#empresa-cards": {
+    "children": [
+      "info-card#empresa-cards-1",
+      "info-card#empresa-cards-2",
+      "info-card#empresa-cards-3",
+      "info-card#empresa-cards-4"
+    ],
+    "props": {
+      "blockClass": "empresa-cards-col"
+    }
+  },
+
+  "info-card#empresa-cards-1": {
+    "props": {
+      "id": "empresa-cards-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/empresa/vector-1.svg",
+      "headline": "Somos importadores y distribuidores",
+      "subhead": "De grandes marcas de neumáticos, llantas y accesorios para vehículos, además de ser distribuidores oficiales de Michelin, BFGoodrich, Pirelli, ",
+      "callToActionText": "Ver todo",
+      "callToActionUrl": "/",
+      "blockClass": "empresa-cards-item",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#empresa-cards-2": {
+    "props": {
+      "id": "empresa-cards-2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/empresa/vector-2.svg",
+      "headline": "Somos especialistas en alta gama",
+      "subhead": "De grandes marcas de neumáticos, llantas y accesorios para vehículos, además de ser distribuidores oficiales de Michelin, BFGoodrich, Pirelli, ",
+      "callToActionText": "Ver todo",
+      "callToActionUrl": "/",
+      "blockClass": "empresa-cards-item",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#empresa-cards-3": {
+    "props": {
+      "id": "empresa-cards-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/empresa/vector-3.svg",
+      "headline": "Somos proveedores en retail y canales online",
+      "subhead": "De grandes marcas de neumáticos, llantas y accesorios para vehículos, además de ser distribuidores oficiales de Michelin, BFGoodrich, Pirelli, ",
+      "callToActionText": "Ver todo",
+      "callToActionUrl": "/",
+      "blockClass": "empresa-cards-item",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#empresa-cards-4": {
+    "props": {
+      "id": "empresa-cards-4",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/empresa/vector-4.svg",
+      "headline": "Somos aliados de grandes Autoclubs",
+      "subhead": "De grandes marcas de neumáticos, llantas y accesorios para vehículos, además de ser distribuidores oficiales de Michelin, BFGoodrich, Pirelli, ",
+      "callToActionText": "Ver todo",
+      "callToActionUrl": "/",
+      "blockClass": "empresa-cards-item",
+      "textAlignment": "left"
+    }
+  },
+
+  // Mobile
+  "responsive-layout.phone#empresa": {
+    "children": [
+      "flex-layout.row#empresa-banner-mobile",
+      "flex-layout.row#empresa-textImage-1",
+      "flex-layout.row#empresa-textImage-2",
+      "flex-layout.row#empresa-cards"
+    ]
+  },
+
+  "flex-layout.row#empresa-banner-mobile": {
+    "children": [
+      "flex-layout.col#empresa-image-banner-mobile",
+      "flex-layout.col#empresa-text-banner"
+    ],
+    "props": {
+      "blockClass": "servicios-banner-row",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#empresa-image-banner-mobile": {
+    "children": ["image#servicios-mobile"],
+    "props": {
+      "blockClass": "servicios-image-banner-col"
+    }
+  }
+}

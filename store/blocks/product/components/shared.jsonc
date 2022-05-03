@@ -1,0 +1,157 @@
+{
+  //---------------Breadcrumb---------------
+  "flex-layout.row#desktop-breadcrumb": {
+    "children": [
+      "breadcrumb#desktop-liga"
+    ]
+  },
+  "breadcrumb#desktop-liga": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  //---------------Quantity and Buy button---------------
+  "flex-layout.row#desktop-bottom-pdp": {
+    "children": [
+      "flex-layout.col#product-quantity",
+      "flex-layout.col#add-to-cart-button"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "button-section",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#product-quantity": {
+    "children": [
+      "product-quantity"
+    ],
+    "props": {
+      "width": "35%"
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "blockClass": "pdp-quantity",
+      "showLabel": true
+    }
+  },
+  "flex-layout.col#add-to-cart-button": {
+    "children": [
+      "add-to-cart-button"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "width": "60%"
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "blockClass": "pdp-cart-button",
+      "unavailableText": "NO DISPONIBLE",
+      "text": "Comprar"
+    }
+  },
+  "flex-layout.row#desktop-product-shelf-complementarios": {
+    "children": [
+      "rich-text#complementarios-title",
+      "shelf.relatedProducts#complementarios"
+    ],
+    "props": {
+      "marginBottom": 7,
+      "marginTop": 2,
+      "blockClass": "dekstop-shelf-pdp",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#desktop-product-shelf-alternativos": {
+    "children": [
+      "shelf.relatedProducts#alternativos"
+    ],
+    "props": {
+      "marginBottom": 10,
+      "marginTop": 2,
+      "blockClass": "dekstop-shelf"
+    }
+  },
+  "shelf.relatedProducts#complementarios": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "blockClass": "title-similares",
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Productos Alternativos",
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "maxItems": 10
+      }
+    }
+  },
+  "rich-text#complementarios-title": {
+    "props": {
+      "text": "Productos \n**Relacionados**",
+      "blockClass": "shelf-title"
+    }
+  },
+  "shelf.relatedProducts#alternativos": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "blockClass": "title-similares",
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Productos Alternativos",
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "maxItems": 10
+      }
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "showValueForVariation": "none",
+      "displayMode": "select",
+      "visibleVariations": [
+        "Unidad de Venta"
+      ]
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "props": {
+      "type": "teaser",
+      "filter": {
+        "type": "show",
+        "highlightNames": [
+          "7% dscto. a partir de 1000 unidades",
+          "7% dscto. a partir de 2kg.",
+          "7% dscto. a partir de 2 unidades",
+          "7% dscto. a partir de 2 rollos",
+          "7% dscto. a partir de 3 Bolsas",
+          "7% dscto. a partir de 3kg.",
+          "7% dscto. a partir de 3 unidades",
+          "7% dscto. a partir de 3 Rollos",
+          "7% dscto. a partir de 4kg.",
+          "7% dscto. a partir de 5 Bolsas",
+          "7% dscto. a partir de 5 Cajas",
+          "7% dscto. a partir de 5kg.",
+          "7% dscto. a partir de 5 unidades",
+          "7% dscto. a partir de 5 pares",
+          "7% dscto. a partir de 6kg.",
+          "7% dscto. a partir de 6 unidades"
+        ]
+      }
+    },
+    "children": [
+      "product-highlight-text"
+    ]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "descuento"
+    }
+  }
+}

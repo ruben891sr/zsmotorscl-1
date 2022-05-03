@@ -1,0 +1,37 @@
+.productImage {
+    border-radius: 0;
+}
+
+.productName {
+    font-family: "Raleway-Bold";
+    color: #000000;
+    font-variant-numeric: lining-nums;
+}
+
+.productBrandName {
+    font-family: "Raleway-Bold";
+    color: #000000;
+    font-variant-numeric: lining-nums;
+}
+
+.productVariationsContainer,
+.quantitySelectorContainer :global(.vtex-dropdown__button) {
+    font-family: "Raleway";
+}
+
+.quantitySelectorContainer :global(.vtex-styleguide-9-x-container) {
+    border-radius: 0;
+}
+
+.price {
+    font-family: "Raleway-Bold";
+    color: #000000;
+    font-variant-numeric: lining-nums;
+}
+
+.productBrandName,
+.productVariationsContainer .productVariationsItem:first-child,
+.productVariationsContainer .productVariationsItem:last-child,
+.productVariationsContainer .productVariationsItem:nth-child(4n-2) {
+    display: none;
+}

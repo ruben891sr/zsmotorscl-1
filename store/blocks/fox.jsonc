@@ -1,0 +1,96 @@
+{
+  "store.custom#fox": {
+    "blocks": ["search-result-layout.customQuery#fox"]
+  },
+  "search-result-layout.customQuery#fox": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "fox",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#fox",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#fox": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-fox",
+      "flex-layout.row#result-fox"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-fox": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-fox": {
+    "children": [
+      "flex-layout.col#brand-text-title-fox",
+      "flex-layout.col#brand-image-fox"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-fox": {
+    "children": [
+      "rich-text#brand-title-image-text-fox",
+      "rich-text#brand-text-image-text-fox"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-fox": {
+    "children": ["image#brand-fox"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-fox": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-fox": {
+    "props": {
+      "text": "Fox Factory, diseña, fabrica y comercializa productos y sistemas que redefinen el rendimiento en vehículos para clientes de todo el mundo. Algunos de nuestros productos están diseñados y comercializados específicamente para una variedad de fabricantes líderes de equipos originales (OEM) de vehículos, el cuerpo está fabricado de aluminio para poder enfriar más rápidamente el cuerpo del amortiguador y así no perder el performance de amortiguación de tu 4×4, camioneta, etc",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-fox": {
+    "props": {
+      "src": "assets/marcas/plp-fox.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

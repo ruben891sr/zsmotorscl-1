@@ -1,0 +1,151 @@
+{
+  "store.custom#zs-motors-sport-amigos-cuatroxcuatro-v-region": {
+    "children": [
+      "flex-layout.row#zs-sport-banner-club6",
+      "flex-layout.row#zs-motors-sport-image-text-club6",
+      "flex-layout.row#zs-motors-sport-gallery-club6"
+    ]
+  },
+    // Hero
+    "flex-layout.row#zs-sport-banner-club6": {
+      "children": [
+        "flex-layout.col#zs-sport-image-banner-club6",
+        "flex-layout.col#zs-sport-item-text-banner-club6"
+      ],
+      "props": {
+        "blockClass": "servicios-banner-row",
+        "colSizing": "auto",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#zs-sport-image-banner-club6": {
+      "children": ["image#zs-motors-sport"],
+      "props": {
+        "blockClass": "servicios-image-banner-col"
+      }
+    },
+    "flex-layout.col#zs-sport-item-text-banner-club6": {
+      "children": ["rich-text#zs-sport-title-club6"],
+      "props": {
+        "blockClass": "servicios-text-banner-col"
+      }
+    },
+    "rich-text#zs-sport-title-club6": {
+      "props": {
+        "text": "Amigos 4x4 **V Región**",
+        "blockClass": "servicios-title"
+      }
+    },
+  
+    "flex-layout.row#zs-motors-sport-image-text-club6": {
+      "children": [
+        "flex-layout.col#zs-sport-text-title-club6",
+        "flex-layout.col#zs-sport-image-club6"
+      ],
+      "props": {
+        "blockClass": "zs-sport-row-image-text"
+      }
+    },
+    "flex-layout.col#zs-sport-text-title-club6": {
+      "children": [
+        "rich-text#zs-sport-title-image-text-club6",
+        "rich-text#zs-sport-text-image-text-club6"
+      ],
+      "props": {
+        "blockClass": "zs-sport-text-title"
+      }
+    },
+    "flex-layout.col#zs-sport-image-club6": {
+      "children": ["image#zs-sport-club6"],
+      "props": {
+        "blockClass": "zs-sport-image"
+      }
+    },
+  
+    "rich-text#zs-sport-title-image-text-club6": {
+      "props": {
+        "text": "Sobre la Marca",
+        "blockClass": "zs-sport-title-image-text"
+      }
+    },
+    "rich-text#zs-sport-text-image-text-club6": {
+      "props": {
+        "text": "Autoclub dedicado a actividades de aventura. Alentando a las buenas costumbres, promoviendo la amistad, el compañerismo y la mejor camaradería. \n\nEntre las actividades que organizan se encuentran Raids Solidarios, para recaudar fondos; actividades en pro del cuidado del medio ambiente como la campaña La Basura no Vuelve Sola; celebraciones aniversario con rutas y competencias; campamentos y mucho más. Todas con el auspicio y el acompañamiento de uno de sus mejores aliados: ZS Motor.\n\nCada una de las aventuras organizadas por el club son llevadas a cabo a través de rutas y caminos, desafiando los terrenos más intrépidos mientras se disfruta del mejor nivel de compañerismo y comunidad.",
+        "blockClass": "zs-sport-text-image-text"
+      }
+    },
+  
+    "image#zs-sport-club6": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/zssports-club6-bn.jpg",
+        "blockClass": "zs-sport-club6-banner-img"
+      }
+    },
+  
+    "flex-layout.row#zs-motors-sport-gallery-club6": {
+      "children": [
+        "flex-layout.col#zs-motors-sport-gallery-title-club6",
+        "flex-layout.col#zs-motors-sport-gallery-gallery-club6"
+      ],
+      "props": {
+        "blockClass": "zs-sport-row-gallery",
+        "colSizing": "auto"
+      }
+    },
+  
+    "flex-layout.col#zs-motors-sport-gallery-title-club6": {
+      "children": ["rich-text#zs-sport-title-gallery-club6"],
+      "props": {
+        "blockClass": "zs-motors-sport-gallery-title"
+      }
+    },
+    "flex-layout.col#zs-motors-sport-gallery-gallery-club6": {
+      "children": [
+        "image#zs-sport-club6-item-01",
+        "image#zs-sport-club6-item-02",
+        "image#zs-sport-club6-item-03",
+        "image#zs-sport-club6-item-04",
+        "image#zs-sport-club6-item-05"
+      ],
+      "props": {
+        "blockClass": "zs-motors-sport-gallery-gallery"
+      }
+    },
+    "rich-text#zs-sport-title-gallery-club6": {
+      "props": {
+        "text": "Galería de \n**Imágenes**",
+        "blockClass": "shelf-title"
+      }
+    },
+  
+    "image#zs-sport-club6-item-01": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club6-01.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    }, 
+    "image#zs-sport-club6-item-02": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club6-02.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club6-item-03": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club6-03.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club6-item-04": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club6-04.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    },
+    "image#zs-sport-club6-item-05": {
+      "props": {
+        "src": "https://zsmotorscl.vteximg.com.br/arquivos/image-club6-05.jpg",
+        "blockClass": "zs-sport-gallery-img"
+      }
+    }
+}

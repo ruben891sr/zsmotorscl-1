@@ -1,0 +1,96 @@
+{
+  "store.custom#black-rhino": {
+    "blocks": ["search-result-layout.customQuery#black-rhino"]
+  },
+  "search-result-layout.customQuery#black-rhino": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "black-rhino",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#black-rhino",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#black-rhino": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-black-rhino",
+      "flex-layout.row#result-black-rhino"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-black-rhino": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-black-rhino": {
+    "children": [
+      "flex-layout.col#brand-text-title-black-rhino",
+      "flex-layout.col#brand-image-black-rhino"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-black-rhino": {
+    "children": [
+      "rich-text#brand-title-image-text-black-rhino",
+      "rich-text#brand-text-image-text-black-rhino"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-black-rhino": {
+    "children": ["image#brand-black-rhino"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-black-rhino": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-black-rhino": {
+    "props": {
+      "text": "Black Rhino Wheels, llamada así por una de las bestias más duras del planeta. Se centra únicamente en el diseño y la fabricación de llantas de aleación endurecidas, atractivas y de alta calidad para su 4X4 o SUV. \n\nYa sea un 4x4 levantado para rutas extremas o una suv urbana que necesita diferenciar, lo que necesitas en ZS Motor lo tenemos, ya que sabemos que tu Vehículo es un objeto de culto porque sentimos lo mismo. \n\nEs por eso que estamos en una búsqueda interminable para producir ruedas que sean más livianas y fuertes, con un aspecto malvado y acabados distintivos. Creemos que establecemos el estándar para las ruedas de 4x4 y SUV. ",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-black-rhino": {
+    "props": {
+      "src": "assets/marcas/plp-black-rhino.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

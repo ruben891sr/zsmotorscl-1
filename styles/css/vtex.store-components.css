@@ -1,0 +1,963 @@
+/* ZS MOTORS STYLES */
+
+.container {
+    max-width: 95% !important;
+    margin: 0 auto !important;
+}
+
+
+/* ZS MOTORS STYLES - Marcas Home */
+
+.imageElement--marcas-home-item {
+    box-sizing: border-box;
+    display: block;
+    padding: 1rem 2rem;
+}
+
+
+/* ZS MOTORS STYLES - Blog Home */
+
+.infoCardTextContainer--info-card-blog-item {
+    width: 100%;
+    min-height: 27rem;
+    min-width: 12rem;
+    max-width: 12rem;
+    display: flex;
+    justify-content: end;
+    margin: 1.7rem;
+}
+
+.infoCardCallActionContainer--info-card-blog-item {
+    margin-bottom: 0;
+}
+
+.infoCardHeadline--info-card-blog-item {
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: "Raleway-Light";
+}
+
+.infoCardCallActionContainer--info-card-blog-item :global(.vtex-button) {
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.infoCardCallActionContainer--info-card-blog-item :global(.vtex-button__label) {
+    font-size: .9rem;
+    text-transform: capitalize;
+}
+
+
+/* ZS MOTORS - Gallery */
+
+.imageElement--gallery-item {
+    display: block;
+}
+
+
+/* ZS MOTORS STYLES - Footer - Insta Feed */
+
+.imageElement--insta-feed-images-item {
+    display: block;
+    box-sizing: border-box;
+}
+
+
+/* ZS MOTORS STYLES - PDP*/
+
+.currencyContainer--product-details {
+    color: #c63335;
+}
+
+.figure,
+.productImage {
+    position: relative;
+    background-color: #fff;
+}
+
+.figure::before,
+.productImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 2%);
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.thumbImg {
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.productImageTag--main {
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+
+/* ZS MOTORS - Cards Sucursales */
+
+.infoCardImage--info-card-sucursales-item {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.vtex-store-components-3-x-infoCardImageContainer--info-card-sucursales-item {
+    width: 100%!important;
+}
+
+.infoCardTextContainer--info-card-sucursales-item {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 0 1.7rem;
+}
+
+.infoCardContainer--info-card-sucursales-item {
+    flex-direction: column-reverse;
+    background-color: #f2f2f2;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px 15px rgb(0 0 0 / 20%);
+}
+
+.infoCardHeadline--info-card-sucursales-item {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: "Raleway-Bold";
+    position: relative;
+    overflow: hidden;
+    padding-right: 1.9rem;
+    margin-bottom: 3rem;
+}
+
+.infoCardSubhead--info-card-sucursales-item {
+    font-family: 'Raleway-Regular';
+    font-size: .9rem;
+    height: 4rem;
+    overflow: hidden;
+    margin-bottom: 0.6rem;
+    display: block;
+    -webkit-line-clamp: 4;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.infoCardCallActionContainer--info-card-sucursales-item {
+    display: none;
+}
+
+.infoCardImageContainer--info-card-sucursales-item {
+    width: 100%;
+}
+
+.imageElement--sucursales-image-gallery-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* ZS MOTORS - Cards Páginas Interiores */
+
+.infoCardTextContainer--info-card-servicios-item {
+    width: 100%;
+    min-height: 27rem;
+    min-width: 12rem;
+    max-width: 12rem;
+    display: flex;
+    justify-content: end;
+    margin: 1.7rem;
+}
+
+.infoCardCallActionContainer--info-card-servicios-item {
+    margin-bottom: 0;
+}
+
+.infoCardHeadline--info-card-servicios-item {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: "Raleway-Bold";
+}
+
+.infoCardTextContainer--info-card-servicios-item {
+    width: 100%;
+    min-height: 27rem;
+    min-width: 12rem;
+    max-width: 12rem;
+    display: flex;
+    justify-content: end;
+    margin: 1.7rem;
+}
+
+.infoCardCallActionContainer--info-card-servicios-item {
+    margin-bottom: 0;
+}
+
+.infoCardHeadline--info-card-servicios-item {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: "Raleway-Bold";
+}
+
+.infoCardCallActionContainer--info-card-servicios-item :global(.vtex-button) {
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.infoCardCallActionContainer--info-card-servicios-item :global(.vtex-button__label) {
+    font-size: .9rem;
+    text-transform: capitalize;
+}
+
+
+/* ZS MOTORS -  PLP */
+
+.productBrandContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+
+.productBrandName {
+    text-align: left;
+    position: relative;
+    visibility: hidden;
+}
+
+.productBrandName::before {
+    content: " ";
+    background-image: url(assets/brands-icon/michelin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 90px;
+    width: 110px;
+    margin-left: -19px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    visibility: visible;
+}
+
+
+/**/
+
+.infoCardContainer--info-card-marcas-item,
+.infoCardContainer--info-card-sports-item {
+    flex-direction: column-reverse;
+    background-color: transparent;
+}
+
+.infoCardImageContainer--info-card-marcas-item,
+.infoCardImageContainer--info-card-sports-item {
+    width: 100% !important;
+}
+
+.infoCardCallActionContainer--info-card-marcas-item,
+.infoCardCallActionContainer--info-card-sports-item {
+    margin-bottom: 0;
+}
+
+.infoCardTextContainer--info-card-marcas-item,
+.infoCardTextContainer--info-card-sports-item {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 0 1.7rem;
+}
+
+.infoCardHeadline--info-card-marcas-item,
+.infoCardHeadline--info-card-sports-item {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: "Raleway-Bold";
+    position: relative;
+    overflow: hidden;
+    padding-right: 1.9rem;
+}
+
+.infoCardSubhead--info-card-marcas-item,
+.infoCardSubhead--info-card-sports-item {
+    font-family: 'Raleway-Regular';
+    font-size: .9rem;
+    height: 4rem;
+    overflow: hidden;
+    margin-bottom: 0.6rem;
+    display: block;
+    -webkit-line-clamp: 4;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+
+/* .infoCardHeadline--info-card-sports-item::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(assets/zsmotor-sport/logos/club-mini.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+} */
+
+.infoCardCallActionContainer--info-card-marcas-item :global(.vtex-button),
+.infoCardCallActionContainer--info-card-sports-item :global(.vtex-button) {
+    border-radius: 3px;
+    background-color: #c63335;
+    border: 1px solid #c63335;
+}
+
+.infoCardCallActionContainer--info-card-marcas-item :global(.vtex-button__label),
+.infoCardCallActionContainer--info-card-sports-item :global(.vtex-button__label) {
+    font-size: .9rem;
+    text-transform: capitalize;
+}
+
+
+/**/
+
+.infoCardContainer--empresa-cards-item {
+    flex-direction: column-reverse;
+    background-color: transparent;
+}
+
+.infoCardImageContainer--empresa-cards-item {
+    width: 100% !important;
+    height: 70px;
+}
+
+.infoCardCallActionContainer--empresa-cards-item {
+    margin-bottom: 0;
+}
+
+.infoCardTextContainer--empresa-cards-item {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 0 1.7rem;
+}
+
+.infoCardHeadline--empresa-cards-item {
+    color: #000;
+    font-size: 1.3rem;
+    font-family: "Raleway-Bold";
+    position: relative;
+    overflow: hidden;
+    padding-right: 0rem;
+}
+
+.infoCardSubhead--empresa-cards-item {
+    font-family: 'Raleway-Regular';
+    font-size: .9rem;
+    height: 4rem;
+    overflow: hidden;
+    margin-bottom: 0.6rem;
+    display: block;
+    -webkit-line-clamp: 4;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    margin-top: 4rem;
+}
+
+.infoCardCallActionContainer--empresa-cards-item :global(.vtex-button) {
+    border-radius: 3px;
+    background-color: #c63335;
+    border: 1px solid #c63335;
+}
+
+.infoCardCallActionContainer--empresa-cards-item :global(.vtex-button__label) {
+    font-size: .9rem;
+    text-transform: capitalize;
+}
+
+.imageElement--zs-sport-clubporsche-banner-img {
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.imageElement--zs-sport-gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.imageElement--brand-banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* JUNAPLAS STYLES */
+
+.infoCardContainer--icon-image {
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.infoCardContainer--caluga-image {
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+.infoCardCallActionContainer--icon-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none !important;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.infoCardCallActionContainer--caluga-image :global(.vtex-button) {
+    background: #c63335;
+    border: 2px solid #c63335;
+    padding: 0.5rem 2rem;
+    font-family: "Raleway-Bold";
+    border-radius: 9px;
+}
+
+.infoCardCallActionContainer--caluga-image :global(.vtex-button):hover {
+    background: #183152;
+    border: 2px solid #183152;
+}
+
+.infoCardCallActionContainer--caluga-image :global(.vtex-button__label) {
+    font-size: 1rem;
+    font-family: "Raleway-Bold";
+    text-transform: initial;
+    padding: 0 1.5rem;
+    color: #ffffff;
+}
+
+.infoCardCallActionContainer--caluga-image {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    text-decoration: none !important;
+    margin: 0;
+}
+
+.infoCardImageContainer--icon-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid #4ea2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 8%;
+    background: #e7e7e74f;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.infoCardImageContainer--icon-image:hover {
+    background-color: #dde2f1;
+    border: 2px solid #dde2f1;
+}
+
+
+/* .infoCardImageContainer--icon-image::before {
+  position: absolute;
+  content: "";
+  width: 95px;
+  height: 95px;
+  display: flex;
+  top: -25%;
+  border-radius: 50%;
+  left: -25%;
+  border: 2px solid #4ea2e2;
+  z-index: -1;
+} */
+
+.infoCardCallActionText--icon-image {
+    color: #3d3d3d;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none !important;
+    font-family: "Raleway-Thin";
+    height: 36px;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.infoCardCallActionText--caluga-image {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none !important;
+}
+
+.infoCardImageContainer--caluga-image {
+    width: 95%;
+}
+
+.infoCardTextContainer--icon-image {
+    width: 100%;
+}
+
+.wrapper--caluga-image {
+    top: 28%;
+    left: 2rem;
+    font-size: 2rem;
+    width: 100%;
+    color: #ffffff;
+}
+
+.imageElement--image-descto {
+    display: flex;
+    width: 100%;
+}
+
+.paragraph--caluga-image {
+    font-family: "Raleway-Light";
+    margin: 0;
+}
+
+.strong--caluga-image {
+    font-family: "Raleway-Bold";
+}
+
+.discountInsideContainer {
+    display: none;
+}
+
+.infoCardTextContainer--caluga-image {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.logoImage {
+    width: 140px;
+    height: auto;
+    display: block;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: 1px solid #3d3d3d59;
+    border-radius: 25px;
+    height: 36px;
+    max-width: 198px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input),
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-size: 12px;
+    font-family: "Raleway-Bold";
+}
+
+.searchBarIcon--search {
+    margin-top: -10px;
+}
+
+.searchIcon {
+    overflow: visible !important;
+}
+
+.logoContainer {
+    margin-left: 0;
+    display: block;
+    padding: 0;
+}
+
+.imageElement--image-category {
+    display: flex;
+    width: 100%;
+}
+
+.imageElement--webpay,
+.imageElement--tarjetas,
+.imageElement--sr {
+    margin-right: 1rem;
+}
+
+.resultsList--search-mobile {
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+    top: 69px;
+}
+
+.resultsList--search-desktop {
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+    top: 18px;
+}
+
+.imageElement--junaplas-image {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.productNameContainer {
+    font-family: "Raleway-Bold";
+    font-size: 2rem;
+    color: #3d3d3d;
+    line-height: 1.3;
+    font-variant: lining-nums;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+.price_sellingPriceLabel--product-details {
+    display: block;
+    font-size: 1rem;
+}
+
+.price_listPriceLabel {
+    text-decoration: none;
+    padding-left: 0px;
+    display: block;
+    font-size: 1rem;
+}
+
+.price_savingsContainer--product-details {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.frameAround,
+.skuSelectorInternalBox {
+    border-radius: 0;
+    border-width: 1px;
+}
+
+.skuSelectorName {
+    font-family: "Raleway-Bold";
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.skuSelectorItemTextValue {
+    font-family: "Raleway";
+    font-size: 14px;
+    color: #000000;
+}
+
+.skuSelectorSubcontainer {
+    margin-bottom: 0.5rem;
+}
+
+.priceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.price_listPriceContainer--product-details {
+    display: block;
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: #888a8b;
+    font-family: "Raleway";
+}
+
+.price_sellingPriceContainer--product-details {
+    font-family: "Raleway-Bold";
+    font-size: 1.5rem;
+    color: #000000;
+    padding-top: 0;
+}
+
+.price_listPrice--product-details .currencyContainer--product-details {
+    font-family: 'Raleway-Bold';
+    color: #999;
+}
+
+.backToTopButtonActive :global(.vtex-button) {
+    border-color: #f2f2f2;
+    background: #f2f2f2;
+}
+
+.backToTopButtonActive :global(.vtex-button__label) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.swiperCaret .caretIcon {
+    color: #888a8b;
+    width: 30px;
+    height: 30px;
+}
+
+.swiperCaretNext {
+    right: -0.7rem;
+}
+
+.swiperBullet {
+    background: #ffffff;
+    border: 1px solid #c63335;
+    margin: 0 0.4rem;
+    opacity: 1;
+}
+
+.swiperBullet.swiperBullet--active {
+    background: #c63335;
+}
+
+.infoCardContainer--sucursal-info {
+    flex-direction: column-reverse;
+}
+
+.paragraph--sucursal-info {
+    font-family: "Raleway";
+    font-size: 14px;
+}
+
+.infoCardImageContainer--sucursal-info,
+.infoCardTextContainer--sucursal-info {
+    width: 80%;
+}
+
+.searchBarContainer {
+    margin-right: 0.5rem;
+}
+
+.imageElement--image-tabla {
+    display: flex;
+    width: 100%;
+}
+
+.skuSelectorSelectContainer {
+    width: 100%;
+}
+
+.skuSelectorSelectContainer :global(.vtex-styleguide-9-x-container) {
+    border-radius: 4px;
+    border-width: 1px;
+    outline: 0;
+    font-size: 14px;
+    height: 40px;
+    font-family: "Raleway";
+}
+
+.skuSelectorNameContainer {
+    margin-bottom: 0;
+}
+
+.skuSelectorTextContainer {
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+
+.skuSelectorContainer {
+    margin: 0 !important;
+}
+
+.content--pdp-description {
+    font-family: "Raleway-Medium";
+    line-height: 1.6;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    background: #f8f8f8;
+    color: #000;
+    padding: 0.5rem;
+}
+
+.productDescriptionTitle--pdp-description {
+    font-family: "Raleway-Bold";
+    font-size: 1rem;
+    display: none;
+}
+
+.imageElement--flotating-contacto-img {
+    width: 85px;
+    transition: all .4s ease;
+}
+
+.imageElement--flotating-contacto-img:hover {
+    transition: all .4s ease;
+    transform: scale(1.1);
+}
+
+.price_sellingPriceLabel--product-details,
+.price_listPriceLabel--product-details {
+    display: none; 
+}
+
+.priceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper--caluga-image {
+        font-size: 1rem;
+    }
+    .infoCardCallActionContainer--caluga-image :global(.vtex-button) {
+        padding: 0;
+    }
+    .infoCardContainer--caluga-image {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .infoCardTextContainer--caluga-image { 
+        padding-left: 1rem;
+    }
+    .logoImage {
+        width: 83px;
+        height: 100%;
+        display: block;
+    }
+    .searchBarContainer :global(.vtex-input-prefix__group) {
+        width: 90%;
+        margin: 0 auto;
+        max-width: initial;
+    }
+    .logoContainer {
+        margin-left: 0;
+        padding: 0;
+    }
+    .skuSelectorOptionsList {
+        margin-left: 0;
+    }
+    .skuSelectorTextContainer {
+        margin-left: 0;
+    }
+    .logoLink {
+        display: flex;
+        align-items: center;
+    }
+    .infoCardImageContainer--icon-image {
+        width: 80px;
+        height: 80px;
+    }
+    .infoCardCallActionText--icon-image {
+        font-size: .85rem;
+        font-family: "Raleway";
+        height: 7px;
+        justify-content: center;
+        align-items: center;
+    }
+    .infoCardImageContainer--sucursal-info,
+    .infoCardTextContainer--sucursal-info {
+        width: 100%;
+    }
+    .imageElement--marcas-home-item {
+        box-sizing: border-box;
+        display: block;
+        padding: 0 0.7rem;
+    }
+    .productBrandName::before {
+        height: 70px;
+        width: 110px;
+    }
+    .productNameContainer {
+        font-size: 1.5rem;
+        line-height: 1.1;
+    }
+    .content--pdp-description {
+        background-color: transparent;
+    }
+    .infoCardTextContainer--info-card-servicios-item {
+        width: 100%;
+        min-height: 14rem;
+        min-width: initial;
+        max-width: initial;
+        display: flex;
+        justify-content: end;
+        margin: 0.7rem;
+    }
+    .infoCardHeadline--info-card-servicios-item {
+        font-size: 1.3rem;
+    }
+    .infoCardCallActionContainer--info-card-servicios-item {
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+    .infoCardContainer--info-card-marcas-item,
+    .infoCardContainer--info-card-sports-item {
+        flex-direction: column-reverse;
+        background-color: transparent;
+        display: flex;
+    }
+    .infoCardHeadline--info-card-marcas-item,
+    .infoCardHeadline--info-card-sports-item {
+        margin-top: 0.7rem;
+    }
+    .infoCardSubhead--info-card-marcas-item,
+    .infoCardSubhead--info-card-sports-item {
+        margin-top: 0.7rem;
+    }
+    .infoCardCallActionContainer--info-card-marcas-item,
+    .infoCardCallActionContainer--info-card-sports-item {
+        margin-top: 0.7rem;
+    }
+    .infoCardTextContainer--info-card-blog-item {
+        width: 100%;
+        min-height: 22rem;
+        min-width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: end;
+        margin: 1.7rem;
+    }
+    .infoCardHeadline--info-card-marcas-item,
+    .infoCardHeadline--info-card-sports-item {
+        font-size: 1.2rem;
+        padding-right: 0;
+    }
+    .infoCardTextContainer--empresa-cards-item {
+        margin: 0;
+    }
+    .infoCardContainer--empresa-cards-item {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .infoCardSubhead--empresa-cards-item {
+        margin-top: 1rem;
+    }
+    .infoCardContainer--info-card-sucursales-item {
+        margin: 0rem;
+        padding: 1.7rem;
+        display: flex;
+    }
+    .infoCardHeadline--info-card-sucursales-item {
+        margin-bottom: 0rem;
+    }
+    .infoCardHeadline--info-card-sucursales-item {
+        font-size: 1.2rem;
+    }
+}

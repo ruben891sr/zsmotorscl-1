@@ -1,0 +1,96 @@
+{
+  "store.custom#mammooth-wheels": {
+    "blocks": ["search-result-layout.customQuery#mammooth-wheels"]
+  },
+  "search-result-layout.customQuery#mammooth-wheels": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "mammooth-wheels",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#mammooth-wheels",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#mammooth-wheels": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-mammooth-wheels",
+      "flex-layout.row#result-mammooth-wheels"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-mammooth-wheels": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-mammooth-wheels": {
+    "children": [
+      "flex-layout.col#brand-text-title-mammooth-wheels",
+      "flex-layout.col#brand-image-mammooth-wheels"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-mammooth-wheels": {
+    "children": [
+      "rich-text#brand-title-image-text-mammooth-wheels",
+      "rich-text#brand-text-image-text-mammooth-wheels"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-mammooth-wheels": {
+    "children": ["image#brand-mammooth-wheels"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-mammooth-wheels": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-mammooth-wheels": {
+    "props": {
+      "text": "Mammooth Wheels está centrado y enfocado en el desarrollo tecnológico en la fabricación de llantas de aleación endurecidas, centrados en dar un valor de diseño a cada creación haciendo de estas un artículo funcional, preparado para soportar el trato duro del offroad y con un look increíble para las salas de exposición más exigentes. \n\nYa sea un 4x4 levantado para rutas extremas o una suv urbana que necesita diferenciar, lo que necesitas en ZS Motor lo buscamos y lo importamos para ti,  ya que sabemos que tu Vehículo es un objeto de culto porque sentimos lo mismo. \n\nEn nuestro catálogo además podrás ver los modelos más buscados de neumáticos BF Goodrich , Pirelli , etc;  Off Road y On Road para que puedas equipar tu juego de llantas y eso no es todo además disponemos de los kit de suspensión más cotizados del mercado como son Fox , Iron Man , Emu; de la mano del mejor servicio profesional por nuestros colaboradores como por nuestro equipamiento.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-mammooth-wheels": {
+    "props": {
+      "src": "assets/marcas/plp-mammooth-wheels.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

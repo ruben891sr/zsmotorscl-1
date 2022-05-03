@@ -1,0 +1,9 @@
+{
+    "flex-layout.row#searchtitle": {
+        "children": ["search-title.v2"],
+        "props":{
+          "horizontalAlign": "center",
+          "blockClass": "search-title"
+        }
+      }
+}

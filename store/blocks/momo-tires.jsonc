@@ -1,0 +1,96 @@
+{
+  "store.custom#momo-tires": {
+    "blocks": ["search-result-layout.customQuery#momo-tires"]
+  },
+  "search-result-layout.customQuery#momo-tires": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "momo-tires",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#momo-tires",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#momo-tires": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-momo-tires",
+      "flex-layout.row#result-momo-tires"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-momo-tires": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-momo-tires": {
+    "children": [
+      "flex-layout.col#brand-text-title-momo-tires",
+      "flex-layout.col#brand-image-momo-tires"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-momo-tires": {
+    "children": [
+      "rich-text#brand-title-image-text-momo-tires",
+      "rich-text#brand-text-image-text-momo-tires"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-momo-tires": {
+    "children": ["image#brand-momo-tires"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-momo-tires": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-momo-tires": {
+    "props": {
+      "text": "La historia de MOMO inició en el año 1964 gracias a la gran pasión de su fundador, Gianpiero Moretti, por el automovilismo. Desde sus orígenes, MOMO ha cosechado muchísimas victorias en las más prestigiosas pistas de carrera alrededor del mundo, las cuales han servido como un terreno de prueba excepcional para el desarrollo de la tecnología, calidad y seguridad implementadas en los productos diseñados para uso diario y de carretera. \n\nLa filosofía de MOMO siempre ha estado enfocada en ofrecer productos superiores, combinando seguridad y desempeño con artesanía óptima y diseños innovadores. Asimismo, la notoriedad de la marca italiana se mantiene gracias a su mercadeo de punta y estrategias de comunicación que han prevalecido en la compañía a lo largo de su evolución. Hoy en día, aprovechando 50 años de historia llena de épicas batallas en las pistas de carrera, importantes victorias y productos que han tenido gran impacto en el mundo automotriz, MOMO ofrece una innovadora variedad de neumáticos de alto rendimiento diseñados y producidos utilizando la más avanzada tecnología.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-momo-tires": {
+    "props": {
+      "src": "assets/marcas/plp-momo-tires.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

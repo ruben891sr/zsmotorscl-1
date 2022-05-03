@@ -1,0 +1,94 @@
+.profileIcon {
+    fill: #fff;
+    width: 22px;
+    height: auto;
+}
+
+.buttonLink {
+    margin-left: 0.5rem;
+}
+
+.buttonLink :global(.vtex-button):hover {
+    background: #333;
+}
+
+.formTitle,
+.accessCodeOptionBtn :global(.vtex-button__label),
+.dontHaveAccount,
+.forgotPasswordLink,
+.profile,
+.accountOptions .button {
+    font-family: "Raleway-Bold";
+}
+
+.profile,
+.accountOptions .button :global(.t-action--small),
+.accountOptions :global(.vtex-button__label .t-action--small) {
+    text-transform: initial;
+}
+
+.dontHaveAccount,
+.forgotPasswordLink,
+.accountOptions :global(.vtex-button__label .t-action--small),
+.accountOptions .button :global(.t-action--small) {
+    color: #c63335;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label) {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.accessCodeOptionBtn :global(.vtex-button),
+.optionsListItem .button :global(.vtex-button) {
+    background: #f2f2f2;
+    border-radius: 0px;
+    border: 1px solid #c63335;
+    text-transform: initial;
+}
+
+.sendButton :global(.vtex-button) {
+    background: #c63335;
+    border-radius: 0px;
+    border: 1px solid #c63335;
+    text-transform: initial;
+}
+
+.sendButton :global(.vtex-button):hover {
+    background: #4EA2E2;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+    border-radius: 0px;
+    border: 1px solid #c7c7c7;
+}
+
+.inputContainer :global(.vtex-styleguide-9-x-input) {
+    font-family: "Raleway-Bold";
+}
+
+@media screen and (max-width: 1024px) {
+    .buttonLink .label {
+        font-size: 0;
+        padding: 0;
+    }
+    .buttonLink :global(.vtex-button__label) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .buttonLink {
+        margin-left: 0rem;
+    }
+    .buttonLink .label::after {
+        width: 25px;
+        height: 25px;
+        margin-top: 0rem;
+    }
+    .buttonLink .vtex-button {
+        padding: 0 0.5rem!important;
+    }
+    .profileIcon {
+        width: 20px;
+        margin-top: 8px;
+    }
+}

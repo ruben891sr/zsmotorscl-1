@@ -1,0 +1,96 @@
+{
+  "store.custom#kumho-tyres": {
+    "blocks": ["search-result-layout.customQuery#kumho-tyres"]
+  },
+  "search-result-layout.customQuery#kumho-tyres": {
+    "props": {
+      "querySchema": {
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 24,
+        "queryField": "kumho-tyres",
+        "mapField": "brand",
+        "facetsBehavior": "dynamic"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#kumho-tyres",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#kumho-tyres": {
+    "children": [
+      "flex-layout.row#banner-category",
+      "flex-layout.row#custom-search",
+      "flex-layout.row#brand-text-image-kumho-tyres",
+      "flex-layout.row#result-kumho-tyres"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "blockClass": "search-desktop",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-kumho-tyres": {
+    "children": [
+      "flex-layout.col#filter-content"
+    ],
+    "props": {
+      // "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "colSizing": "auto",
+      "blockClass": "row-result"
+    }
+  },
+
+  "flex-layout.row#brand-text-image-kumho-tyres": {
+    "children": [
+      "flex-layout.col#brand-text-title-kumho-tyres",
+      "flex-layout.col#brand-image-kumho-tyres"
+    ],
+    "props":{
+      "blockClass": "brand-row-image-text"
+    }
+  },
+
+  "flex-layout.col#brand-text-title-kumho-tyres": {
+    "children": [
+      "rich-text#brand-title-image-text-kumho-tyres",
+      "rich-text#brand-text-image-text-kumho-tyres"
+    ],
+    "props": {
+      "blockClass": "zs-sport-text-title"
+    }
+  },
+  "flex-layout.col#brand-image-kumho-tyres": {
+    "children": ["image#brand-kumho-tyres"],
+    "props": {
+      "blockClass": "zs-sport-image"
+    }
+  },
+
+  "rich-text#brand-title-image-text-kumho-tyres": {
+    "props": {
+      "text": "Sobre la Marca",
+      "blockClass": "zs-sport-title-image-text"
+    }
+  },
+  "rich-text#brand-text-image-text-kumho-tyres": {
+    "props": {
+      "text": "Los neumáticos Kumho, ya no solamente son unos de los mejores neumáticos del mercado por su relación calidad/precio, sino por toda la trayectoria que ha tenido como fabricante hasta ahora. \n\nLa filosofía de Kumho no es otra que estar al tanto de las novedades tecnológicas para innovar a sus clientes, uno de sus logros es ser el único fabricante con neumáticos Smoke Tire ( humo de color) y Neumáticos con Aroma.\n \nDebido a la gran innovación que proporciona al sector del neumático y que gracias a ello han obtenido un buen prestigio, Además, por si fuera poco, son neumáticos oficiales en muchos campeonatos de motor, haciendo que inevitablemente se conviertan en una de las mejores opciones del mercado.",
+      "blockClass": "zs-sport-text-image-text"
+    }
+  },
+
+  "image#brand-kumho-tyres": {
+    "props": {
+      "src": "assets/marcas/plp-kumho-tyres.jpg",
+      "blockClass": "brand-banner-img"
+    }
+  }
+}

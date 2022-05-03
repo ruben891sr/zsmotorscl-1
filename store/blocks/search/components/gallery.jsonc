@@ -1,0 +1,14 @@
+{
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf#main"
+    ],
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      }
+    }
+  }
+}
